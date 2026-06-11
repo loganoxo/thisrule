@@ -62,6 +62,19 @@ QX_TYPE_MAPPING = {
   "IP-CIDR6": "IP6-CIDR",
 }
 
+# 定义 QuantumultX 允许的规则类型白名单
+QX_ALLOWED_TYPES = {
+  "USER-AGENT",
+  "HOST",
+  "HOST-KEYWORD",
+  "HOST-WILDCARD",
+  "HOST-SUFFIX",
+  "IP6-CIDR",
+  "IP-CIDR",
+  "GEOIP",
+  "IP-ASN",
+}
+
 
 def parse_lines(path: Path) -> list[str]:
   # 解析文件, 返回有效的规则行列表
@@ -159,9 +172,19 @@ def main() -> None:
       rules_to_remove = global_rules_to_remove | set(parse_lines(client_remove_file))
       rules_to_add = global_rules_to_add | set(parse_lines(client_add_file))
 
-      # ====== 核心新增逻辑: 将自定义规则转换为 QuantumultX 格式 ======
+      # ====== 针对 QuantumultX 的特殊规则转换与白名单过滤 ======
       if client == "QuantumultX":
-        rules_to_add = {convert_to_qx(r) for r in rules_to_add}
+        filtered_qx_add = set()
+        # 仅对 rules_to_add 进行格式转换
+        for rule in rules_to_add:
+          converted_rule = convert_to_qx(rule)
+          rule_type = converted_rule.partition(",")[0].strip().upper()
+          # 仅对转换后的 rules_to_add 执行白名单过滤
+          if rule_type in QX_ALLOWED_TYPES:
+            filtered_qx_add.add(converted_rule)
+
+        rules_to_add = filtered_qx_add
+        # rules_to_remove 保持原样, 不做任何转换和过滤
 
       # 基础整行匹配去重集合
       merged_rules: set[str] = set()
