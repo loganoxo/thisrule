@@ -107,10 +107,11 @@ def sort_key(rule: str) -> tuple[int, str, str]:
   return RULE_ORDER.get(rule_type_clean, 99), rule_type_clean, rest
 
 
-def build_header(name: str, updated: str, counts: Counter) -> list[str]:
+def build_header(name: str, client: str, updated: str, counts: Counter) -> list[str]:
   # 构建包含数量统计的头部信息
   header = [
     f"# NAME: {name}",
+    f"# CLIENT: {client}",
     f"# UPDATED: {updated}",
   ]
   sorted_keys = sorted(counts.keys(), key=lambda k: RULE_ORDER.get(k.upper(), 99))
@@ -239,7 +240,7 @@ def main() -> None:
 
       # 统计主文件规则数量并写入
       main_counts = Counter(rule.partition(",")[0].strip().upper() for rule in main_rules)
-      main_header = build_header(f"{category_name}", updated, main_counts)
+      main_header = build_header(category_name, client, updated, main_counts)
 
       main_output_path = target_dir / f"{category_name}{ext}"
       main_output_path.write_text("\n".join(main_header + main_rules) + "\n")
@@ -248,7 +249,7 @@ def main() -> None:
       if supports_no_resolve:
         resolve_rules = sorted(list(resolve_rules_set), key=sort_key)
         resolve_counts = Counter(rule.partition(",")[0].strip().upper() for rule in resolve_rules)
-        resolve_header = build_header(f"{category_name}_Resolve", updated, resolve_counts)
+        resolve_header = build_header(f"{category_name}_Resolve", client, updated, resolve_counts)
 
         resolve_output_path = target_dir / f"{category_name}_Resolve{ext}"
         resolve_output_path.write_text("\n".join(resolve_header + resolve_rules) + "\n")
