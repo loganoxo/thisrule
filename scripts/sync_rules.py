@@ -14,8 +14,6 @@ CATEGORIES = {
     "BardAI",
     "Copilot",
     "Civitai",
-    "Stripe",
-    "PayPal",
   ]
 }
 
