@@ -105,9 +105,11 @@ def main() -> None:
     for category_name, sources in CATEGORIES.items():
       target_dir = repo_root / "rule" / client / category_name
       target_dir.mkdir(parents=True, exist_ok=True)
+      custom_dir = target_dir / "custom"
+      custom_dir.mkdir(parents=True, exist_ok=True)
 
-      add_file = target_dir / "custom" / "add.list"
-      remove_file = target_dir / "custom" / "remove.list"
+      add_file = custom_dir / "add.list"
+      remove_file = custom_dir / "remove.list"
 
       if not add_file.exists():
         add_file.write_text("")
