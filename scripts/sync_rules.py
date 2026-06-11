@@ -106,8 +106,8 @@ def main() -> None:
       target_dir = repo_root / "rule" / client / category_name
       target_dir.mkdir(parents=True, exist_ok=True)
 
-      add_file = target_dir / "add.list"
-      remove_file = target_dir / "remove.list"
+      add_file = target_dir / "custom" / "add.list"
+      remove_file = target_dir / "custom" / "remove.list"
 
       if not add_file.exists():
         add_file.write_text("")
