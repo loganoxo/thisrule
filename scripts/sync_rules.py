@@ -209,30 +209,30 @@ def main() -> None:
 
       main_rules_set = set()
       resolve_rules_set = set()
+      for rule in final_rules:
+        rule_type = rule.partition(",")[0].strip().upper()
+        if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
+          # 从右向左寻找第一个逗号进行分割, 最多分割一次
+          parts = rule.rsplit(",", 1)
 
-      if supports_no_resolve:
-        for rule in final_rules:
-          rule_type = rule.partition(",")[0].strip().upper()
-          if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
-            # 从右向左寻找第一个逗号进行分割, 最多分割一次
-            parts = rule.rsplit(",", 1)
-
-            # 判断切分出的最后一段是否为 no-resolve (去除前后空格, 忽略大小写)
-            if len(parts) == 2 and parts[1].strip().lower() == "no-resolve":
-              # 原规则已包含 no-resolve
-              main_rules_set.add(rule)
-              # 删除 no-resolve: 取逗号前的内容, 并去除可能多余的尾部空格
-              resolve_rules_set.add(parts[0].rstrip())
-            else:
-              # 原规则未包含 no-resolve
-              main_rules_set.add(f"{rule},no-resolve")
-              resolve_rules_set.add(rule)
-          else:
+          # 判断切分出的最后一段是否为 no-resolve (去除前后空格, 忽略大小写)
+          if len(parts) == 2 and parts[1].strip().lower() == "no-resolve":
+            # 原规则已包含 no-resolve
             main_rules_set.add(rule)
+            # 删除 no-resolve: 取逗号前的内容, 并去除可能多余的尾部空格
+            resolve_rules_set.add(parts[0].rstrip())
+          else:
+            # 原规则未包含 no-resolve
+            main_rules_set.add(f"{rule},no-resolve")
             resolve_rules_set.add(rule)
-      else:
-        # 若不支持, 直接原样继承已去重的集合
-        main_rules_set = set(final_rules)
+        else:
+          main_rules_set.add(rule)
+          resolve_rules_set.add(rule)
+
+      if not supports_no_resolve:
+        # 若不支持
+        main_rules_set = set(resolve_rules_set)
+        resolve_rules_set = set()
 
       # ====== 统一执行最后一步: 转换为列表并执行排序 ======
       main_rules = sorted(list(main_rules_set), key=sort_key)
