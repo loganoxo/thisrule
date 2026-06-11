@@ -1,0 +1,46 @@
+name: Daily rules sync
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+      - name: Fetch upstream
+        run: git clone --depth 1 https://github.com/blackmatrix7/ios_rule_script.git /tmp/ios_rule_script
+      - name: Sync rules
+        run: python scripts/sync_rules.py --upstream /tmp/ios_rule_script
+      - name: Install sing-box
+        run: |
+          SING_BOX_VERSION="1.11.4"
+          wget -qO- "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz" \
+            | tar -xz --strip-components=1 "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
+          chmod +x sing-box && sudo mv sing-box /usr/local/bin/sing-box
+      - name: Build client lists
+        run: python scripts/build_clients.py
+      - name: Check domains
+        run: python scripts/check_domains.py
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            DATE=$(date -u +%Y-%m-%d)
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Update rules ${DATE} + sync upstream and domain report"
+            git push
+          else
+            echo "No changes to commit."
+          fi
