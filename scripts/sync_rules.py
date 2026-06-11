@@ -212,7 +212,7 @@ def main() -> None:
       if supports_no_resolve:
         for rule in final_rules:
           rule_type = rule.partition(",")[0].strip().upper()
-          if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN"):
+          if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
             # 从右向左寻找第一个逗号进行分割, 最多分割一次
             parts = rule.rsplit(",", 1)
 
