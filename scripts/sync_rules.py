@@ -97,31 +97,55 @@ def main() -> None:
   upstream_root = Path(args.upstream)
   repo_root = Path(__file__).resolve().parents[1]
 
-  for client in CLIENTS:
-    ext = ".list"
+  # 外层循环: 遍历规则大类 (如 AI)
+  for category_name, sources in CATEGORIES.items():
+    category_dir = repo_root / "rule" / category_name
 
-    for category_name, sources in CATEGORIES.items():
-      target_dir = repo_root / "rule" / client / category_name
+    # 建立并初始化当前分类下的全局 z-custom 目录及文件
+    z_custom_dir = category_dir / "z-custom"
+    z_custom_dir.mkdir(parents=True, exist_ok=True)
+
+    global_add_file = z_custom_dir / "add.list"
+    global_remove_file = z_custom_dir / "remove.list"
+
+    if not global_add_file.exists():
+      global_add_file.write_text("")
+    if not global_remove_file.exists():
+      global_remove_file.write_text("")
+
+    # 提前载入全局共享的自定义列表
+    global_rules_to_remove = set(parse_lines(global_remove_file))
+    global_rules_to_add = set(parse_lines(global_add_file))
+
+    # 内层循环: 遍历每个客户端 (如 Clash, Surge)
+    for client in CLIENTS:
+      ext = ".list"
+
+      # 定义当前客户端的专属工作目录: thisrule/rule/{category_name}/{client}
+      target_dir = category_dir / client
       target_dir.mkdir(parents=True, exist_ok=True)
+
+      # 建立并初始化当前客户端特有的 custom 目录及文件
       custom_dir = target_dir / "custom"
       custom_dir.mkdir(parents=True, exist_ok=True)
 
-      add_file = custom_dir / "add.list"
-      remove_file = custom_dir / "remove.list"
+      client_add_file = custom_dir / "add.list"
+      client_remove_file = custom_dir / "remove.list"
 
-      if not add_file.exists():
-        add_file.write_text("")
-      if not remove_file.exists():
-        remove_file.write_text("")
+      if not client_add_file.exists():
+        client_add_file.write_text("")
+      if not client_remove_file.exists():
+        client_remove_file.write_text("")
 
-      # 载入用户自定义列表 (直接存放原始文本集)
-      rules_to_remove = set(parse_lines(remove_file))
-      rules_to_add = set(parse_lines(add_file))
+      # 将全局的 z-custom 配置与客户端专属的 custom 配置进行聚合 (取并集)
+      rules_to_remove = global_rules_to_remove | set(parse_lines(client_remove_file))
+      rules_to_add = global_rules_to_add | set(parse_lines(client_add_file))
 
       # 基础整行匹配去重集合
       merged_rules: set[str] = set()
 
       for source in sources:
+        # 上游的读取路径保持不变
         source_path = upstream_root / "rule" / client / source / f"{source}{ext}"
         if not source_path.exists():
           print(f"  [警告] 上游缺少文件: {source_path}")
@@ -184,9 +208,9 @@ def main() -> None:
         resolve_output_path = target_dir / f"{category_name}_Resolve{ext}"
         resolve_output_path.write_text("\n".join(resolve_header + resolve_rules) + "\n")
 
-        print(f"[{client}] - [{category_name}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
+        print(f"[{category_name}] - [{client}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
       else:
-        print(f"[{client}] - [{category_name}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
+        print(f"[{category_name}] - [{client}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
 
 
 if __name__ == "__main__":
