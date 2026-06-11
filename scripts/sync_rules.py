@@ -53,6 +53,15 @@ CLIENTS_WITH_NO_RESOLVE = {
   "Shadowrocket",
 }
 
+# 定义 Loon 到 QuantumultX 的规则类型映射
+QX_TYPE_MAPPING = {
+  "DOMAIN": "HOST",
+  "DOMAIN-SUFFIX": "HOST-SUFFIX",
+  "DOMAIN-KEYWORD": "HOST-KEYWORD",
+  "DOMAIN-WILDCARD": "HOST-WILDCARD",
+  "DOMAIN-REGEX": "HOST-REGEX",
+}
+
 
 def parse_lines(path: Path) -> list[str]:
   # 解析文件, 返回有效的规则行列表
