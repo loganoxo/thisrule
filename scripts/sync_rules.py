@@ -76,6 +76,15 @@ def parse_lines(path: Path) -> list[str]:
   return lines
 
 
+def convert_to_qx(rule: str) -> str:
+  # 将单个 Loon 格式规则转换为 QuantumultX 格式
+  rule_type, sep, rest = rule.partition(",")
+  rule_type_clean = rule_type.strip().upper()
+  if rule_type_clean in QX_TYPE_MAPPING:
+    return f"{QX_TYPE_MAPPING[rule_type_clean]}{sep}{rest}"
+  return rule
+
+
 def sort_key(rule: str) -> tuple[int, str, str]:
   # 按照第一个逗号前的字符(去除前后空格, 不区分大小写)进行优先级映射和排序
   rule_type, _, rest = rule.partition(",")
@@ -149,6 +158,10 @@ def main() -> None:
       # 将全局的 z-custom 配置与客户端专属的 custom 配置进行聚合 (取并集)
       rules_to_remove = global_rules_to_remove | set(parse_lines(client_remove_file))
       rules_to_add = global_rules_to_add | set(parse_lines(client_add_file))
+
+      # ====== 核心新增逻辑: 将自定义规则转换为 QuantumultX 格式 ======
+      if client == "QuantumultX":
+        rules_to_add = {convert_to_qx(r) for r in rules_to_add}
 
       # 基础整行匹配去重集合
       merged_rules: set[str] = set()
