@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+import argparse
+from collections import Counter
+from datetime import datetime
+from pathlib import Path
+
+# 定义规则大类及其对应的上游数据源
+CATEGORIES = {
+  "AI": [
+    "OpenAI",
+    "Claude",
+    "Anthropic",
+    "Gemini",
+    "BardAI",
+    "Copilot",
+    "Civitai",
+    "Stripe",
+    "PayPal",
+  ]
+}
+
+# 定义不同代理规则类型的排序优先级
+RULE_ORDER = {
+  "DOMAIN": 0,
+  "HOST": 1,
+  "DOMAIN-SUFFIX": 2,
+  "HOST-SUFFIX": 3,
+  "DOMAIN-KEYWORD": 4,
+  "HOST-KEYWORD": 5,
+  "DOMAIN-WILDCARD": 6,
+  "HOST-WILDCARD": 7,
+  "DOMAIN-REGEX": 8,
+  "IP-CIDR": 9,
+  "IP-CIDR6": 10,
+  "IP6-CIDR": 11,
+  "IP-ASN": 12,
+  "USER-AGENT": 13,
+  "URL-REGEX": 14,
+}
+
+# 定义支持的客户端, 统一使用 .list 格式
+CLIENTS = [
+  "Loon",
+  "Surge",
+  "Clash",
+  "QuantumultX",
+  "Shadowrocket",
+]
+
+# 定义需要处理 no-resolve 逻辑的特定客户端
+CLIENTS_WITH_NO_RESOLVE = {
+  "Loon",
+  "Surge",
+  "Clash",
+  "Shadowrocket",
+}
+
+
+def parse_lines(path: Path) -> list[str]:
+  # 解析文件, 返回有效的规则行列表
+  if not path.exists():
+    return []
+  lines = []
+  for raw in path.read_text(errors="ignore").splitlines():
+    line = raw.strip()
+    if not line or line.startswith("#"):
+      continue
+    lines.append(line)
+  return lines
+
+
+def sort_key(rule: str) -> tuple[int, str, str]:
+  # 按照第一个逗号前的字符(去除前后空格, 不区分大小写)进行优先级映射和排序
+  rule_type, _, rest = rule.partition(",")
+  rule_type_clean = rule_type.strip().upper()
+
+  # 排序优先级: 1. RULE_ORDER定义的顺序 2. 规则类型名称字母顺序 3. 逗号后的内容
+  return RULE_ORDER.get(rule_type_clean, 99), rule_type_clean, rest
+
+
+def build_header(name: str, updated: str, counts: Counter) -> list[str]:
+  # 构建包含数量统计的头部信息
+  header = [
+    f"# NAME: {name}",
+    f"# UPDATED: {updated}",
+  ]
+  sorted_keys = sorted(counts.keys(), key=lambda k: RULE_ORDER.get(k.upper(), 99))
+  for key in sorted_keys:
+    header.append(f"# {key}: {counts[key]}")
+  header.append(f"# TOTAL: {sum(counts.values())}")
+  return header
+
+
+def main() -> None:
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--upstream", required=True, help="ios_rule_script 本地仓库的绝对或相对路径")
+  args = parser.parse_args()
+
+  upstream_root = Path(args.upstream)
+  repo_root = Path(__file__).resolve().parents[1]
+
+  for client in CLIENTS:
+    ext = ".list"
+
+    for category_name, sources in CATEGORIES.items():
+      target_dir = repo_root / "rule" / client / category_name
+      target_dir.mkdir(parents=True, exist_ok=True)
+
+      add_file = target_dir / "add.list"
+      remove_file = target_dir / "remove.list"
+
+      if not add_file.exists():
+        add_file.write_text("")
+      if not remove_file.exists():
+        remove_file.write_text("")
+
+      # 载入用户自定义列表 (直接存放原始文本集)
+      rules_to_remove = set(parse_lines(remove_file))
+      rules_to_add = set(parse_lines(add_file))
+
+      # 基础整行匹配去重集合
+      merged_rules: set[str] = set()
+
+      for source in sources:
+        source_path = upstream_root / "rule" / client / source / f"{source}{ext}"
+        if not source_path.exists():
+          print(f"  [警告] 上游缺少文件: {source_path}")
+          continue
+        for line in parse_lines(source_path):
+          merged_rules.add(line)
+
+      # 执行删除 (严格校验整行文本是否在移除列表中)
+      final_rules = {rule for rule in merged_rules if rule not in rules_to_remove}
+
+      # 执行添加
+      final_rules.update(rules_to_add)
+
+      supports_no_resolve = client in CLIENTS_WITH_NO_RESOLVE
+
+      main_rules_set = set()
+      resolve_rules_set = set()
+
+      if supports_no_resolve:
+        for rule in final_rules:
+          rule_type = rule.partition(",")[0].strip().upper()
+          if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN"):
+            # 从右向左寻找第一个逗号进行分割, 最多分割一次
+            parts = rule.rsplit(",", 1)
+
+            # 判断切分出的最后一段是否为 no-resolve (去除前后空格, 忽略大小写)
+            if len(parts) == 2 and parts[1].strip().lower() == "no-resolve":
+              # 原规则已包含 no-resolve
+              main_rules_set.add(rule)
+              # 删除 no-resolve: 取逗号前的内容, 并去除可能多余的尾部空格
+              resolve_rules_set.add(parts[0].rstrip())
+            else:
+              # 原规则未包含 no-resolve
+              main_rules_set.add(f"{rule},no-resolve")
+              resolve_rules_set.add(rule)
+          else:
+            main_rules_set.add(rule)
+            resolve_rules_set.add(rule)
+      else:
+        # 若不支持, 直接原样继承已去重的集合
+        main_rules_set = set(final_rules)
+
+      # ====== 统一执行最后一步: 转换为列表并执行排序 ======
+      main_rules = sorted(list(main_rules_set), key=sort_key)
+      updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+      # 统计主文件规则数量并写入
+      main_counts = Counter(rule.partition(",")[0].strip().upper() for rule in main_rules)
+      main_header = build_header(f"{category_name}", updated, main_counts)
+
+      main_output_path = target_dir / f"{category_name}{ext}"
+      main_output_path.write_text("\n".join(main_header + main_rules) + "\n")
+
+      # 仅对支持的客户端生成并写入解析规则文件
+      if supports_no_resolve:
+        resolve_rules = sorted(list(resolve_rules_set), key=sort_key)
+        resolve_counts = Counter(rule.partition(",")[0].strip().upper() for rule in resolve_rules)
+        resolve_header = build_header(f"{category_name}_Resolve", updated, resolve_counts)
+
+        resolve_output_path = target_dir / f"{category_name}_Resolve{ext}"
+        resolve_output_path.write_text("\n".join(resolve_header + resolve_rules) + "\n")
+
+        print(f"[{client}] - [{category_name}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
+      else:
+        print(f"[{client}] - [{category_name}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
+
+
+if __name__ == "__main__":
+  main()
