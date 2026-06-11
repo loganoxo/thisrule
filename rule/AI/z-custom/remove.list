@@ -1,3 +1,9 @@
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,www.bing.com
+
+# qx
+HOST-SUFFIX,challenges.cloudflare.com,Copilot
+HOST,static.cloudflareinsights.com,Copilot
+HOST,static.cloudflareinsights.com,OpenAI
+HOST,www.bing.com,Copilot
