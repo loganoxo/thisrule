@@ -130,6 +130,9 @@ def main() -> None:
     print("❌ 错误: send_msg_config.py 中未找到 'TASKS' 列表配置")  # 打印错误提示
     return  # 退出程序
 
+  # 使用 * 解包字典的键和集合的元素,并合并为一个新的集合
+  all_rule_types = {*RULE_ORDER, *QX_TYPE_MAPPING, *QX_ALLOWED_TYPES}
+
   updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
   parser = argparse.ArgumentParser()
@@ -245,6 +248,34 @@ def main() -> None:
         main_rules_set = set(resolve_rules_set)
         resolve_rules_set = set()
 
+      # domain规则
+      for source in sources:
+        # 上游的读取路径保持不变
+        source_path = upstream_root / "rule" / client / source / f"{source}_Domain{ext}"
+        if not source_path.exists():
+          print(f"  [警告] 上游缺少文件: {source_path}")
+          continue
+        for line in parse_lines(source_path):
+          if line not in rules_to_remove:
+            domain_rule_type = line.partition(",")[0].strip().upper()
+            if domain_rule_type not in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
+              domain_rule = ""
+              if line.startswith("."):
+                domain = line.removeprefix(".")
+                if client == "QuantumultX":
+                  domain_rule = f"HOST-SUFFIX,{domain}"
+                else:
+                  domain_rule = f"DOMAIN-SUFFIX,{domain}"
+              elif domain_rule_type not in all_rule_types:
+                if client == "QuantumultX":
+                  domain_rule = f"HOST,{line}"
+                else:
+                  domain_rule = f"DOMAIN,{line}"
+              if domain_rule != "":
+                main_rules_set.add(domain_rule)
+                if supports_no_resolve:
+                  resolve_rules_set.add(domain_rule)
+
       main_rules = sorted(main_rules_set, key=sort_key)
       resolve_rules = []
       if supports_no_resolve:
@@ -252,7 +283,8 @@ def main() -> None:
 
       # ====== 统一执行最后一步: 转换为列表并执行排序 ======
       write_and_print(client, ext, main_rules, target_dir, task_name, updated)
-      write_and_print(client, ext, resolve_rules, target_dir, f"{task_name}_Resolve", updated)
+      if supports_no_resolve:
+        write_and_print(client, ext, resolve_rules, target_dir, f"{task_name}_Resolve", updated)
 
 
 if __name__ == "__main__":
