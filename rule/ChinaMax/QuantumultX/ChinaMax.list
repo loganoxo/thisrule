@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-04 02:04:08
-# HOST: 125
+# UPDATED: 2026-07-03 18:14:18
+# HOST: 124
 # HOST-SUFFIX: 9938
 # HOST-KEYWORD: 4
-# IP-CIDR: 256
+# IP-CIDR: 260
 # IP6-CIDR: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10385
+# TOTAL: 10388
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
@@ -128,7 +128,6 @@ HOST,video-search-1258344701.shiply-cdn.qq.com,TencentVideo
 HOST,video-vip-1258344701.shiply-cdn.qq.com,TencentVideo
 HOST,vweixinf.tc.qq.com,WeChat
 HOST,weixin110.qq.com,WeChat
-HOST,weizhiyundong.list,WeiZhiYunDong
 HOST,wetype.weixin.qq.com,WeType
 HOST,wup.imtt.qq.com,WeChat
 HOST,wx.tenpay.com,WeChat
@@ -10120,6 +10119,8 @@ IP-CIDR,111.11.31.0/24,KugouKuwo
 IP-CIDR,111.11.4.0/24,KugouKuwo
 IP-CIDR,111.170.234.0/24,KugouKuwo
 IP-CIDR,111.178.233.0/24,KugouKuwo
+IP-CIDR,111.205.195.120/30,XiaoMi
+IP-CIDR,111.205.195.124/31,XiaoMi
 IP-CIDR,111.206.25.147/32,BiliBili
 IP-CIDR,112.125.0.0/17,Alibaba
 IP-CIDR,112.13.119.17/32,NetEase
@@ -10141,6 +10142,8 @@ IP-CIDR,113.200.56.63/32,ChinaUnicom
 IP-CIDR,113.219.132.0/24,KugouKuwo
 IP-CIDR,113.6.229.0/24,KugouKuwo
 IP-CIDR,114.246.10.65/32,ByteDance
+IP-CIDR,114.247.175.210/31,XiaoMi
+IP-CIDR,114.247.175.212/32,XiaoMi
 IP-CIDR,114.98.177.194/31,KuangShi
 IP-CIDR,114.98.177.196/32,KuangShi
 IP-CIDR,115.124.16.0/20,Alibaba

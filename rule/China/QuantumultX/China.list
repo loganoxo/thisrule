@@ -1,14 +1,14 @@
 # NAME: China
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-04 02:04:08
+# UPDATED: 2026-07-03 18:14:18
 # HOST: 84
-# HOST-SUFFIX: 3928
+# HOST-SUFFIX: 3926
 # HOST-KEYWORD: 11
 # HOST-WILDCARD: 1
 # IP-CIDR: 72
 # IP6-CIDR: 33
 # USER-AGENT: 66
-# TOTAL: 4195
+# TOTAL: 4193
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,ChinaMedia
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,ChinaMedia
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,ChinaMedia
@@ -1554,8 +1554,6 @@ HOST-SUFFIX,funcdn.com,China
 HOST-SUFFIX,funnycore.com,China
 HOST-SUFFIX,funshion.com,China
 HOST-SUFFIX,funshion.net,China
-HOST-SUFFIX,futu5.com,China
-HOST-SUFFIX,futunn.com,China
 HOST-SUFFIX,fuwai.com,China
 HOST-SUFFIX,fuwj.com,China
 HOST-SUFFIX,fxxz.com,China
