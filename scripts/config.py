@@ -1,13 +1,10 @@
 # 定义规则大类及其对应的上游数据源
 TASKS = {
   "AI": [
-    "OpenAI",
-    "Claude",
-    "Anthropic",
-    "Gemini",
-    "BardAI",
-    "Copilot",
-    "Civitai",
+    "OpenAI", "Claude", "Anthropic", "Gemini", "BardAI", "Copilot", "Civitai"
+  ],
+  "China": [
+    "China", "ChinaMedia"
   ],
   "ChinaMax": [
     "AliPay", "JianGuoYun", "12306", "HeMa", "DingTalk", "Eleme", "CaiNiao", "MeiTuan", "WeChat", "CMB",
@@ -54,5 +51,8 @@ TASKS = {
     "Xunlei", "YYeTs", "YiChe", "YouMengChuangXiang", "YouZan", "Youku", "YuanFuDao",
     "ZDNS", "ZhangYue", "ZhiYinManKe", "Zhihu", "ZhongGuoShiHua", "ZhongWeiShiJi",
     "ZhongXingTongXun", "ZhongYuanYiShang", "ZhuanZhuan", "iFlytek", "iQIYI", "ifanr", "zhanqi"
+  ],
+  "Global": [
+    "Global", "GlobalMedia"
   ]
 }
