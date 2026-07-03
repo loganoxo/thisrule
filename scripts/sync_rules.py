@@ -252,6 +252,9 @@ def main() -> None:
       for source in sources:
         # 上游的读取路径保持不变
         source_path = upstream_root / "rule" / client / source / f"{source}_Domain{ext}"
+        if client == "Clash":
+          source_path = upstream_root / "rule" / client / source / f"{source}_Domain.txt"
+
         if not source_path.exists():
           print(f"  [警告] 上游缺少文件: {source_path}")
           continue
