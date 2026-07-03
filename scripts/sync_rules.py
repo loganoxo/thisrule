@@ -144,6 +144,10 @@ def main() -> None:
 
   # 外层循环: 遍历规则大类 (如 AI)
   for task_name, sources in config.TASKS.items():
+
+    # 过滤空字符串并去重, 转换为字典的键后再转回列表以保持原有顺序
+    sources = list(dict.fromkeys([s for s in sources if s.strip()]))
+
     task_dir = local_repo_root / "rule" / task_name
 
     # 建立并初始化当前分类下的全局 z-custom 目录及文件
