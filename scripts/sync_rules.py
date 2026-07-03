@@ -231,7 +231,7 @@ def main() -> None:
         resolve_rules_set = set()
 
       # ====== 统一执行最后一步: 转换为列表并执行排序 ======
-      main_rules = sorted(list(main_rules_set), key=sort_key)
+      main_rules = sorted(main_rules_set, key=sort_key)
       updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
       # 统计主文件规则数量并写入
@@ -243,7 +243,7 @@ def main() -> None:
 
       # 仅对支持的客户端生成并写入解析规则文件
       if supports_no_resolve:
-        resolve_rules = sorted(list(resolve_rules_set), key=sort_key)
+        resolve_rules = sorted(resolve_rules_set, key=sort_key)
         resolve_counts = Counter(rule.partition(",")[0].strip().upper() for rule in resolve_rules)
         resolve_header = build_header(f"{task_name}_Resolve", client, updated, resolve_counts)
 
