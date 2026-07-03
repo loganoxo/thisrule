@@ -125,11 +125,11 @@ def main() -> None:
   repo_root = Path(__file__).resolve().parents[1]
 
   # 外层循环: 遍历规则大类 (如 AI)
-  for category_name, sources in config.TASKS.items():
-    category_dir = repo_root / "rule" / category_name
+  for task_name, sources in config.TASKS.items():
+    task_dir = repo_root / "rule" / task_name
 
     # 建立并初始化当前分类下的全局 z-custom 目录及文件
-    z_custom_dir = category_dir / "z-custom"
+    z_custom_dir = task_dir / "z-custom"
     z_custom_dir.mkdir(parents=True, exist_ok=True)
 
     global_add_file = z_custom_dir / "add.list"
@@ -148,8 +148,8 @@ def main() -> None:
     for client in CLIENTS:
       ext = ".list"
 
-      # 定义当前客户端的专属工作目录: thisrule/rule/{category_name}/{client}
-      target_dir = category_dir / client
+      # 定义当前客户端的专属工作目录: thisrule/rule/{task_name}/{client}
+      target_dir = task_dir / client
       target_dir.mkdir(parents=True, exist_ok=True)
 
       # 建立并初始化当前客户端特有的 custom 目录及文件
@@ -236,23 +236,23 @@ def main() -> None:
 
       # 统计主文件规则数量并写入
       main_counts = Counter(rule.partition(",")[0].strip().upper() for rule in main_rules)
-      main_header = build_header(category_name, client, updated, main_counts)
+      main_header = build_header(task_name, client, updated, main_counts)
 
-      main_output_path = target_dir / f"{category_name}{ext}"
+      main_output_path = target_dir / f"{task_name}{ext}"
       main_output_path.write_text("\n".join(main_header + main_rules) + "\n")
 
       # 仅对支持的客户端生成并写入解析规则文件
       if supports_no_resolve:
         resolve_rules = sorted(list(resolve_rules_set), key=sort_key)
         resolve_counts = Counter(rule.partition(",")[0].strip().upper() for rule in resolve_rules)
-        resolve_header = build_header(f"{category_name}_Resolve", client, updated, resolve_counts)
+        resolve_header = build_header(f"{task_name}_Resolve", client, updated, resolve_counts)
 
-        resolve_output_path = target_dir / f"{category_name}_Resolve{ext}"
+        resolve_output_path = target_dir / f"{task_name}_Resolve{ext}"
         resolve_output_path.write_text("\n".join(resolve_header + resolve_rules) + "\n")
 
-        print(f"[{category_name}] - [{client}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
+        print(f"[{task_name}] - [{client}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
       else:
-        print(f"[{category_name}] - [{client}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
+        print(f"[{task_name}] - [{client}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
 
 
 if __name__ == "__main__":
