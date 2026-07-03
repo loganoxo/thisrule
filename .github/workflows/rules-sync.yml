@@ -1,6 +1,7 @@
-name: Daily rules sync
+name: rules sync
 
 on:
+  push:
   schedule:
     - cron: "0 2 */5 * *"
   workflow_dispatch:
