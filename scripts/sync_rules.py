@@ -75,7 +75,9 @@ def parse_lines(path: Path) -> list[str]:
     line = raw.strip()
     if not line or line.startswith("#"):
       continue
-    lines.append(line)
+    # 将当前行按逗号分割,去除各部分的首尾空格,再用逗号重新连接
+    cleaned_line = ",".join(part.strip() for part in line.split(","))
+    lines.append(cleaned_line)
   return lines
 
 
