@@ -99,6 +99,15 @@ def sort_key(rule: str) -> tuple[int, str, str]:
   return RULE_ORDER.get(rule_type_clean, 99), rule_type_clean, rest
 
 
+def write_and_print(client, ext, rules, target_dir, file_name, updated):
+  # 统计主文件规则数量并写入
+  counts = Counter(rule.partition(",")[0].strip().upper() for rule in rules)
+  header = build_header(file_name, client, updated, counts)
+  output_path = target_dir / f"{file_name}{ext}"
+  output_path.write_text("\n".join(header + rules) + "\n")
+  print(f"[{file_name}] - [{client}] 处理完成, 主文件包含 {len(rules)} 条规则.")
+
+
 def build_header(name: str, client: str, updated: str, counts: Counter) -> list[str]:
   # 构建包含数量统计的头部信息
   header = [
@@ -233,28 +242,15 @@ def main() -> None:
         resolve_rules_set = set()
 
       # ====== 统一执行最后一步: 转换为列表并执行排序 ======
-      main_rules = sorted(main_rules_set, key=sort_key)
       updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-      # 统计主文件规则数量并写入
-      main_counts = Counter(rule.partition(",")[0].strip().upper() for rule in main_rules)
-      main_header = build_header(task_name, client, updated, main_counts)
-
-      main_output_path = target_dir / f"{task_name}{ext}"
-      main_output_path.write_text("\n".join(main_header + main_rules) + "\n")
+      main_rules = sorted(main_rules_set, key=sort_key)
+      write_and_print(client, ext, main_rules, target_dir, task_name, updated)
 
       # 仅对支持的客户端生成并写入解析规则文件
       if supports_no_resolve:
         resolve_rules = sorted(resolve_rules_set, key=sort_key)
-        resolve_counts = Counter(rule.partition(",")[0].strip().upper() for rule in resolve_rules)
-        resolve_header = build_header(f"{task_name}_Resolve", client, updated, resolve_counts)
-
-        resolve_output_path = target_dir / f"{task_name}_Resolve{ext}"
-        resolve_output_path.write_text("\n".join(resolve_header + resolve_rules) + "\n")
-
-        print(f"[{task_name}] - [{client}] 处理完成, 主文件包含 {len(main_rules)} 条规则.")
-      else:
-        print(f"[{task_name}] - [{client}] 处理完成, 包含 {len(main_rules)} 条规则 (不生成 Resolve 文件).")
+        write_and_print(client, ext, resolve_rules, target_dir, f"{task_name}_Resolve", updated)
 
 
 if __name__ == "__main__":
