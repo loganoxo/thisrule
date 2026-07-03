@@ -100,6 +100,8 @@ def sort_key(rule: str) -> tuple[int, str, str]:
 
 
 def write_and_print(client, ext, rules, target_dir, file_name, updated):
+  if not rules:
+    return
   # 统计主文件规则数量并写入
   counts = Counter(rule.partition(",")[0].strip().upper() for rule in rules)
   header = build_header(file_name, client, updated, counts)
@@ -127,6 +129,8 @@ def main() -> None:
   if not hasattr(config, 'TASKS'):  # 检查配置属性是否存在
     print("❌ 错误: send_msg_config.py 中未找到 'TASKS' 列表配置")  # 打印错误提示
     return  # 退出程序
+
+  updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
   parser = argparse.ArgumentParser()
   parser.add_argument("--upstream", required=True, help="ios_rule_script 本地仓库的绝对或相对路径")
@@ -241,16 +245,14 @@ def main() -> None:
         main_rules_set = set(resolve_rules_set)
         resolve_rules_set = set()
 
-      # ====== 统一执行最后一步: 转换为列表并执行排序 ======
-      updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
       main_rules = sorted(main_rules_set, key=sort_key)
-      write_and_print(client, ext, main_rules, target_dir, task_name, updated)
-
-      # 仅对支持的客户端生成并写入解析规则文件
+      resolve_rules = []
       if supports_no_resolve:
         resolve_rules = sorted(resolve_rules_set, key=sort_key)
-        write_and_print(client, ext, resolve_rules, target_dir, f"{task_name}_Resolve", updated)
+
+      # ====== 统一执行最后一步: 转换为列表并执行排序 ======
+      write_and_print(client, ext, main_rules, target_dir, task_name, updated)
+      write_and_print(client, ext, resolve_rules, target_dir, f"{task_name}_Resolve", updated)
 
 
 if __name__ == "__main__":
