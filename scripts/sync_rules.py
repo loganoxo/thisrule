@@ -122,11 +122,11 @@ def main() -> None:
   args = parser.parse_args()
 
   upstream_root = Path(args.upstream)
-  repo_root = Path(__file__).resolve().parents[1]
+  local_repo_root = Path(__file__).resolve().parents[1]
 
   # 外层循环: 遍历规则大类 (如 AI)
   for task_name, sources in config.TASKS.items():
-    task_dir = repo_root / "rule" / task_name
+    task_dir = local_repo_root / "rule" / task_name
 
     # 建立并初始化当前分类下的全局 z-custom 目录及文件
     z_custom_dir = task_dir / "z-custom"
