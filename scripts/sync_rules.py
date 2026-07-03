@@ -1,21 +1,11 @@
 #!/usr/bin/env python3
+# python scripts/sync_rules.py --upstream test/ios_rule_script
+
 import argparse
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
-
-# 定义规则大类及其对应的上游数据源
-CATEGORIES = {
-  "AI": [
-    "OpenAI",
-    "Claude",
-    "Anthropic",
-    "Gemini",
-    "BardAI",
-    "Copilot",
-    "Civitai",
-  ]
-}
+import config  # 导入本地配置文件
 
 # 定义不同代理规则类型的排序优先级
 RULE_ORDER = {
@@ -122,6 +112,11 @@ def build_header(name: str, client: str, updated: str, counts: Counter) -> list[
 
 
 def main() -> None:
+  # 检查配置文件中是否存在 TASKS 列表, 如果不存在则抛出错误
+  if not hasattr(config, 'TASKS'):  # 检查配置属性是否存在
+    print("❌ 错误: send_msg_config.py 中未找到 'TASKS' 列表配置")  # 打印错误提示
+    return  # 退出程序
+
   parser = argparse.ArgumentParser()
   parser.add_argument("--upstream", required=True, help="ios_rule_script 本地仓库的绝对或相对路径")
   args = parser.parse_args()
@@ -130,7 +125,7 @@ def main() -> None:
   repo_root = Path(__file__).resolve().parents[1]
 
   # 外层循环: 遍历规则大类 (如 AI)
-  for category_name, sources in CATEGORIES.items():
+  for category_name, sources in config.TASKS.items():
     category_dir = repo_root / "rule" / category_name
 
     # 建立并初始化当前分类下的全局 z-custom 目录及文件
@@ -190,6 +185,7 @@ def main() -> None:
       # 基础整行匹配去重集合
       merged_rules: set[str] = set()
 
+      # 合并上游规则
       for source in sources:
         # 上游的读取路径保持不变
         source_path = upstream_root / "rule" / client / source / f"{source}{ext}"
