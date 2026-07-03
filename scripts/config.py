@@ -9,7 +9,7 @@ TASKS = {
     "Copilot",
     "Civitai",
   ],
-  "CnMax": [
+  "ChinaMax": [
     "AliPay", "JianGuoYun", "12306", "HeMa", "DingTalk", "Eleme", "CaiNiao", "MeiTuan", "WeChat", "CMB",
     "ICBC", "BOCOM", "BOC", "CCB", "CEB", "CGB", "ChinaTelecom", "ChinaUnicom", "ChinaMobile",
     "BiliBili", "Baidu", "Tencent", "QiNiuYun", "NetEaseMusic", "NetEase", "Hupu", "HuYa",
