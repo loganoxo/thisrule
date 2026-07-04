@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-03 18:14:18
-# HOST: 789
-# HOST-SUFFIX: 35819
+# UPDATED: 2026-07-04 07:45:40
+# HOST: 792
+# HOST-SUFFIX: 35830
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37835
+# TOTAL: 37849
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -21,6 +21,7 @@ HOST,a248.e.akamai.net,Global
 HOST,a4e8s8k3.map2.ssl.hwcdn.net,Global
 HOST,a771.dscq.akamai.net,Global
 HOST,abematv.akamaized.net,Global
+HOST,acd89244c803f7181.awsglobalaccelerator.com,Global
 HOST,activate-sea.adobe.com,Global
 HOST,activate-sjc0.adobe.com,Global
 HOST,activate.adobe.com,Global
@@ -35,6 +36,7 @@ HOST,adobe-dns-3.adobe.com,Global
 HOST,adobe-dns-4.adobe.com,Global
 HOST,adobe-dns.adobe.com,Global
 HOST,adobeereg.com,Global
+HOST,afa7f374f51cc8991.awsglobalaccelerator.com,Global
 HOST,ai.google.dev,Global
 HOST,ai.google.dev,GlobalMedia
 HOST,aistudio.google.com,GlobalMedia
@@ -393,6 +395,7 @@ HOST,onekey.zendesk.com,Global
 HOST,oneocsp.microsoft.com,Global
 HOST,ood.opsource.net,Global
 HOST,openaiapi-site.azureedge.net,Global
+HOST,openaiassets.blob.core.windows.net,Global
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Global
 HOST,openaicom.imgix.net,Global
 HOST,openaicomproductionae4b.blob.core.windows.net,Global
@@ -5345,6 +5348,7 @@ HOST-SUFFIX,blackstonespoliceservice.com,Global
 HOST-SUFFIX,blacktowhite.net,Global
 HOST-SUFFIX,blackvpn.com,Global
 HOST-SUFFIX,blake.ac.uk,Global
+HOST-SUFFIX,blanc.ru,Global
 HOST-SUFFIX,blaoshi.cc,Global
 HOST-SUFFIX,blast.io,Global
 HOST-SUFFIX,blazor.net,Global
@@ -6088,6 +6092,7 @@ HOST-SUFFIX,boswp.com,Global
 HOST-SUFFIX,bot.nu,Global
 HOST-SUFFIX,botanwang.com,Global
 HOST-SUFFIX,botframework.com,Global
+HOST-SUFFIX,botim.me,Global
 HOST-SUFFIX,botmechanic.io,Global
 HOST-SUFFIX,botorch.org,Global
 HOST-SUFFIX,botstop.com,Global
@@ -8336,6 +8341,7 @@ HOST-SUFFIX,coova.net,Global
 HOST-SUFFIX,coova.org,Global
 HOST-SUFFIX,copac.ac.uk,Global
 HOST-SUFFIX,copilot.cloud.microsoft,GlobalMedia
+HOST-SUFFIX,copilot.com,Global
 HOST-SUFFIX,copilot.microsoft.com,GlobalMedia
 HOST-SUFFIX,copim.ac.uk,Global
 HOST-SUFFIX,copior.ac.uk,Global
@@ -15936,6 +15942,9 @@ HOST-SUFFIX,horizontal-llc.com,Global
 HOST-SUFFIX,horizontal-systems.com,Global
 HOST-SUFFIX,horizontalglue.com,Global
 HOST-SUFFIX,horizontalsystems.com,Global
+HOST-SUFFIX,hornet.com,Global
+HOST-SUFFIX,hornetapp.com,Global
+HOST-SUFFIX,hornetx.com,Global
 HOST-SUFFIX,horniman.ac.uk,Global
 HOST-SUFFIX,hornyasianmilfs.com,Global
 HOST-SUFFIX,hornybitches.org,Global
@@ -19644,6 +19653,7 @@ HOST-SUFFIX,listerpostgraduate.ac.uk,Global
 HOST-SUFFIX,listinganalytics.net,Global
 HOST-SUFFIX,listorious.com,Global
 HOST-SUFFIX,litbus-anime.com,Global
+HOST-SUFFIX,litecoin.org,Global
 HOST-SUFFIX,litenews.hk,Global
 HOST-SUFFIX,literatumonline.com,Global
 HOST-SUFFIX,literotica.com,Global
@@ -22846,7 +22856,9 @@ HOST-SUFFIX,netflixtechblog.com,GlobalMedia
 HOST-SUFFIX,netlab.ac.uk,Global
 HOST-SUFFIX,netlify.app,Global
 HOST-SUFFIX,netlify.com,Global
+HOST-SUFFIX,netlifydns.com,Global
 HOST-SUFFIX,netlifystatus.com,Global
+HOST-SUFFIX,netlifyusercontent.com,Global
 HOST-SUFFIX,netlock.hu,Global
 HOST-SUFFIX,netmarble.com,Global
 HOST-SUFFIX,netme.cc,Global
@@ -23677,6 +23689,7 @@ HOST-SUFFIX,ntdvn.com,Global
 HOST-SUFFIX,ntec.ac.uk,Global
 HOST-SUFFIX,ntfs.ac.uk,Global
 HOST-SUFFIX,ntidagenham.ac.uk,Global
+HOST-SUFFIX,ntl.fyi,Global
 HOST-SUFFIX,ntnews.com.au,Global
 HOST-SUFFIX,ntp-os01.ocn.ad.jp,Global
 HOST-SUFFIX,ntp-tk01.ocn.ad.jp,Global
@@ -34091,6 +34104,7 @@ HOST-SUFFIX,webrtc.org,Global
 HOST-SUFFIX,webrush.net,Global
 HOST-SUFFIX,webs-tv.net,Global
 HOST-SUFFIX,websdr.org,Global
+HOST-SUFFIX,webshare.io,Global
 HOST-SUFFIX,website.new,Global
 HOST-SUFFIX,websitepulse.com,Global
 HOST-SUFFIX,websnapr.com,Global
