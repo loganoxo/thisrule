@@ -3,6 +3,9 @@ TASKS = {
   "AI": [
     "OpenAI", "Claude", "Anthropic", "Gemini", "BardAI", "Copilot", "Civitai"
   ],
+  "Apple": [
+    "Apple", "AppleID", "AppleDev", "SystemOTA"
+  ],
   "China": [
     "China", "ChinaMedia"
   ],
