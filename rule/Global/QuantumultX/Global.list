@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-04 07:45:40
-# HOST: 792
-# HOST-SUFFIX: 35830
+# UPDATED: 2026-07-06 06:18:50
+# HOST: 791
+# HOST-SUFFIX: 35834
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37849
+# TOTAL: 37852
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -305,7 +305,6 @@ HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Global
 HOST,img-s-msn-com.akamaized.net,Global
 HOST,impala-media-production.s3.amazonaws.com,Global
 HOST,imperial.insendi.com,Global
-HOST,ingest.apple-studies.com,Global
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,ktpx.amazon.com,GlobalMedia
 HOST,lab.skk.moe,Global
@@ -3123,6 +3122,7 @@ HOST-SUFFIX,apple-pay.rs,Global
 HOST-SUFFIX,apple-pay.wang,Global
 HOST-SUFFIX,apple-store.net,Global
 HOST-SUFFIX,apple-store.wang,Global
+HOST-SUFFIX,apple-studies.com,Global
 HOST-SUFFIX,apple-usa.net,Global
 HOST-SUFFIX,apple.ae,Global
 HOST-SUFFIX,apple.at,Global
@@ -3725,6 +3725,7 @@ HOST-SUFFIX,atlaspost.com,Global
 HOST-SUFFIX,atlassian-dev.net,Global
 HOST-SUFFIX,atlassian.com,Global
 HOST-SUFFIX,atlassian.net,Global
+HOST-SUFFIX,atmeta.com,Global
 HOST-SUFFIX,atnext.com,Global
 HOST-SUFFIX,atokara.jp,Global
 HOST-SUFFIX,atom.io,Global
@@ -4149,6 +4150,7 @@ HOST-SUFFIX,aziani.com,Global
 HOST-SUFFIX,azirevpn.com,Global
 HOST-SUFFIX,aznude.com,Global
 HOST-SUFFIX,azubu.tv,Global
+HOST-SUFFIX,azure-api.net,Global
 HOST-SUFFIX,azure-devices-int.net,Global
 HOST-SUFFIX,azure-devices.net,Global
 HOST-SUFFIX,azure-dns.com,Global
@@ -4186,6 +4188,7 @@ HOST-SUFFIX,azureplanetscale.net,Global
 HOST-SUFFIX,azureserviceprofiler.com,Global
 HOST-SUFFIX,azuresmartspaces.net,Global
 HOST-SUFFIX,azurestackvalidation.com,Global
+HOST-SUFFIX,azurestaticapps.net,Global
 HOST-SUFFIX,azurewebsites.net,Global
 HOST-SUFFIX,b-cdn.net,Global
 HOST-SUFFIX,b-eroland.net,Global

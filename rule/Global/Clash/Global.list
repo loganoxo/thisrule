@@ -1,13 +1,13 @@
 # NAME: Global
 # CLIENT: Clash
-# UPDATED: 2026-07-04 07:45:40
-# DOMAIN: 162
-# DOMAIN-SUFFIX: 34742
+# UPDATED: 2026-07-06 06:18:50
+# DOMAIN: 161
+# DOMAIN-SUFFIX: 34746
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # PROCESS-NAME: 4
-# TOTAL: 35988
+# TOTAL: 35991
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,ai.google.dev
@@ -85,7 +85,6 @@ DOMAIN,hulu.map.fastly.net
 DOMAIN,i.jeded.com
 DOMAIN,images-daznservices-com.cdn.ampproject.org
 DOMAIN,imperial.insendi.com
-DOMAIN,ingest.apple-studies.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,ktpx.amazon.com
 DOMAIN,lgelectronics.122.2o7.net
@@ -2449,6 +2448,7 @@ DOMAIN-SUFFIX,apple-pay.rs
 DOMAIN-SUFFIX,apple-pay.wang
 DOMAIN-SUFFIX,apple-store.net
 DOMAIN-SUFFIX,apple-store.wang
+DOMAIN-SUFFIX,apple-studies.com
 DOMAIN-SUFFIX,apple-usa.net
 DOMAIN-SUFFIX,apple.ae
 DOMAIN-SUFFIX,apple.at
@@ -3049,6 +3049,7 @@ DOMAIN-SUFFIX,atlaspost.com
 DOMAIN-SUFFIX,atlassian-dev.net
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,atokara.jp
 DOMAIN-SUFFIX,atom.io
@@ -3470,6 +3471,7 @@ DOMAIN-SUFFIX,aziani.com
 DOMAIN-SUFFIX,azirevpn.com
 DOMAIN-SUFFIX,aznude.com
 DOMAIN-SUFFIX,azubu.tv
+DOMAIN-SUFFIX,azure-api.net
 DOMAIN-SUFFIX,azure-devices-int.net
 DOMAIN-SUFFIX,azure-devices.net
 DOMAIN-SUFFIX,azure-dns.com
@@ -3507,6 +3509,7 @@ DOMAIN-SUFFIX,azureplanetscale.net
 DOMAIN-SUFFIX,azureserviceprofiler.com
 DOMAIN-SUFFIX,azuresmartspaces.net
 DOMAIN-SUFFIX,azurestackvalidation.com
+DOMAIN-SUFFIX,azurestaticapps.net
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,b-cdn.net
 DOMAIN-SUFFIX,b-eroland.net
