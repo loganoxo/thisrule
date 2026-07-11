@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-06 06:18:50
+# UPDATED: 2026-07-11 04:54:09
 # HOST: 791
-# HOST-SUFFIX: 35834
+# HOST-SUFFIX: 35842
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37852
+# TOTAL: 37860
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -12603,6 +12603,8 @@ HOST-SUFFIX,flowfront.net,Global
 HOST-SUFFIX,flowgpt.com,Global
 HOST-SUFFIX,flowhongkong.net,Global
 HOST-SUFFIX,flowtype.org,Global
+HOST-SUFFIX,flowwow-images.com,Global
+HOST-SUFFIX,flowwow.com,Global
 HOST-SUFFIX,fls-na.amazon.com,GlobalMedia
 HOST-SUFFIX,fluffychat.im,Global
 HOST-SUFFIX,fluidfxapp.com,Global
@@ -13404,6 +13406,8 @@ HOST-SUFFIX,funnyfacebook.org,Global
 HOST-SUFFIX,funnyordie.com,Global
 HOST-SUFFIX,funnyordie.com,GlobalMedia
 HOST-SUFFIX,funp.com,Global
+HOST-SUFFIX,funpay.com,Global
+HOST-SUFFIX,funpay.ru,Global
 HOST-SUFFIX,funshemale.com,Global
 HOST-SUFFIX,fuq.com,Global
 HOST-SUFFIX,fuqqt.com,Global
@@ -24789,6 +24793,8 @@ HOST-SUFFIX,paul-mellon-centre.ac.uk,Global
 HOST-SUFFIX,paulmelloncentre.ac.uk,Global
 HOST-SUFFIX,paulsimon-music.com,Global
 HOST-SUFFIX,pavpal.com,Global
+HOST-SUFFIX,pawchive.pw,Global
+HOST-SUFFIX,pawchive.st,Global
 HOST-SUFFIX,pawoo.net,Global
 HOST-SUFFIX,paxful.com,Global
 HOST-SUFFIX,paxlicense.org,Global
@@ -28455,6 +28461,7 @@ HOST-SUFFIX,sfshibao.com,Global
 HOST-SUFFIX,sfsstudents.ac.uk,Global
 HOST-SUFFIX,sftindia.org,Global
 HOST-SUFFIX,sftuk.org,Global
+HOST-SUFFIX,sfunpay.com,Global
 HOST-SUFFIX,sfx.ac.uk,Global
 HOST-SUFFIX,sfx.ms,Global
 HOST-SUFFIX,sfxc.ac.uk,Global
@@ -31291,6 +31298,7 @@ HOST-SUFFIX,tilda.ru,Global
 HOST-SUFFIX,tilda.ws,Global
 HOST-SUFFIX,tildaapi.com,Global
 HOST-SUFFIX,tildacdn.com,Global
+HOST-SUFFIX,tildacdn.net,Global
 HOST-SUFFIX,tilehill.ac.uk,Global
 HOST-SUFFIX,tiltbrush.com,Global
 HOST-SUFFIX,timdir.com,Global
