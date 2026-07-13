@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-11 04:54:09
+# UPDATED: 2026-07-13 08:14:57
 # HOST: 791
-# HOST-SUFFIX: 35842
+# HOST-SUFFIX: 35844
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37860
+# TOTAL: 37862
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -20262,6 +20262,7 @@ HOST-SUFFIX,makeappli.jp,Global
 HOST-SUFFIX,makearmanotwar.com,Global
 HOST-SUFFIX,makebettercode.com,Global
 HOST-SUFFIX,makecode.org,Global
+HOST-SUFFIX,makeeu.com,Global
 HOST-SUFFIX,makeitopen.com,Global
 HOST-SUFFIX,makeitrealcontest.com,Global
 HOST-SUFFIX,makemymood.com,Global
@@ -21523,6 +21524,7 @@ HOST-SUFFIX,mistral.ai,GlobalMedia
 HOST-SUFFIX,mistresskym.com,Global
 HOST-SUFFIX,mit.edu,Global
 HOST-SUFFIX,mit.net,Global
+HOST-SUFFIX,mitao.bar,Global
 HOST-SUFFIX,mitao.com.tw,Global
 HOST-SUFFIX,mitbbs.com,Global
 HOST-SUFFIX,mitbbsau.com,Global

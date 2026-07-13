@@ -1,15 +1,15 @@
 # NAME: Global_Resolve
 # CLIENT: Surge
-# UPDATED: 2026-07-11 04:54:09
+# UPDATED: 2026-07-13 08:14:57
 # DOMAIN: 161
-# DOMAIN-SUFFIX: 34754
+# DOMAIN-SUFFIX: 34756
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
 # PROCESS-NAME: 4
-# TOTAL: 36078
+# TOTAL: 36080
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,ai.google.dev
@@ -19052,6 +19052,7 @@ DOMAIN-SUFFIX,makeappli.jp
 DOMAIN-SUFFIX,makearmanotwar.com
 DOMAIN-SUFFIX,makebettercode.com
 DOMAIN-SUFFIX,makecode.org
+DOMAIN-SUFFIX,makeeu.com
 DOMAIN-SUFFIX,makeitopen.com
 DOMAIN-SUFFIX,makeitrealcontest.com
 DOMAIN-SUFFIX,makemymood.com
@@ -20296,6 +20297,7 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,mistresskym.com
 DOMAIN-SUFFIX,mit.edu
 DOMAIN-SUFFIX,mit.net
+DOMAIN-SUFFIX,mitao.bar
 DOMAIN-SUFFIX,mitao.com.tw
 DOMAIN-SUFFIX,mitbbs.com
 DOMAIN-SUFFIX,mitbbsau.com
