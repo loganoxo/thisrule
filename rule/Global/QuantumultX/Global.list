@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-13 08:14:57
-# HOST: 791
-# HOST-SUFFIX: 35844
+# UPDATED: 2026-07-16 04:50:51
+# HOST: 813
+# HOST-SUFFIX: 35872
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37862
+# TOTAL: 37912
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -37,6 +37,7 @@ HOST,adobe-dns-4.adobe.com,Global
 HOST,adobe-dns.adobe.com,Global
 HOST,adobeereg.com,Global
 HOST,afa7f374f51cc8991.awsglobalaccelerator.com,Global
+HOST,agb9r0ad.qllfkl.com,Global
 HOST,ai.google.dev,Global
 HOST,ai.google.dev,GlobalMedia
 HOST,aistudio.google.com,GlobalMedia
@@ -147,41 +148,57 @@ HOST,crl.versign.net,Global
 HOST,cs428.wpc.edgecastcdn.net,GlobalMedia
 HOST,csis-prod.s3.amazonaws.com,Global
 HOST,cvws.icloud-content.com,Global
+HOST,d1d0w7op819ely.cloudfront.net,Global
+HOST,d1fijc56o1fzod.cloudfront.net,Global
 HOST,d1g1f25tn8m2e6.cloudfront.net,Global
 HOST,d1k2us671qcoau.cloudfront.net,Global
 HOST,d1m7jfoe9zdc1j.cloudfront.net,Global
 HOST,d1mhjrowxxagfy.cloudfront.net,Global
 HOST,d1ndex63qxojbr.cloudfront.net,Global
+HOST,d1nu566dreq9vj.cloudfront.net,Global
 HOST,d1oca24q5dwo6d.cloudfront.net,Global
 HOST,d1q6f0aelx0por.cloudfront.net,Global
+HOST,d1ugi9qonif2a2.cloudfront.net,Global
 HOST,d1unuk07s6td74.cloudfront.net,Global
 HOST,d1v5ir2lpwr8os.cloudfront.net,Global
 HOST,d1w2poirtb3as9.cloudfront.net,Global
 HOST,d1xhnb4ptk05mw.cloudfront.net,Global
 HOST,d1ymi26ma8va5x.cloudfront.net,Global
+HOST,d20g4xwarzxagx.cloudfront.net,Global
 HOST,d22qjgkvxw22r6.cloudfront.net,Global
 HOST,d25xi40x97liuc.cloudfront.net,Global
+HOST,d26rnz3bwp7rlk.cloudfront.net,Global
 HOST,d27xxe7juh1us6.cloudfront.net,Global
+HOST,d28odxiw1asdj8.cloudfront.net,Global
 HOST,d29vzk4ow07wi7.cloudfront.net,Global
 HOST,d2aba1wr3818hz.cloudfront.net,Global
 HOST,d2anahhhmp1ffz.cloudfront.net,Global
+HOST,d2be40xdoc0in8.cloudfront.net,Global
 HOST,d2dylwb3shzel1.cloudfront.net,Global
 HOST,d2e2de1etea730.cloudfront.net,Global
+HOST,d2fg91fzjsrcv1.cloudfront.net,Global
+HOST,d2j7e8uopcv07.cloudfront.net,Global
 HOST,d2nvs31859zcd8.cloudfront.net,Global
 HOST,d2um2qdswy1tb0.cloudfront.net,Global
+HOST,d2v9yioq9zuuq2.cloudfront.net,Global
 HOST,d2vjef5jvl6bfs.cloudfront.net,Global
 HOST,d2wy8f7a9ursnm.cloudfront.net,Global
 HOST,d2xmjdvx03ij56.cloudfront.net,Global
+HOST,d31dormfno8pk4.cloudfront.net,Global
 HOST,d33wubrfki0l68.cloudfront.net,Global
 HOST,d36jcksde1wxzq.cloudfront.net,Global
 HOST,d36nr0u3xmc4mm.cloudfront.net,Global
 HOST,d3aqoihi2n8ty8.cloudfront.net,Global
 HOST,d3c27h4odz752x.cloudfront.net,Global
 HOST,d3c33hcgiwev3.cloudfront.net,Global
+HOST,d3lh5kkip965lj.cloudfront.net,Global
+HOST,d3nwj80emtnjeo.cloudfront.net,Global
 HOST,d3r7nsslvs6aaf.cloudfront.net,Global
+HOST,d3ucl0eqgl80l5.cloudfront.net,Global
 HOST,d3vd9lfkzbru3h.cloudfront.net,Global
 HOST,d6d4ismr40iw.cloudfront.net,Global
 HOST,d6tizftlrpuof.cloudfront.net,Global
+HOST,d96jfp62lg3kj.cloudfront.net,Global
 HOST,daily-cloudcode-pa.googleapis.com,Global
 HOST,dashasiafox.akamaized.netflix,GlobalMedia
 HOST,databank.worldbank.org,Global
@@ -189,13 +206,14 @@ HOST,database.asahi.com,Global
 HOST,datarouter.apps.netherrealm.com,Global
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
+HOST,dcb0z5ovq92mz.cloudfront.net,Global
 HOST,ddacn6pr5v0tl.cloudfront.net,Global
+HOST,ddpjwstwtpszg.cloudfront.net,Global
 HOST,default.exp-tas.com,Global
 HOST,dell.my.site.com,Global
 HOST,deribit.cdn.prismic.io,Global
 HOST,deutschewelle.h-cdn.com,Global
 HOST,developer.apple.com,Global
-HOST,developer.microsoft.com,Global
 HOST,developers.facebook.com,Global
 HOST,dfp6rglgjqszk.cloudfront.net,Global
 HOST,dgeft87wbj63p.cloudfront.net,Global
@@ -212,6 +230,7 @@ HOST,dqrpb9wgowsf5.cloudfront.net,Global
 HOST,ds-linear-abematv.akamaized.net,Global
 HOST,ds-vod-abematv.akamaized.net,Global
 HOST,ds0h3roq6wcgc.cloudfront.net,Global
+HOST,dstnzhnatv9pz.cloudfront.net,Global
 HOST,dtlgalleryint.cloudapp.net,Global
 HOST,dykkng5hnh52u.cloudfront.net,Global
 HOST,e122475.dscg.akamaiedge.net,Global
@@ -282,6 +301,7 @@ HOST,hamifans.emome.net,GlobalMedia
 HOST,hamivideo.hinet.net,Global
 HOST,hammerandchisel.ssl.zendesk.com,Global
 HOST,hb.imgix.net,Global
+HOST,hb4bbbbb.pmhcjk.com,Global
 HOST,heads-ak-spotify-com.akamaized.net,Global
 HOST,heads4-ak-spotify-com.akamaized.net,Global
 HOST,himalaya-exchange.zendesk.com,Global
@@ -341,6 +361,7 @@ HOST,mwf-service.akamaized.net,Global
 HOST,na1r.services.adobe.com,Global
 HOST,nab.demdex.net,Global
 HOST,nationalaustraliaban.tt.omtrdc.net,Global
+HOST,nbbb1bb7.pmhcjk.com,Global
 HOST,netflix.com.edgesuite.net,Global
 HOST,news-assets.apple.com,Global
 HOST,news-client-search.apple.com,Global
@@ -446,6 +467,7 @@ HOST,public-us-pingsx.api.clonoth.com,Global
 HOST,publicca.googleapis.com,Global
 HOST,push-apple.com.akadns.net,Global
 HOST,pvr-hamivideo.cdn.hinet.net,Global
+HOST,q676790b.pmhcjk.com,Global
 HOST,qualcomm.sc.omtrdc.net,Global
 HOST,rink.hockeyapp.net,Global
 HOST,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com,Global
@@ -2380,7 +2402,6 @@ HOST-SUFFIX,alexanderlondoncollege.ac.uk,Global
 HOST-SUFFIX,alexanderstreet.com,Global
 HOST-SUFFIX,alexlur.org,Global
 HOST-SUFFIX,alfa.me,Global
-HOST-SUFFIX,alfabank.oavdo.amc,Global
 HOST-SUFFIX,alfabank.ru,Global
 HOST-SUFFIX,alfabank.st,Global
 HOST-SUFFIX,alfadirect.ru,Global
@@ -4937,6 +4958,9 @@ HOST-SUFFIX,bestbuystores.com,Global
 HOST-SUFFIX,bestbuytradein.com,Global
 HOST-SUFFIX,bestbuyus.com,Global
 HOST-SUFFIX,bestcamsites.net,Global
+HOST-SUFFIX,bestchange.com,Global
+HOST-SUFFIX,bestchange.net,Global
+HOST-SUFFIX,bestchange.ru,Global
 HOST-SUFFIX,bestclouddrive.com,Global
 HOST-SUFFIX,bestdori.com,Global
 HOST-SUFFIX,besterpornos.com,Global
@@ -5971,6 +5995,7 @@ HOST-SUFFIX,bnn.co,Global
 HOST-SUFFIX,bnrmetal.com,Global
 HOST-SUFFIX,bntrace.com,Global
 HOST-SUFFIX,bnu.ac.uk,Global
+HOST-SUFFIX,bnxz.net,Global
 HOST-SUFFIX,boa.ac.uk,Global
 HOST-SUFFIX,boardreader.com,Global
 HOST-SUFFIX,bobble.ac.uk,Global
@@ -6638,6 +6663,7 @@ HOST-SUFFIX,bypasscensorship.org,Global
 HOST-SUFFIX,byrut.org,Global
 HOST-SUFFIX,byspotify.com,Global
 HOST-SUFFIX,byspotify.com,GlobalMedia
+HOST-SUFFIX,bystys.tech,Global
 HOST-SUFFIX,byteoversea.com,Global
 HOST-SUFFIX,byteoversea.com,GlobalMedia
 HOST-SUFFIX,bytick.com,Global
@@ -7418,6 +7444,7 @@ HOST-SUFFIX,chat.com,Global
 HOST-SUFFIX,chatango.com,Global
 HOST-SUFFIX,chatgpt.com,Global
 HOST-SUFFIX,chatgpt.livekit.cloud,Global
+HOST-SUFFIX,chatgpt.site,Global
 HOST-SUFFIX,chatgptvideo.xyz,Global
 HOST-SUFFIX,chatgptvideob.buzz,Global
 HOST-SUFFIX,chatnook.com,Global
@@ -8543,6 +8570,7 @@ HOST-SUFFIX,crixet.com,Global
 HOST-SUFFIX,crmdynint-gcc.com,Global
 HOST-SUFFIX,crmdynint.com,Global
 HOST-SUFFIX,crocels.ac.uk,Global
+HOST-SUFFIX,crocoblock.com,Global
 HOST-SUFFIX,crocotube.com,Global
 HOST-SUFFIX,cromite.org,Global
 HOST-SUFFIX,cronton.ac.uk,Global
@@ -9130,6 +9158,7 @@ HOST-SUFFIX,delcamp.net,Global
 HOST-SUFFIX,delcamtv.com,Global
 HOST-SUFFIX,delcamuniversity.com,Global
 HOST-SUFFIX,delcamusa.com,Global
+HOST-SUFFIX,delets.online,Global
 HOST-SUFFIX,delicious.com,Global
 HOST-SUFFIX,delicious.com.au,Global
 HOST-SUFFIX,dell.ac,Global
@@ -13886,6 +13915,7 @@ HOST-SUFFIX,getporn.tv,Global
 HOST-SUFFIX,getpricetag.com,Global
 HOST-SUFFIX,getprintersupports.com,Global
 HOST-SUFFIX,getscorecash.com,Global
+HOST-SUFFIX,getsentry.com,Global
 HOST-SUFFIX,getsession.org,Global
 HOST-SUFFIX,getsexgames.com,Global
 HOST-SUFFIX,getsocialscope.com,Global
@@ -15072,6 +15102,8 @@ HOST-SUFFIX,hao21.xyz,Global
 HOST-SUFFIX,hao62.xyz,Global
 HOST-SUFFIX,haori888.com,Global
 HOST-SUFFIX,haplorrhini.com,Global
+HOST-SUFFIX,happ.info,Global
+HOST-SUFFIX,happ.su,Global
 HOST-SUFFIX,happy-vpn.com,Global
 HOST-SUFFIX,happymeal.co.nz,Global
 HOST-SUFFIX,happymeal.com,Global
@@ -18854,6 +18886,7 @@ HOST-SUFFIX,khotruyentranhx.com,Global
 HOST-SUFFIX,kiad.ac.uk,Global
 HOST-SUFFIX,kichiku-doujinko.com,Global
 HOST-SUFFIX,kichikuou.com,Global
+HOST-SUFFIX,kick.com,Global
 HOST-SUFFIX,kickporn.com,Global
 HOST-SUFFIX,kickshatchannel.com,Global
 HOST-SUFFIX,kicksnike1.com,Global
@@ -19551,7 +19584,12 @@ HOST-SUFFIX,lih.kg,Global
 HOST-SUFFIX,lihe.ac.uk,Global
 HOST-SUFFIX,lihkg.com,Global
 HOST-SUFFIX,lihksnap.com,Global
+HOST-SUFFIX,like-video.com,Global
 HOST-SUFFIX,like.com,Global
+HOST-SUFFIX,likee.com,Global
+HOST-SUFFIX,likeeapp.ru,Global
+HOST-SUFFIX,likeevideo.com,Global
+HOST-SUFFIX,likeevideo.ru,Global
 HOST-SUFFIX,likeseiyu.com,Global
 HOST-SUFFIX,liketruyen.net,Global
 HOST-SUFFIX,liketwice.com,Global
@@ -21849,6 +21887,7 @@ HOST-SUFFIX,motiongraphicsandmore.com,Global
 HOST-SUFFIX,motionpictureser.com,Global
 HOST-SUFFIX,motiyun.com,Global
 HOST-SUFFIX,moto.com,Global
+HOST-SUFFIX,motocms.com,Global
 HOST-SUFFIX,motolia.com,Global
 HOST-SUFFIX,motopress.com,Global
 HOST-SUFFIX,motor4ik.ru,Global
@@ -24235,6 +24274,7 @@ HOST-SUFFIX,onekey-asset.com,Global
 HOST-SUFFIX,onekey.so,Global
 HOST-SUFFIX,onekeycn.com,Global
 HOST-SUFFIX,oneme.ru,Global
+HOST-SUFFIX,onemoment.cc,Global
 HOST-SUFFIX,onemozilla.org,Global
 HOST-SUFFIX,onenote.com,Global
 HOST-SUFFIX,onepornlist.com,Global
@@ -24554,6 +24594,7 @@ HOST-SUFFIX,owl-elearning.ac.uk,Global
 HOST-SUFFIX,owl.li,Global
 HOST-SUFFIX,owltail.com,Global
 HOST-SUFFIX,owsc.ac.uk,Global
+HOST-SUFFIX,owxd.xyz,Global
 HOST-SUFFIX,ox.ac.uk,Global
 HOST-SUFFIX,oxademy.ac.uk,Global
 HOST-SUFFIX,oxahsc.ac.uk,Global
@@ -24802,6 +24843,7 @@ HOST-SUFFIX,paxful.com,Global
 HOST-SUFFIX,paxlicense.org,Global
 HOST-SUFFIX,paydiant.com,Global
 HOST-SUFFIX,payecom.ru,Global
+HOST-SUFFIX,payget.pro,Global
 HOST-SUFFIX,paygonline.com,Global
 HOST-SUFFIX,payhulu.com,Global
 HOST-SUFFIX,payhulu.com,GlobalMedia
@@ -25416,6 +25458,7 @@ HOST-SUFFIX,plasticlabs.com,Global
 HOST-SUFFIX,plastics-cadcam.com,Global
 HOST-SUFFIX,platiecom.ru,Global
 HOST-SUFFIX,platinumlinks.org,Global
+HOST-SUFFIX,platov.co,Global
 HOST-SUFFIX,play-asia.com,Global
 HOST-SUFFIX,play-bmm.shop,Global
 HOST-SUFFIX,play-bmmer.buzz,Global
@@ -26703,6 +26746,8 @@ HOST-SUFFIX,rakutengiftcards.ca,Global
 HOST-SUFFIX,rakuya.com.tw,Global
 HOST-SUFFIX,ram.ac.uk,Global
 HOST-SUFFIX,ramcity.com.au,Global
+HOST-SUFFIX,ramon.cash,Global
+HOST-SUFFIX,ramon.money,Global
 HOST-SUFFIX,randd.ac.uk,Global
 HOST-SUFFIX,randomsystems-cdt.ac.uk,Global
 HOST-SUFFIX,randyblue.com,Global
@@ -28201,6 +28246,7 @@ HOST-SUFFIX,sensualgirls.org,Global
 HOST-SUFFIX,sensualmothers.com,Global
 HOST-SUFFIX,sensueel.net,Global
 HOST-SUFFIX,sentry-cdn.com,Global
+HOST-SUFFIX,sentry.dev,Global
 HOST-SUFFIX,senzuritv.net,Global
 HOST-SUFFIX,seo-dash.net,Global
 HOST-SUFFIX,seodirector.ai,Global
@@ -30744,6 +30790,7 @@ HOST-SUFFIX,telri.ac.uk,Global
 HOST-SUFFIX,temenos.ac.uk,Global
 HOST-SUFFIX,temetube.xyz,Global
 HOST-SUFFIX,temp-mail.org,Global
+HOST-SUFFIX,templatemonster.com,Global
 HOST-SUFFIX,tempusuk.ac.uk,Global
 HOST-SUFFIX,temu.com,Global
 HOST-SUFFIX,tenacy.com,Global
@@ -32694,6 +32741,7 @@ HOST-SUFFIX,uxbridge.ac.uk,Global
 HOST-SUFFIX,uxbridgecollege.ac.uk,Global
 HOST-SUFFIX,uxthemes.com,Global
 HOST-SUFFIX,uxxxporn.com,Global
+HOST-SUFFIX,uxzw.club,Global
 HOST-SUFFIX,uyghur-j.org,Global
 HOST-SUFFIX,uyghur.co.uk,Global
 HOST-SUFFIX,uyghuraa.org,Global
@@ -34016,6 +34064,7 @@ HOST-SUFFIX,wballiance.com,Global
 HOST-SUFFIX,wbautomation.ru,Global
 HOST-SUFFIX,wbautomation.tech,Global
 HOST-SUFFIX,wbbasket.ru,Global
+HOST-SUFFIX,wbcontent.net,Global
 HOST-SUFFIX,wbd.ms,Global
 HOST-SUFFIX,wbdnbo.net,Global
 HOST-SUFFIX,wbdubna.ru,Global
@@ -36339,6 +36388,7 @@ HOST-SUFFIX,ytimg.com,Global
 HOST-SUFFIX,ytimg.com,GlobalMedia
 HOST-SUFFIX,ytn.co.kr,Global
 HOST-SUFFIX,yuanzhengtang.org,Global
+HOST-SUFFIX,yucf.top,Global
 HOST-SUFFIX,yuenuge113.xyz,Global
 HOST-SUFFIX,yuenuge18.cc,Global
 HOST-SUFFIX,yugioh-card.com,Global
