@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-07-16 04:50:51
+# UPDATED: 2026-07-21 04:59:20
 # HOST: 813
-# HOST-SUFFIX: 35872
+# HOST-SUFFIX: 35878
 # HOST-KEYWORD: 62
 # HOST-WILDCARD: 10
 # IP-CIDR: 1030
 # IP6-CIDR: 10
 # USER-AGENT: 115
-# TOTAL: 37912
+# TOTAL: 37918
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -4200,6 +4200,7 @@ HOST-SUFFIX,azuredns-prd.info,Global
 HOST-SUFFIX,azuredns-prd.org,Global
 HOST-SUFFIX,azureedge-test.net,Global
 HOST-SUFFIX,azureedge.net,Global
+HOST-SUFFIX,azureedge.us,Global
 HOST-SUFFIX,azurefd.net,Global
 HOST-SUFFIX,azureiotcentral.com,Global
 HOST-SUFFIX,azureiotsolutions.com,Global
@@ -8370,6 +8371,7 @@ HOST-SUFFIX,coova.com,Global
 HOST-SUFFIX,coova.net,Global
 HOST-SUFFIX,coova.org,Global
 HOST-SUFFIX,copac.ac.uk,Global
+HOST-SUFFIX,copilot-stg.com,Global
 HOST-SUFFIX,copilot.cloud.microsoft,GlobalMedia
 HOST-SUFFIX,copilot.com,Global
 HOST-SUFFIX,copilot.microsoft.com,GlobalMedia
@@ -21003,6 +21005,7 @@ HOST-SUFFIX,mh4u.org,Global
 HOST-SUFFIX,mhcb.ru,Global
 HOST-SUFFIX,mhcbr.ru,Global
 HOST-SUFFIX,mhdss.ac.uk,Global
+HOST-SUFFIX,mhgui.com,Global
 HOST-SUFFIX,mhhanman.xyz,Global
 HOST-SUFFIX,mhie.ac.uk,Global
 HOST-SUFFIX,mhqwe.xyz,Global
@@ -22927,6 +22930,7 @@ HOST-SUFFIX,netwise.ac.uk,Global
 HOST-SUFFIX,network54.com,Global
 HOST-SUFFIX,networkedblogs.com,Global
 HOST-SUFFIX,networktunnel.net,Global
+HOST-SUFFIX,netxh.blog,Global
 HOST-SUFFIX,netzerobuildings.com,Global
 HOST-SUFFIX,netzerobuildingstudio.com,Global
 HOST-SUFFIX,netzwerkdeutsch.ac.uk,Global
@@ -26510,6 +26514,7 @@ HOST-SUFFIX,qmul.ac.uk,Global
 HOST-SUFFIX,qmw.ac.uk,Global
 HOST-SUFFIX,qmzdd.com,Global
 HOST-SUFFIX,qnap.com,Global
+HOST-SUFFIX,qnapsupport.net,Global
 HOST-SUFFIX,qobuz.at,GlobalMedia
 HOST-SUFFIX,qobuz.be,GlobalMedia
 HOST-SUFFIX,qobuz.biz,GlobalMedia
@@ -29843,6 +29848,7 @@ HOST-SUFFIX,starfox.com,Global
 HOST-SUFFIX,stargazer-games.com,Global
 HOST-SUFFIX,stark-verlag.ch,Global
 HOST-SUFFIX,starlink.ac.uk,Global
+HOST-SUFFIX,starlink.com,Global
 HOST-SUFFIX,starott.com,Global
 HOST-SUFFIX,starp2p.com,Global
 HOST-SUFFIX,starplus.com,Global
