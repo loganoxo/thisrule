@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: Loon
-# UPDATED: 2026-07-21 04:59:20
+# UPDATED: 2026-07-26 05:21:35
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34790
+# DOMAIN-SUFFIX: 34805
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
-# TOTAL: 36114
+# TOTAL: 36129
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -4209,6 +4209,7 @@ DOMAIN-SUFFIX,beside.ac.uk
 DOMAIN-SUFFIX,bess.ac.uk
 DOMAIN-SUFFIX,best-sex-games.com
 DOMAIN-SUFFIX,best.ac.uk
+DOMAIN-SUFFIX,best2pay.net
 DOMAIN-SUFFIX,best3dhere.com
 DOMAIN-SUFFIX,best4bim.com
 DOMAIN-SUFFIX,bestamateurcumshots.com
@@ -7022,6 +7023,7 @@ DOMAIN-SUFFIX,cinny.in
 DOMAIN-SUFFIX,cios.org
 DOMAIN-SUFFIX,ciota.ac.uk
 DOMAIN-SUFFIX,cipfg.org
+DOMAIN-SUFFIX,circle19.org
 DOMAIN-SUFFIX,circlethebayfortibet.org
 DOMAIN-SUFFIX,cirencester.ac.uk
 DOMAIN-SUFFIX,cirius.ac.uk
@@ -7145,6 +7147,7 @@ DOMAIN-SUFFIX,clash.com
 DOMAIN-SUFFIX,clashmini.com
 DOMAIN-SUFFIX,clashofclans.com
 DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,clashyun.com
 DOMAIN-SUFFIX,clasporno.org
 DOMAIN-SUFFIX,classicalguitarblog.net
 DOMAIN-SUFFIX,classicnike.com
@@ -9138,6 +9141,7 @@ DOMAIN-SUFFIX,docs.cfw.lbyczf.com
 DOMAIN-SUFFIX,docs.com
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,docs.rs
+DOMAIN-SUFFIX,docs.rw
 DOMAIN-SUFFIX,doctor-videos.com
 DOMAIN-SUFFIX,doctorvoice.org
 DOMAIN-SUFFIX,documentforce.com
@@ -10803,9 +10807,11 @@ DOMAIN-SUFFIX,f-dro1d.org
 DOMAIN-SUFFIX,f-droid.com
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f-secure.com
+DOMAIN-SUFFIX,f1.com
 DOMAIN-SUFFIX,f1esports.com
 DOMAIN-SUFFIX,f1manager.com
 DOMAIN-SUFFIX,f1play.com
+DOMAIN-SUFFIX,f1tv.com
 DOMAIN-SUFFIX,f2pool.com
 DOMAIN-SUFFIX,f5pf.com
 DOMAIN-SUFFIX,f6.dev
@@ -15353,6 +15359,7 @@ DOMAIN-SUFFIX,hutong9.net
 DOMAIN-SUFFIX,hutpromos.com
 DOMAIN-SUFFIX,hutton.ac.uk
 DOMAIN-SUFFIX,huyandex.com
+DOMAIN-SUFFIX,hva.im
 DOMAIN-SUFFIX,hw.ac.uk
 DOMAIN-SUFFIX,hwadzan.tw
 DOMAIN-SUFFIX,hwayue.org.tw
@@ -17536,6 +17543,7 @@ DOMAIN-SUFFIX,kaotic.com
 DOMAIN-SUFFIX,karabako-gmo.com
 DOMAIN-SUFFIX,karafarinbank.ir
 DOMAIN-SUFFIX,karayou.com
+DOMAIN-SUFFIX,kards.com
 DOMAIN-SUFFIX,karechat.ai
 DOMAIN-SUFFIX,karinahart.com
 DOMAIN-SUFFIX,karkhung.com
@@ -18604,6 +18612,7 @@ DOMAIN-SUFFIX,localxlist.org
 DOMAIN-SUFFIX,locate.ac.uk
 DOMAIN-SUFFIX,lockestek.com
 DOMAIN-SUFFIX,lockssalliance.ac.uk
+DOMAIN-SUFFIX,log.rw
 DOMAIN-SUFFIX,logbot.net
 DOMAIN-SUFFIX,logi.com
 DOMAIN-SUFFIX,logic.ac.uk
@@ -25441,10 +25450,12 @@ DOMAIN-SUFFIX,rbmavericks.com
 DOMAIN-SUFFIX,rbnainternational.com
 DOMAIN-SUFFIX,rbplc.com
 DOMAIN-SUFFIX,rbrandlibrary.com
+DOMAIN-SUFFIX,rbsgate.com
 DOMAIN-SUFFIX,rbsgr.com
 DOMAIN-SUFFIX,rbsl.ac.uk
 DOMAIN-SUFFIX,rbslondon.ac.uk
 DOMAIN-SUFFIX,rbspeakup.com
+DOMAIN-SUFFIX,rbsuat.com
 DOMAIN-SUFFIX,rbth.com
 DOMAIN-SUFFIX,rbx.com
 DOMAIN-SUFFIX,rbxcdn.com
@@ -28978,6 +28989,7 @@ DOMAIN-SUFFIX,sysmic.ac.uk
 DOMAIN-SUFFIX,sysresccd.org
 DOMAIN-SUFFIX,system76.com
 DOMAIN-SUFFIX,systemicrisk.ac.uk
+DOMAIN-SUFFIX,sysub.com
 DOMAIN-SUFFIX,sytes.net
 DOMAIN-SUFFIX,syx86.com
 DOMAIN-SUFFIX,syzbj36.xyz
@@ -29995,6 +30007,7 @@ DOMAIN-SUFFIX,tohoku-bank.co.jp
 DOMAIN-SUFFIX,tok.media
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tokyo-247.com
 DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,tokyo-porn-tube.com
@@ -30302,6 +30315,7 @@ DOMAIN-SUFFIX,truyenhentai.xyz
 DOMAIN-SUFFIX,truyenkk1.com
 DOMAIN-SUFFIX,truyentranh86.com
 DOMAIN-SUFFIX,truyenwk.com
+DOMAIN-SUFFIX,try.rw
 DOMAIN-SUFFIX,tryalias.com
 DOMAIN-SUFFIX,tryboobs.com
 DOMAIN-SUFFIX,trycloudflare.com
@@ -34774,6 +34788,7 @@ DOMAIN-SUFFIX,zengjinyan.org
 DOMAIN-SUFFIX,zenit-card.ru
 DOMAIN-SUFFIX,zenit.ru
 DOMAIN-SUFFIX,zenmate.com
+DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zenodo.org
 DOMAIN-SUFFIX,zeplerinstitute.ac.uk
 DOMAIN-SUFFIX,zeplin.dev
