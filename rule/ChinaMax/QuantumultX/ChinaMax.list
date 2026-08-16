@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-11 03:26:25
+# UPDATED: 2026-08-16 02:51:54
 # HOST: 124
-# HOST-SUFFIX: 9938
+# HOST-SUFFIX: 9949
 # HOST-KEYWORD: 4
 # IP-CIDR: 260
 # IP6-CIDR: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10388
+# TOTAL: 10399
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
@@ -3201,6 +3201,7 @@ HOST-SUFFIX,fsllq.com.cn,Tencent
 HOST-SUFFIX,fspcdn.com,Funshion
 HOST-SUFFIX,fsphere.cn,Tencent
 HOST-SUFFIX,ftcwifi.com,BOC
+HOST-SUFFIX,ftfast.com,TigerFintech
 HOST-SUFFIX,fthimalayandb.com,Alibaba
 HOST-SUFFIX,fu81q.cn,360
 HOST-SUFFIX,fullluckcalendar.com,ByteDance
@@ -4553,6 +4554,8 @@ HOST-SUFFIX,ionecloud.cn,WangXinKeJi
 HOST-SUFFIX,iopiopl.com,XianYu
 HOST-SUFFIX,iot-tencent.com,Tencent
 HOST-SUFFIX,iot-tencent.com,WeChat
+HOST-SUFFIX,iotaskyt.com,TigerFintech
+HOST-SUFFIX,iotaskyty.com,TigerFintech
 HOST-SUFFIX,iotboss.cn,ZhongYuanYiShang
 HOST-SUFFIX,iotmrvr.com,KuaiShou
 HOST-SUFFIX,ipanda.cn,CCTV
@@ -4607,6 +4610,8 @@ HOST-SUFFIX,iteye.com,CSDN
 HOST-SUFFIX,ithome.com,RuanMei
 HOST-SUFFIX,ithome.net,RuanMei
 HOST-SUFFIX,itiger.com,TigerFintech
+HOST-SUFFIX,itigergrowtha.com,TigerFintech
+HOST-SUFFIX,itigerup.com,TigerFintech
 HOST-SUFFIX,itocoo.cn,iFlytek
 HOST-SUFFIX,itopplay.com,Tencent
 HOST-SUFFIX,itopsdk.com,Tencent
@@ -6220,6 +6225,7 @@ HOST-SUFFIX,pinjiago.com,SuNing
 HOST-SUFFIX,pinyin.cn,Sohu
 HOST-SUFFIX,pipix.com,ByteDance
 HOST-SUFFIX,pitayaio.com,iFlytek
+HOST-SUFFIX,play-analytics.com,TigerFintech
 HOST-SUFFIX,playbattleaces.com,Tencent
 HOST-SUFFIX,playcvn.com,YYeTs
 HOST-SUFFIX,playdisorder.com,NetEase
@@ -7164,6 +7170,7 @@ HOST-SUFFIX,skidstorm.com,Kingsoft
 HOST-SUFFIX,skspace.cn,Geely
 HOST-SUFFIX,sktcdn.com,UPYun
 HOST-SUFFIX,skysea.com,XieCheng
+HOST-SUFFIX,skytigris.cn,TigerFintech
 HOST-SUFFIX,slja2.com,Kingsoft
 HOST-SUFFIX,sm.cn,Alibaba
 HOST-SUFFIX,sm.cn,ShenMa
@@ -7487,6 +7494,7 @@ HOST-SUFFIX,tbapp.com,Teambition
 HOST-SUFFIX,tbcache.com,Alibaba
 HOST-SUFFIX,tbcdn.cn,Alibaba
 HOST-SUFFIX,tbcdn.com,Alibaba
+HOST-SUFFIX,tbdesk.com,TigerFintech
 HOST-SUFFIX,tbizmail.com,Tencent
 HOST-SUFFIX,tbmcas.com,Alibaba
 HOST-SUFFIX,tbmkt.com,Alibaba
@@ -8176,7 +8184,10 @@ HOST-SUFFIX,tiebaimg.com,Baidu
 HOST-SUFFIX,tieyou.com,XieCheng
 HOST-SUFFIX,tigerbbs.cn,TigerFintech
 HOST-SUFFIX,tigerbbs.com,TigerFintech
+HOST-SUFFIX,tigerbrokers.net,TigerFintech
 HOST-SUFFIX,tigerfintech.com,TigerFintech
+HOST-SUFFIX,tigertcp.cn,TigerFintech
+HOST-SUFFIX,tigr.link,TigerFintech
 HOST-SUFFIX,timatrix.com.cn,Tencent
 HOST-SUFFIX,timedl.com,Tencent
 HOST-SUFFIX,timibase.com,Tencent
