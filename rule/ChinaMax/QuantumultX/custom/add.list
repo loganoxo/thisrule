@@ -1,0 +1,4 @@
+HOST-WILDCARD,*.qq.*,国内直连
+HOST-WILDCARD,*.wechat.*,国内直连
+HOST-WILDCARD,*.baidu.*,国内直连
+HOST-WILDCARD,*.alipay.*,国内直连

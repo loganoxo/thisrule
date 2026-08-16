@@ -1,14 +1,15 @@
 # NAME: ChinaMax
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-16 20:49:17
-# HOST: 124
-# HOST-SUFFIX: 9949
-# HOST-KEYWORD: 4
-# IP-CIDR: 260
+# UPDATED: 2026-08-17 03:00:06
+# HOST: 128
+# HOST-SUFFIX: 9773
+# HOST-KEYWORD: 8
+# HOST-WILDCARD: 4
+# IP-CIDR: 244
 # IP6-CIDR: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10399
+# TOTAL: 10219
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
@@ -60,6 +61,7 @@ HOST,3geauymtsgrzdnqbofa5dy.ourdvsss.com,BiliBili
 HOST,3geauymtsgrzdrcbzfahue.ourdvsss.com,BiliBili
 HOST,3geauymtsgrzdrcbzfahuk.ourdvsss.com,BiliBili
 HOST,4go41hcjtgazdoctqge4o.ourdvsss.com,BiliBili
+HOST,ad.12306.cn,国内直连
 HOST,als.baidu.com,BaiDuTieBa
 HOST,apd-pcdnvodstat.teg.tencent-cloud.net,TencentVideo
 HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
@@ -67,14 +69,15 @@ HOST,btrace.qq.com,WeChat
 HOST,cdn.hiphotos.baidu.com,BaiDuTieBa
 HOST,cpro.baidustatic.com,BaiDuTieBa
 HOST,crab.baidu.com,BaiDuTieBa
+HOST,dav.jianguoyun.com,国内直连
 HOST,dl.wechat.com,WeChat
 HOST,dldir1.qq.com,TencentVideo
-HOST,dldir1.qq.com,WeChat
 HOST,dlswbr.baidu.com,BaiDuTieBa
 HOST,ecma.bdimg.com,BaiDuTieBa
 HOST,feed-image.baidu.com,BaiDuTieBa
 HOST,fex.bdstatic.com,BaiDuTieBa
 HOST,fhnfile.oss-cn-shenzhen.aliyuncs.com,115
+HOST,gg.caixin.com,国内直连
 HOST,gomediago.baidu.com,BaiDuTieBa
 HOST,gsp0.baidu.com,BaiDuTieBa
 HOST,gss0.bdstatic.com,BaiDuTieBa
@@ -87,16 +90,18 @@ HOST,ios.video.mpush.qq.com,TencentVideo
 HOST,lf3-static.bytednsdoc.com,DouYin
 HOST,mediago-static.cdn.bcebos.com,BaiDuTieBa
 HOST,miaowu.baidu.com,BaiDuTieBa
+HOST,mirrors.ustc.edu,国内直连
+HOST,mirrors.ustc.edu.cn,国内直连
 HOST,mobads-log.baidu.com,BaiDuTieBa
 HOST,mobads.baidu.com,BaiDuTieBa
 HOST,netease.ugcvideoss.ourdvs.com,NetEase
-HOST,netease.ugcvideoss.ourdvs.com,NetEaseMusic
 HOST,ns-strategy.cdn.bcebos.com,BaiDuTieBa
 HOST,nsclick.baidu.com,BaiDuTieBa
 HOST,p-bstarstatic.akamaized.net,BiliBili
 HOST,p.bstarstatic.com,BiliBili
 HOST,passport.baidu.com,BaiDuTieBa
 HOST,rdelivery.qq.com,TencentVideo
+HOST,sdkapp.uve.weibo.com,国内直连
 HOST,sgfindershort.wechat.com,WeChat
 HOST,sgilinkshort.wechat.com,WeChat
 HOST,sglong.wechat.com,WeChat
@@ -231,7 +236,6 @@ HOST-SUFFIX,163mail.net,NetEase
 HOST-SUFFIX,163nasa.com,NetEase
 HOST-SUFFIX,163nos.com,NetEase
 HOST-SUFFIX,163yun.com,NetEase
-HOST-SUFFIX,163yun.com,NetEaseMusic
 HOST-SUFFIX,166.com,NetEase
 HOST-SUFFIX,166.net,NetEase
 HOST-SUFFIX,166cdn.com,NetEase
@@ -266,7 +270,6 @@ HOST-SUFFIX,173yeyou.cn,17173
 HOST-SUFFIX,173yeyou.com,17173
 HOST-SUFFIX,173yeyou.com.cn,17173
 HOST-SUFFIX,173yeyou.net,17173
-HOST-SUFFIX,178.com,178
 HOST-SUFFIX,178.com,NGA
 HOST-SUFFIX,178.net,178
 HOST-SUFFIX,17beijiang.com,17zuoye
@@ -339,7 +342,6 @@ HOST-SUFFIX,21cnimg.com,ChinaTelecom
 HOST-SUFFIX,21cnsales.com,ChinaTelecom
 HOST-SUFFIX,21cntx.com,NetEase
 HOST-SUFFIX,21fv52efm1.com,KuaiShou
-HOST-SUFFIX,2333333333333.com,ByteDance
 HOST-SUFFIX,2333333333333.com,LianMeng
 HOST-SUFFIX,2496.cn,KugouKuwo
 HOST-SUFFIX,25pp.com,Alibaba
@@ -527,7 +529,6 @@ HOST-SUFFIX,4848360.com,Kingsoft
 HOST-SUFFIX,49r5eoqrd2.com,KuaiShou
 HOST-SUFFIX,4c5p021888.com,KuaiShou
 HOST-SUFFIX,4do71q84l1.com,KuaiShou
-HOST-SUFFIX,4paradigm.com,4Paradigm
 HOST-SUFFIX,4paradigm.com,DiSiFanShi
 HOST-SUFFIX,4s4c0dw764.com,KuaiShou
 HOST-SUFFIX,4sender.com,Sina
@@ -536,7 +537,6 @@ HOST-SUFFIX,4short.cn,Tencent
 HOST-SUFFIX,4surl.cn,Tencent
 HOST-SUFFIX,4u1mx79nlw.com,KuaiShou
 HOST-SUFFIX,5026p06ot6.com,KuaiShou
-HOST-SUFFIX,5054399.com,4399
 HOST-SUFFIX,5054399.com,ChunYou
 HOST-SUFFIX,5054399.net,ChunYou
 HOST-SUFFIX,506u5nf5j5.com,KuaiShou
@@ -581,7 +581,6 @@ HOST-SUFFIX,52yitian.com,KuaiShou
 HOST-SUFFIX,5566ua.com,JiGuangTuiSong
 HOST-SUFFIX,56.com,56
 HOST-SUFFIX,56che.com,Alibaba
-HOST-SUFFIX,56che.com,CaiNiao
 HOST-SUFFIX,56img.com,56
 HOST-SUFFIX,56imgs.com,56
 HOST-SUFFIX,56nb6oo06g.com,KuaiShou
@@ -733,7 +732,6 @@ HOST-SUFFIX,95599.cn,ABC
 HOST-SUFFIX,9574528ue9.com,KuaiShou
 HOST-SUFFIX,9724.com,Kingsoft
 HOST-SUFFIX,9724.com.cn,Kingsoft
-HOST-SUFFIX,97973.com,Sina
 HOST-SUFFIX,97973.com,YouMengChuangXiang
 HOST-SUFFIX,97973.com.cn,YouMengChuangXiang
 HOST-SUFFIX,97lrf0l3xa.com,KuaiShou
@@ -787,11 +785,8 @@ HOST-SUFFIX,account-cn.huami.com,XiaoMi
 HOST-SUFFIX,acctdns.com,Tencent
 HOST-SUFFIX,acctdns.net,Tencent
 HOST-SUFFIX,acfun.cn,AcFun
-HOST-SUFFIX,acfun.cn,KuaiShou
 HOST-SUFFIX,acfun.com,AcFun
-HOST-SUFFIX,acfun.com,KuaiShou
 HOST-SUFFIX,acfun.tv,AcFun
-HOST-SUFFIX,acfun.tv,KuaiShou
 HOST-SUFFIX,acfunchina.cn,KuaiShou
 HOST-SUFFIX,acfunchina.com,KuaiShou
 HOST-SUFFIX,acfunchina.net,KuaiShou
@@ -872,7 +867,6 @@ HOST-SUFFIX,aiwei365.com.cn,ZhongWeiShiJi
 HOST-SUFFIX,aiwei365.net.cn,ZhongWeiShiJi
 HOST-SUFFIX,aiwvegax.com,KuaiShou
 HOST-SUFFIX,aixifan.com,AcFun
-HOST-SUFFIX,aixifan.com,KuaiShou
 HOST-SUFFIX,aixinhaitun.cn,360
 HOST-SUFFIX,aixinhaitun.com,360
 HOST-SUFFIX,aixinhaitun.com.cn,360
@@ -884,7 +878,6 @@ HOST-SUFFIX,aka700.net,Tencent
 HOST-SUFFIX,aleenote.cn,XiaoMi
 HOST-SUFFIX,aleenote.com,XiaoMi
 HOST-SUFFIX,ali-expo.com,Alibaba
-HOST-SUFFIX,ali213.net,Ali213
 HOST-SUFFIX,ali213.net,FengXiaWangLuo
 HOST-SUFFIX,aliapp-inc.com,Alibaba
 HOST-SUFFIX,aliapp.com,Alibaba
@@ -972,27 +965,18 @@ HOST-SUFFIX,alipay-corp.com,AliPay
 HOST-SUFFIX,alipay-eco.com,AliPay
 HOST-SUFFIX,alipay-inc.com,AliPay
 HOST-SUFFIX,alipay-traffic.com,AliPay
-HOST-SUFFIX,alipay.cn,AliPay
 HOST-SUFFIX,alipay.cn,Alibaba
-HOST-SUFFIX,alipay.com,AliPay
 HOST-SUFFIX,alipay.com,Alibaba
-HOST-SUFFIX,alipay.com.cn,AliPay
 HOST-SUFFIX,alipay.com.cn,Alibaba
-HOST-SUFFIX,alipay.hk,AliPay
 HOST-SUFFIX,alipay.hk,Alibaba
 HOST-SUFFIX,alipay.net,AliPay
 HOST-SUFFIX,alipaydesign.com,AliPay
 HOST-SUFFIX,alipaydev.com,AliPay
-HOST-SUFFIX,alipaydns.com,AliPay
 HOST-SUFFIX,alipaydns.com,Alibaba
 HOST-SUFFIX,alipayeshop.com,AliPay
-HOST-SUFFIX,alipaylog.com,AliPay
 HOST-SUFFIX,alipaylog.com,Alibaba
-HOST-SUFFIX,alipaymo.com,AliPay
 HOST-SUFFIX,alipaymo.com,Alibaba
-HOST-SUFFIX,alipayobjects.com,AliPay
 HOST-SUFFIX,alipayobjects.com,Alibaba
-HOST-SUFFIX,alipayplus.com,AliPay
 HOST-SUFFIX,alipayplus.com,Alibaba
 HOST-SUFFIX,aliplus.com,Alibaba
 HOST-SUFFIX,aliqin.cn,Alibaba
@@ -1009,7 +993,6 @@ HOST-SUFFIX,alisoft.com.cn,Alibaba
 HOST-SUFFIX,alisports.com,Alibaba
 HOST-SUFFIX,alitelecom.com,Alibaba
 HOST-SUFFIX,alitianji.com,Alibaba
-HOST-SUFFIX,alitrip.com,Alibaba
 HOST-SUFFIX,alitrip.com,FeiZhu
 HOST-SUFFIX,aliued.com,Alibaba
 HOST-SUFFIX,aliunicorn.com,Alibaba
@@ -1138,13 +1121,10 @@ HOST-SUFFIX,alloyteam.com,Tencent
 HOST-SUFFIX,alyms.cn,Alibaba
 HOST-SUFFIX,alyns.cn,Alibaba
 HOST-SUFFIX,alysm.cn,Alibaba
-HOST-SUFFIX,amap.com,Alibaba
 HOST-SUFFIX,amap.com,GaoDe
-HOST-SUFFIX,amapauto.com,Alibaba
 HOST-SUFFIX,amapauto.com,GaoDe
 HOST-SUFFIX,amemv.cn,ByteDance
 HOST-SUFFIX,amemv.com,ByteDance
-HOST-SUFFIX,amemv.com,DouYin
 HOST-SUFFIX,amemv.net,ByteDance
 HOST-SUFFIX,amhimalayanet.com,Alibaba
 HOST-SUFFIX,ams-aigc.com,Tencent
@@ -1162,9 +1142,7 @@ HOST-SUFFIX,animetamashi.com,BiliBili
 HOST-SUFFIX,anitama.cn,BiliBili
 HOST-SUFFIX,anitama.net,BiliBili
 HOST-SUFFIX,anjuke.cn,Anjuke
-HOST-SUFFIX,anjuke.com,58TongCheng
 HOST-SUFFIX,anjuke.com,Anjuke
-HOST-SUFFIX,anjukestatic.com,58TongCheng
 HOST-SUFFIX,anjukestatic.com,Anjuke
 HOST-SUFFIX,anquanke.com,360
 HOST-SUFFIX,antfin.com,Alibaba
@@ -1241,9 +1219,7 @@ HOST-SUFFIX,armaf.org,Tencent
 HOST-SUFFIX,arthubdam.com,Tencent
 HOST-SUFFIX,artistrylab.net,ByteDance
 HOST-SUFFIX,as84e.cn,360
-HOST-SUFFIX,asczwa.com,Alibaba
 HOST-SUFFIX,asczwa.com,FeiZhu
-HOST-SUFFIX,asczxcefsv.com,Alibaba
 HOST-SUFFIX,asczxcefsv.com,FeiZhu
 HOST-SUFFIX,asdlkjf.com,Alibaba
 HOST-SUFFIX,ashgdf.com,Alibaba
@@ -1264,7 +1240,6 @@ HOST-SUFFIX,authbus.com,UPYun
 HOST-SUFFIX,autodnsv1.com,Tencent
 HOST-SUFFIX,autodnsv1.net,Tencent
 HOST-SUFFIX,autolabautobus.cn,Tencent
-HOST-SUFFIX,autonavi.com,Alibaba
 HOST-SUFFIX,autonavi.com,GaoDe
 HOST-SUFFIX,avec6ua79dc6.com,KuaiShou
 HOST-SUFFIX,avgroft.com,KuaiShou
@@ -1408,7 +1383,6 @@ HOST-SUFFIX,bartender.cc,Marketing
 HOST-SUFFIX,battlecare.net,Tencent
 HOST-SUFFIX,bazai.com,Alibaba
 HOST-SUFFIX,bbbcdns.com,DiLianWangLuo
-HOST-SUFFIX,bbf.org.cn,CMB
 HOST-SUFFIX,bbf.org.cn,CNKI
 HOST-SUFFIX,bbk.com,Vivo
 HOST-SUFFIX,bbktel.com.cn,Vivo
@@ -1434,7 +1408,6 @@ HOST-SUFFIX,bcewaf.com,Baidu
 HOST-SUFFIX,bcfmglobal.com,Tencent
 HOST-SUFFIX,bchdemo.site,Baidu
 HOST-SUFFIX,bcshipgo.com,DuoWan
-HOST-SUFFIX,bcvbw.com,Alibaba
 HOST-SUFFIX,bcvbw.com,FeiZhu
 HOST-SUFFIX,bcy.net,ByteDance
 HOST-SUFFIX,bcyimg.com,ByteDance
@@ -1449,7 +1422,6 @@ HOST-SUFFIX,bdstatic.cn,Baidu
 HOST-SUFFIX,bdstatic.com,Baidu
 HOST-SUFFIX,bdtjrcv.com,Baidu
 HOST-SUFFIX,bduapp.com,Baidu
-HOST-SUFFIX,bdurl.net,Baidu
 HOST-SUFFIX,bdurl.net,ByteDance
 HOST-SUFFIX,bdxiguaimg.com,ByteDance
 HOST-SUFFIX,bdxiguastatic.com,ByteDance
@@ -1573,7 +1545,6 @@ HOST-SUFFIX,bjjr-tencentclb.cloud,Tencent
 HOST-SUFFIX,bjjr-tencentclb.com,Tencent
 HOST-SUFFIX,bjjr-tencentclb.net,Tencent
 HOST-SUFFIX,bjjr-tencentclb.work,Tencent
-HOST-SUFFIX,bjsbnet.com,CMB
 HOST-SUFFIX,bjsbnet.com,CNKI
 HOST-SUFFIX,bjsjsch12333.com,TaiKang
 HOST-SUFFIX,bjtndao.org,BaoFengYingYin
@@ -1636,7 +1607,6 @@ HOST-SUFFIX,boombeach.cn,Tencent
 HOST-SUFFIX,box-anchor.com,Tencent
 HOST-SUFFIX,boxiaole.com,58TongCheng
 HOST-SUFFIX,bqqpx.com,Tencent
-HOST-SUFFIX,bqtalk.com,ByteDance
 HOST-SUFFIX,bqtalk.com,LianMeng
 HOST-SUFFIX,brainplusplus.com.cn,KuangShi
 HOST-SUFFIX,brainpp.cn,KuangShi
@@ -1695,7 +1665,6 @@ HOST-SUFFIX,bytednsdoc.com,ByteDance
 HOST-SUFFIX,byteeffecttos.com,ByteDance
 HOST-SUFFIX,bytefcdn.com,ByteDance
 HOST-SUFFIX,bytefcdnrd.com,ByteDance
-HOST-SUFFIX,bytefcdnrd.com,Douyu
 HOST-SUFFIX,bytegecko.com,ByteDance
 HOST-SUFFIX,bytegoofy.com,ByteDance
 HOST-SUFFIX,bytegslb.com,ByteDance
@@ -1744,12 +1713,9 @@ HOST-SUFFIX,caing.cn,CaiXinChuanMei
 HOST-SUFFIX,caing.com,CaiXinChuanMei
 HOST-SUFFIX,cainiao-inc.cn,CaiNiao
 HOST-SUFFIX,cainiao-inc.com,Alibaba
-HOST-SUFFIX,cainiao-inc.com,CaiNiao
 HOST-SUFFIX,cainiao-inc.net,CaiNiao
 HOST-SUFFIX,cainiao.com,Alibaba
-HOST-SUFFIX,cainiao.com,CaiNiao
 HOST-SUFFIX,cainiao.com.cn,Alibaba
-HOST-SUFFIX,cainiao.com.cn,CaiNiao
 HOST-SUFFIX,cainiaoyizhan.com,CaiNiao
 HOST-SUFFIX,caixin.com,CaiXinChuanMei
 HOST-SUFFIX,caixinmedia.cn,CaiXinChuanMei
@@ -1974,15 +1940,10 @@ HOST-SUFFIX,chinesecity.com.cn,CIBN
 HOST-SUFFIX,chinesefilms.cn,CIBN
 HOST-SUFFIX,chineseradio.cn,CIBN
 HOST-SUFFIX,chineseradio.com.cn,CIBN
-HOST-SUFFIX,chndoi.cn,CMB
 HOST-SUFFIX,chndoi.cn,CNKI
-HOST-SUFFIX,chndoi.com,CMB
 HOST-SUFFIX,chndoi.com,CNKI
-HOST-SUFFIX,chndoi.com.cn,CMB
 HOST-SUFFIX,chndoi.com.cn,CNKI
-HOST-SUFFIX,chndoi.net,CMB
 HOST-SUFFIX,chndoi.net,CNKI
-HOST-SUFFIX,chndoi.org,CMB
 HOST-SUFFIX,chndoi.org,CNKI
 HOST-SUFFIX,chntel.com,ChinaTelecom
 HOST-SUFFIX,chrstatic.com,58TongCheng
@@ -2180,7 +2141,6 @@ HOST-SUFFIX,cmgdb.com,Tencent
 HOST-SUFFIX,cmgdb.com.cn,Tencent
 HOST-SUFFIX,cmicrwx.cn,ChinaMobile
 HOST-SUFFIX,cmpassport.com,ChinaMobile
-HOST-SUFFIX,cmvideo.cn,ChinaMobile
 HOST-SUFFIX,cmvideo.cn,Migu
 HOST-SUFFIX,cnb.cool,Tencent
 HOST-SUFFIX,cnb.run,Tencent
@@ -2200,15 +2160,10 @@ HOST-SUFFIX,cngslb.com,NGAA
 HOST-SUFFIX,cngslb.net,NGAA
 HOST-SUFFIX,cnidp.cn,CNNIC
 HOST-SUFFIX,cnjsun.com,Alibaba
-HOST-SUFFIX,cnki.net,CMB
 HOST-SUFFIX,cnki.net,CNKI
-HOST-SUFFIX,cnkidoi.cn,CMB
 HOST-SUFFIX,cnkidoi.cn,CNKI
-HOST-SUFFIX,cnkidoi.com,CMB
 HOST-SUFFIX,cnkidoi.com,CNKI
-HOST-SUFFIX,cnkidoi.net,CMB
 HOST-SUFFIX,cnkidoi.net,CNKI
-HOST-SUFFIX,cnkidoi.org,CMB
 HOST-SUFFIX,cnkidoi.org,CNKI
 HOST-SUFFIX,cnmo-img.com.cn,58TongCheng
 HOST-SUFFIX,cnmo.com,58TongCheng
@@ -2450,7 +2405,6 @@ HOST-SUFFIX,dafenghk.com.cn,Tencent
 HOST-SUFFIX,dafenghk.hk.cn,Tencent
 HOST-SUFFIX,dafenghk.net,Tencent
 HOST-SUFFIX,dailygn.com,ByteDance
-HOST-SUFFIX,damai.cn,Alibaba
 HOST-SUFFIX,damai.cn,DaMai
 HOST-SUFFIX,damaicdn.cn,DaMai
 HOST-SUFFIX,dandanplay.com,Dandanplay
@@ -2510,7 +2464,6 @@ HOST-SUFFIX,ddimg.cn,DangDang
 HOST-SUFFIX,ddimg.net,58TongCheng
 HOST-SUFFIX,ddiqbh.com,Alibaba
 HOST-SUFFIX,ddurl.to,Alibaba
-HOST-SUFFIX,ddurl.to,DingTalk
 HOST-SUFFIX,de-tencentclb.cloud,Tencent
 HOST-SUFFIX,de-tencentclb.com,Tencent
 HOST-SUFFIX,de-tencentclb.net,Tencent
@@ -2527,7 +2480,6 @@ HOST-SUFFIX,dfcfs.cn,EastMoney
 HOST-SUFFIX,dfcfs.com,EastMoney
 HOST-SUFFIX,dfcfw.com,EastMoney
 HOST-SUFFIX,dfig0.com,Kingsoft
-HOST-SUFFIX,dfkhgj.com,Alibaba
 HOST-SUFFIX,dfkhgj.com,FeiZhu
 HOST-SUFFIX,dg-paas.com,Alibaba
 HOST-SUFFIX,dg-work.cn,DingTalk
@@ -2545,6 +2497,7 @@ HOST-SUFFIX,dianping.com,MeiTuan
 HOST-SUFFIX,dichan.com,LeJu
 HOST-SUFFIX,dichan.net,LeJu
 HOST-SUFFIX,dicom365.com,WeiZhiYunDong
+HOST-SUFFIX,dida365.com,国内直连
 HOST-SUFFIX,didi-food.com,DiDi
 HOST-SUFFIX,didi.cn,DiDi
 HOST-SUFFIX,didi.xin,DiDi
@@ -2567,19 +2520,14 @@ HOST-SUFFIX,didiyun.org,DiDi
 HOST-SUFFIX,didiyunapi.com,DiDi
 HOST-SUFFIX,diffir.com,Kingsoft
 HOST-SUFFIX,dingding.xin,Alibaba
-HOST-SUFFIX,dingding.xin,DingTalk
 HOST-SUFFIX,dingqibao.cn,EastMoney
 HOST-SUFFIX,dingqibao.com,EastMoney
 HOST-SUFFIX,dingqibao.com.cn,EastMoney
 HOST-SUFFIX,dingtalk.cn,Alibaba
-HOST-SUFFIX,dingtalk.cn,DingTalk
 HOST-SUFFIX,dingtalk.com,Alibaba
-HOST-SUFFIX,dingtalk.com,DingTalk
 HOST-SUFFIX,dingtalk.com.cn,DingTalk
 HOST-SUFFIX,dingtalk.net,Alibaba
-HOST-SUFFIX,dingtalk.net,DingTalk
 HOST-SUFFIX,dingtalkapps.com,Alibaba
-HOST-SUFFIX,dingtalkapps.com,DingTalk
 HOST-SUFFIX,dingwei.link,NetEase
 HOST-SUFFIX,discoverplusradio.cn,CIBN
 HOST-SUFFIX,discoverplusradio.com.cn,CIBN
@@ -2607,7 +2555,6 @@ HOST-SUFFIX,dlnel.org,Baidu
 HOST-SUFFIX,dm518.cn,Sohu
 HOST-SUFFIX,dmaow.com,Domob
 HOST-SUFFIX,dmcdn.cn,DaMai
-HOST-SUFFIX,dmhmusic.com,Baidu
 HOST-SUFFIX,dmhmusic.com,TaiheMusic
 HOST-SUFFIX,dmrta.com,Domob
 HOST-SUFFIX,dmrtb.cn,Domob
@@ -2740,7 +2687,6 @@ HOST-SUFFIX,douyin.com,ByteDance
 HOST-SUFFIX,douyinact.com,ByteDance
 HOST-SUFFIX,douyinact.net,ByteDance
 HOST-SUFFIX,douyincdn.com,ByteDance
-HOST-SUFFIX,douyincdn.com,DouYin
 HOST-SUFFIX,douyinclips.com,ByteDance
 HOST-SUFFIX,douyinec.com,ByteDance
 HOST-SUFFIX,douyinhanyu.com,ByteDance
@@ -2748,32 +2694,20 @@ HOST-SUFFIX,douyinliving.com,ByteDance
 HOST-SUFFIX,douyinmusicclips.com,ByteDance
 HOST-SUFFIX,douyinmusicvideo.com,ByteDance
 HOST-SUFFIX,douyinpic.com,ByteDance
-HOST-SUFFIX,douyinpic.com,DouYin
 HOST-SUFFIX,douyinshortvideo.com,ByteDance
 HOST-SUFFIX,douyinstatic.com,ByteDance
-HOST-SUFFIX,douyinstatic.com,DouYin
 HOST-SUFFIX,douyinvideo.net,ByteDance
 HOST-SUFFIX,douyinvod.com,ByteDance
-HOST-SUFFIX,douyinvod.com,DouYin
 HOST-SUFFIX,douyu.com,Douyu
-HOST-SUFFIX,douyu.com,Tencent
 HOST-SUFFIX,douyu.tv,Douyu
-HOST-SUFFIX,douyu.tv,Tencent
 HOST-SUFFIX,douyuba.cn,Douyu
-HOST-SUFFIX,douyuba.cn,Tencent
 HOST-SUFFIX,douyucdn.cn,Douyu
-HOST-SUFFIX,douyucdn.cn,Tencent
 HOST-SUFFIX,douyucdn2.cn,Douyu
-HOST-SUFFIX,douyucdn2.cn,Tencent
 HOST-SUFFIX,douyupcdn.cn,Douyu
-HOST-SUFFIX,douyupcdn.cn,Tencent
 HOST-SUFFIX,douyuscdn.com,Douyu
-HOST-SUFFIX,douyuscdn.com,Tencent
 HOST-SUFFIX,douyutv.com,Douyu
-HOST-SUFFIX,douyutv.com,Tencent
 HOST-SUFFIX,doxygen.io,QiNiuYun
 HOST-SUFFIX,doyonoc.com,Douyu
-HOST-SUFFIX,doyonoc.com,Tencent
 HOST-SUFFIX,dpsoidf.com,Alibaba
 HOST-SUFFIX,dqf14u8573.com,KuaiShou
 HOST-SUFFIX,dratio.com,Alibaba
@@ -2920,7 +2854,6 @@ HOST-SUFFIX,edgeonevod1.com,Tencent
 HOST-SUFFIX,edgeonevod1.net,Tencent
 HOST-SUFFIX,edgep.net,Tencent
 HOST-SUFFIX,edgesrv.com,Douyu
-HOST-SUFFIX,edgesrv.com,Tencent
 HOST-SUFFIX,ediuschina.com,Marketing
 HOST-SUFFIX,edra5.cn,360
 HOST-SUFFIX,edu4399.com,4399
@@ -2944,15 +2877,12 @@ HOST-SUFFIX,ekcnu.cn,360
 HOST-SUFFIX,ekmic873o6vkza.com,KuaiShou
 HOST-SUFFIX,eksoi7mwa4fa27.com,KuaiShou
 HOST-SUFFIX,ele.me,Alibaba
-HOST-SUFFIX,ele.me,Eleme
 HOST-SUFFIX,ele.to,Eleme
 HOST-SUFFIX,eleme.cn,Alibaba
-HOST-SUFFIX,eleme.cn,Eleme
 HOST-SUFFIX,eleme.com.cn,Eleme
 HOST-SUFFIX,eleme.io,Eleme
 HOST-SUFFIX,elemecdn.cn,Eleme
 HOST-SUFFIX,elemecdn.com,Alibaba
-HOST-SUFFIX,elemecdn.com,Eleme
 HOST-SUFFIX,elenet.me,Eleme
 HOST-SUFFIX,elita.work,Alibaba
 HOST-SUFFIX,elong.com,TongCheng
@@ -3062,17 +2992,12 @@ HOST-SUFFIX,facephoto.com,XiaoMi
 HOST-SUFFIX,faceplusplus.com,KuangShi
 HOST-SUFFIX,faceplusplus.com.cn,KuangShi
 HOST-SUFFIX,faceroom.cn,6JianFang
-HOST-SUFFIX,faceu.com,ByteDance
 HOST-SUFFIX,faceu.com,LianMeng
-HOST-SUFFIX,faceu.com.cn,ByteDance
 HOST-SUFFIX,faceu.com.cn,LianMeng
-HOST-SUFFIX,faceu.mobi,ByteDance
 HOST-SUFFIX,faceu.mobi,LianMeng
-HOST-SUFFIX,faceu.net,ByteDance
 HOST-SUFFIX,faceu.net,LianMeng
 HOST-SUFFIX,falconalliance.cn,Xunlei
 HOST-SUFFIX,familyincloud.com,OPPO
-HOST-SUFFIX,fang.com,58TongCheng
 HOST-SUFFIX,fang.com,SouFang
 HOST-SUFFIX,fang.xin,KouDaiShiShang
 HOST-SUFFIX,fangdudu.com,LeJu
@@ -3108,9 +3033,7 @@ HOST-SUFFIX,feie.work,Tencent
 HOST-SUFFIX,feiliao.com,ByteDance
 HOST-SUFFIX,feishu.cn,ByteDance
 HOST-SUFFIX,feishucdn.com,ByteDance
-HOST-SUFFIX,feizhu.cn,Alibaba
 HOST-SUFFIX,feizhu.cn,FeiZhu
-HOST-SUFFIX,feizhu.com,Alibaba
 HOST-SUFFIX,feizhu.com,FeiZhu
 HOST-SUFFIX,feng1.com,SFExpress
 HOST-SUFFIX,fengcx.com,FengHuangWang
@@ -3143,9 +3066,7 @@ HOST-SUFFIX,firefallgame.cn,Kingsoft
 HOST-SUFFIX,fitgroup.com,Tencent
 HOST-SUFFIX,fldvz.cn,YouMengChuangXiang
 HOST-SUFFIX,flhimalayandn.com,Alibaba
-HOST-SUFFIX,fliggy.com,Alibaba
 HOST-SUFFIX,fliggy.com,FeiZhu
-HOST-SUFFIX,fliggy.hk,Alibaba
 HOST-SUFFIX,fliggy.hk,FeiZhu
 HOST-SUFFIX,flstudiochina.com,Marketing
 HOST-SUFFIX,flxdns.cn,DiLianWangLuo
@@ -3188,7 +3109,6 @@ HOST-SUFFIX,fqnovelpic.com,ByteDance
 HOST-SUFFIX,fqnovelstatic.com,ByteDance
 HOST-SUFFIX,fqnovelvod.com,ByteDance
 HOST-SUFFIX,freshhema.com,Alibaba
-HOST-SUFFIX,freshhema.com,HeMa
 HOST-SUFFIX,frontwize.com,QingCloud
 HOST-SUFFIX,fsight.ai,Tencent
 HOST-SUFFIX,fsight.cn,Tencent
@@ -3346,7 +3266,6 @@ HOST-SUFFIX,gameviewer.com,NetEase
 HOST-SUFFIX,gamewifi.net,WiFiMaster
 HOST-SUFFIX,ganji.com,58TongCheng
 HOST-SUFFIX,ganjistatic1.com,58TongCheng
-HOST-SUFFIX,gaode.com,Alibaba
 HOST-SUFFIX,gaode.com,GaoDe
 HOST-SUFFIX,gaqcloud.cn,Tencent
 HOST-SUFFIX,gaqcloud.com,Tencent
@@ -3792,7 +3711,6 @@ HOST-SUFFIX,ggowan.com,Sohu
 HOST-SUFFIX,ggunk1tn.com,Alibaba
 HOST-SUFFIX,ghtianshancn.com,Alibaba
 HOST-SUFFIX,gifshow.com,ByteDance
-HOST-SUFFIX,gifshow.com,KuaiShou
 HOST-SUFFIX,gigaget.com,Xunlei
 HOST-SUFFIX,gitbook.cn,CSDN
 HOST-SUFFIX,gitchat.cn,CSDN
@@ -3927,7 +3845,6 @@ HOST-SUFFIX,guba.com.cn,EastMoney
 HOST-SUFFIX,guczkbdq.com,KuaiShou
 HOST-SUFFIX,guguread.com,iFlytek
 HOST-SUFFIX,guguyuyin.com,Douyu
-HOST-SUFFIX,guguyuyin.com,Tencent
 HOST-SUFFIX,guichuideng.com,Tencent
 HOST-SUFFIX,guitarpro.cc,Marketing
 HOST-SUFFIX,guoguo-app.com,CaiNiao
@@ -4027,15 +3944,11 @@ HOST-SUFFIX,hellowebfont.com,HanYi
 HOST-SUFFIX,helmicro.com,Tencent
 HOST-SUFFIX,hemaapi.cn,HeMa
 HOST-SUFFIX,hemamax.com,Alibaba
-HOST-SUFFIX,hemamax.com,HeMa
 HOST-SUFFIX,hemaopen.cn,HeMa
 HOST-SUFFIX,hemaos.com,Alibaba
-HOST-SUFFIX,hemaos.com,HeMa
 HOST-SUFFIX,hemashare.cn,Alibaba
-HOST-SUFFIX,hemashare.cn,HeMa
 HOST-SUFFIX,henancme.net,GovCN
 HOST-SUFFIX,henku.com,RuanMei
-HOST-SUFFIX,heycan.com,ByteDance
 HOST-SUFFIX,heycan.com,LianMeng
 HOST-SUFFIX,heytap.cn,OPPO
 HOST-SUFFIX,heytap.com,OPPO
@@ -4235,9 +4148,7 @@ HOST-SUFFIX,hupu.io,Hupu
 HOST-SUFFIX,hupucdn.com,Hupu
 HOST-SUFFIX,hupujrs.com,Hupu
 HOST-SUFFIX,huya.com,HuYa
-HOST-SUFFIX,huya.com,Tencent
 HOST-SUFFIX,huyagame.cn,HuYa
-HOST-SUFFIX,huyagame.cn,Tencent
 HOST-SUFFIX,huyaos.com,Tencent
 HOST-SUFFIX,huzhoumj.com,BianFeng
 HOST-SUFFIX,hwad.net,Huawei
@@ -4394,7 +4305,6 @@ HOST-SUFFIX,idnscloud.com,WangSuKeJi
 HOST-SUFFIX,idouyinpic.com,ByteDance
 HOST-SUFFIX,idouyinstatic.com,ByteDance
 HOST-SUFFIX,idouyinvod.com,ByteDance
-HOST-SUFFIX,idouyinvod.com,DouYin
 HOST-SUFFIX,idpcn.cn,CNNIC
 HOST-SUFFIX,idqqimg.com,Tencent
 HOST-SUFFIX,ieeewifi.com,WiFiMaster
@@ -4511,7 +4421,6 @@ HOST-SUFFIX,imeete1.com,BianFeng
 HOST-SUFFIX,imeete2.com,BianFeng
 HOST-SUFFIX,imeete3.com,BianFeng
 HOST-SUFFIX,imeete4.com,BianFeng
-HOST-SUFFIX,img4399.com,4399
 HOST-SUFFIX,img4399.com,ChunYou
 HOST-SUFFIX,imgcdc.com,CIBN
 HOST-SUFFIX,imgcook.com,Alibaba
@@ -4553,7 +4462,6 @@ HOST-SUFFIX,ioikypzw.com,KuaiShou
 HOST-SUFFIX,ionecloud.cn,WangXinKeJi
 HOST-SUFFIX,iopiopl.com,XianYu
 HOST-SUFFIX,iot-tencent.com,Tencent
-HOST-SUFFIX,iot-tencent.com,WeChat
 HOST-SUFFIX,iotaskyt.com,TigerFintech
 HOST-SUFFIX,iotaskyty.com,TigerFintech
 HOST-SUFFIX,iotboss.cn,ZhongYuanYiShang
@@ -4625,7 +4533,6 @@ HOST-SUFFIX,itrusign.com,TianWeiChengXin
 HOST-SUFFIX,iuhtg8.com,Kingsoft
 HOST-SUFFIX,iujkm.com,Alibaba
 HOST-SUFFIX,iuktb.com,Alibaba
-HOST-SUFFIX,iuynfg.com,Alibaba
 HOST-SUFFIX,iuynfg.com,FeiZhu
 HOST-SUFFIX,ivaoqph.com,KuaiShou
 HOST-SUFFIX,ivqamtkr.com,KuaiShou
@@ -4639,9 +4546,7 @@ HOST-SUFFIX,iwuyou189.com,ChinaTelecom
 HOST-SUFFIX,ixgvideo.com,ByteDance
 HOST-SUFFIX,ixiede.com,Kingsoft
 HOST-SUFFIX,ixigua.com,ByteDance
-HOST-SUFFIX,ixigua.com,DouYin
 HOST-SUFFIX,ixiguavideo.com,ByteDance
-HOST-SUFFIX,ixiguavideo.com,DouYin
 HOST-SUFFIX,ixzgkzps.com,KuaiShou
 HOST-SUFFIX,iyoimar.com,KuaiShou
 HOST-SUFFIX,iyouxia.com,FengXiaWangLuo
@@ -4771,14 +4676,13 @@ HOST-SUFFIX,jdx.com,JingDong
 HOST-SUFFIX,jerpx.com,Tencent
 HOST-SUFFIX,jftianshancn.com,Alibaba
 HOST-SUFFIX,jgchat.net,17173
-HOST-SUFFIX,jhgtgb.com,Alibaba
 HOST-SUFFIX,jhgtgb.com,FeiZhu
 HOST-SUFFIX,jhscm.com,JingDong
 HOST-SUFFIX,jhwan.com.cn,Lenovo
 HOST-SUFFIX,jiajuimg.com,LeJu
 HOST-SUFFIX,jiangbing.cn,iQIYI
 HOST-SUFFIX,jianguopuzi.com,JianGuoYun
-HOST-SUFFIX,jianguoyun.com,JianGuoYun
+HOST-SUFFIX,jianguoyun.com,国内直连
 HOST-SUFFIX,jiangzidushu.com,Tencent
 HOST-SUFFIX,jiangzikanshu.cn,Tencent
 HOST-SUFFIX,jiangzikanshu.com,Tencent
@@ -4883,7 +4787,6 @@ HOST-SUFFIX,juangua.com,Mogujie
 HOST-SUFFIX,juchang.cn,Ku6
 HOST-SUFFIX,juchang.com.cn,Ku6
 HOST-SUFFIX,juejin.cn,ByteDance
-HOST-SUFFIX,juejin.im,ByteDance
 HOST-SUFFIX,juejin.im,JueJin
 HOST-SUFFIX,juhuasuan.com,Alibaba
 HOST-SUFFIX,juhuiwan.com,Lenovo
@@ -5031,7 +4934,6 @@ HOST-SUFFIX,ksops.com,Kingsoft
 HOST-SUFFIX,ksord.com,Kingsoft
 HOST-SUFFIX,ksosoft.com,Kingsoft
 HOST-SUFFIX,kspkg.com,ByteDance
-HOST-SUFFIX,kspkg.com,KuaiShou
 HOST-SUFFIX,kssdata-yz1.kuaipandata.com,XiaoMi
 HOST-SUFFIX,kssdata-yz2-lt.kuaipandata.com,XiaoMi
 HOST-SUFFIX,kssdata-yz2.kuaipandata.com,XiaoMi
@@ -5142,7 +5044,7 @@ HOST-SUFFIX,kunlunso.com,Alibaba
 HOST-SUFFIX,kunlunta.com,Alibaba
 HOST-SUFFIX,kunlunvi.com,Alibaba
 HOST-SUFFIX,kunlunwe.com,Alibaba
-HOST-SUFFIX,kuwo.cn,KugouKuwo
+HOST-SUFFIX,kuwo.cn,国内直连
 HOST-SUFFIX,kuxiaomiao.cn,Youku
 HOST-SUFFIX,kuxiaomiao.com,Youku
 HOST-SUFFIX,kuxiaomiao.com.cn,Youku
@@ -5212,7 +5114,6 @@ HOST-SUFFIX,lahuashanbx.com,Alibaba
 HOST-SUFFIX,laibafile.cn,TianYaForum
 HOST-SUFFIX,laiqukankan.com,NetEase
 HOST-SUFFIX,laiwang.com,Alibaba
-HOST-SUFFIX,laiwang.com,DingTalk
 HOST-SUFFIX,langke.tv,EastMoney
 HOST-SUFFIX,langkoo.com,17zuoye
 HOST-SUFFIX,lanosso.com,LanZouYun
@@ -5264,7 +5165,6 @@ HOST-SUFFIX,learningsj.com,iFlytek
 HOST-SUFFIX,lecloud.com,LeTV
 HOST-SUFFIX,leijun.com,XiaoMi
 HOST-SUFFIX,leju.cn,LeJu
-HOST-SUFFIX,leju.com,LeJu
 HOST-SUFFIX,leju.com,Sina
 HOST-SUFFIX,lelecdn.com,LeTV
 HOST-SUFFIX,lemall.com,LeTV
@@ -5389,7 +5289,6 @@ HOST-SUFFIX,luckincalendar.com,ByteDance
 HOST-SUFFIX,luckycalendar.cn,ByteDance
 HOST-SUFFIX,ludan.cn,LuDaShi
 HOST-SUFFIX,ludashi.cn,LuDaShi
-HOST-SUFFIX,ludashi.com,360
 HOST-SUFFIX,ludashi.com,LuDaShi
 HOST-SUFFIX,ludosuperstar.cn,Tencent
 HOST-SUFFIX,ludosuperstar.com,Tencent
@@ -5402,7 +5301,6 @@ HOST-SUFFIX,luyou360.cn,360
 HOST-SUFFIX,lvtds.com,XieCheng
 HOST-SUFFIX,lwjhql.com,Alibaba
 HOST-SUFFIX,lwurl.to,Alibaba
-HOST-SUFFIX,lwurl.to,DingTalk
 HOST-SUFFIX,lx.pub,Lenovo
 HOST-SUFFIX,lx.run,Lenovo
 HOST-SUFFIX,lxcdns.com,WangSuKeJi
@@ -5456,7 +5354,6 @@ HOST-SUFFIX,mairuan.com,Marketing
 HOST-SUFFIX,mairuan.com.cn,Marketing
 HOST-SUFFIX,mairuan.net,Marketing
 HOST-SUFFIX,mairuanwang.com,Marketing
-HOST-SUFFIX,maitix.com,Alibaba
 HOST-SUFFIX,maitix.com,DaMai
 HOST-SUFFIX,maitix.net,DaMai
 HOST-SUFFIX,makeding.com,Marketing
@@ -5573,7 +5470,6 @@ HOST-SUFFIX,mifenlife.cn,Alibaba
 HOST-SUFFIX,mifenlife.com,Alibaba
 HOST-SUFFIX,mifile.cn,XiaoMi
 HOST-SUFFIX,migames.com,XiaoMi
-HOST-SUFFIX,migu.cn,ChinaMobile
 HOST-SUFFIX,migu.cn,Migu
 HOST-SUFFIX,migucc.cn,ChinaMobile
 HOST-SUFFIX,migucdn.cn,ChinaMobile
@@ -5581,7 +5477,6 @@ HOST-SUFFIX,migucloud.com,ChinaMobile
 HOST-SUFFIX,migufm.com,ChinaMobile
 HOST-SUFFIX,migugk.com,ChinaMobile
 HOST-SUFFIX,migutv.com,ChinaMobile
-HOST-SUFFIX,miguvideo.com,ChinaMobile
 HOST-SUFFIX,miguvideo.com,Migu
 HOST-SUFFIX,miguvideo.com.cn,ChinaMobile
 HOST-SUFFIX,miiiw.cn,MiWu
@@ -5866,7 +5761,6 @@ HOST-SUFFIX,nextplayground.com.cn,Tencent
 HOST-SUFFIX,nextstudios.com,Tencent
 HOST-SUFFIX,nextworkshop.net,Tencent
 HOST-SUFFIX,nfmrtfv.com,XianYu
-HOST-SUFFIX,nga.cn,178
 HOST-SUFFIX,nga.cn,NGA
 HOST-SUFFIX,nga.wiki,178
 HOST-SUFFIX,ngaa.cn,NGAA
@@ -5882,9 +5776,7 @@ HOST-SUFFIX,ngaacdn.net,NGAA
 HOST-SUFFIX,ngaagslb.cn,NGAA
 HOST-SUFFIX,ngaagslb.com,NGAA
 HOST-SUFFIX,ngaagslb.net,NGAA
-HOST-SUFFIX,ngabbs.com,178
 HOST-SUFFIX,ngabbs.com,NGA
-HOST-SUFFIX,ngacn.cc,178
 HOST-SUFFIX,ngacn.cc,NGA
 HOST-SUFFIX,nghmesc.com,Alibaba
 HOST-SUFFIX,nhcilab.com,Alibaba
@@ -6119,7 +6011,6 @@ HOST-SUFFIX,owsgo.com,Huawei
 HOST-SUFFIX,ox5tis8cm7zg82.com,KuaiShou
 HOST-SUFFIX,oygteapq.com,KuaiShou
 HOST-SUFFIX,oywtv.com,Douyu
-HOST-SUFFIX,oywtv.com,Tencent
 HOST-SUFFIX,oyxdwx.com,Alibaba
 HOST-SUFFIX,ozmvpbhc.com,KuaiShou
 HOST-SUFFIX,ozouckzr.com,KuaiShou
@@ -6178,7 +6069,6 @@ HOST-SUFFIX,pdm.tech,Tencent
 HOST-SUFFIX,peijian.com,XiaoMi
 HOST-SUFFIX,peiluyou.com,WangXinKeJi
 HOST-SUFFIX,peiwanlu.com,HuYa
-HOST-SUFFIX,peiwanlu.com,Tencent
 HOST-SUFFIX,peiyinge.com,iFlytek
 HOST-SUFFIX,peiyingefiles.com,iFlytek
 HOST-SUFFIX,peiyingo.com,iFlytek
@@ -6289,7 +6179,6 @@ HOST-SUFFIX,psbc.com,PSBC
 HOST-SUFFIX,psbcoa.com.cn,PSBC
 HOST-SUFFIX,psnine.com,178
 HOST-SUFFIX,pstatp.com,ByteDance
-HOST-SUFFIX,pstatp.com,DouYin
 HOST-SUFFIX,pthceshi.cn,iFlytek
 HOST-SUFFIX,pthceshi.com,iFlytek
 HOST-SUFFIX,pthcs.org.cn,iFlytek
@@ -6434,7 +6323,6 @@ HOST-SUFFIX,qhupdate.cn,360
 HOST-SUFFIX,qhupdate.com,360
 HOST-SUFFIX,qiandunvpn.com,Alibaba
 HOST-SUFFIX,qianfan.tv,56
-HOST-SUFFIX,qianqian.com,Baidu
 HOST-SUFFIX,qianqian.com,TaiheMusic
 HOST-SUFFIX,qiantianchayuan.com,BianFeng
 HOST-SUFFIX,qianxun.com,JingDong
@@ -6531,12 +6419,9 @@ HOST-SUFFIX,qlivewebrtc.com,Tencent
 HOST-SUFFIX,qlivewebrtc2.cn,Tencent
 HOST-SUFFIX,qlivewebrtc2.com,Tencent
 HOST-SUFFIX,qlogo.cn,Tencent
-HOST-SUFFIX,qlogo.cn,WeChat
 HOST-SUFFIX,qmail.com,Tencent
 HOST-SUFFIX,qmhimalayanpz.com,Alibaba
-HOST-SUFFIX,qmoji.mobi,ByteDance
 HOST-SUFFIX,qmoji.mobi,LianMeng
-HOST-SUFFIX,qmoji.net,ByteDance
 HOST-SUFFIX,qmoji.net,LianMeng
 HOST-SUFFIX,qmrms.com,Tencent
 HOST-SUFFIX,qmtjgame.com,Tencent
@@ -6548,7 +6433,6 @@ HOST-SUFFIX,qnssl.com,QiNiuYun
 HOST-SUFFIX,qnydns.com,QiNiuYun
 HOST-SUFFIX,qnydns.net,QiNiuYun
 HOST-SUFFIX,qpic.cn,Tencent
-HOST-SUFFIX,qpic.cn,WeChat
 HOST-SUFFIX,qpimg.cn,Tencent
 HOST-SUFFIX,qplus.com,Tencent
 HOST-SUFFIX,qplusstatic.com,Tencent
@@ -6644,7 +6528,6 @@ HOST-SUFFIX,quantilng.com,WangSuKeJi
 HOST-SUFFIX,quanup.com,LeJu
 HOST-SUFFIX,quanxiangyun.com,QingCloud
 HOST-SUFFIX,quaolai.com,SMZDM
-HOST-SUFFIX,quark.cn,Alibaba
 HOST-SUFFIX,quark.cn,UC
 HOST-SUFFIX,quqxphdm.com,KuaiShou
 HOST-SUFFIX,qutao.com,Alibaba
@@ -6753,7 +6636,6 @@ HOST-SUFFIX,res.mi.baidu.com,XiaoMi
 HOST-SUFFIX,rescdn.cn,58TongCheng
 HOST-SUFFIX,restapi.amap.com,XiaoMi
 HOST-SUFFIX,rexpos.cn,Alibaba
-HOST-SUFFIX,rexpos.cn,HeMa
 HOST-SUFFIX,rextech.cn,HeMa
 HOST-SUFFIX,rgaxobcs.com,KuaiShou
 HOST-SUFFIX,rgezppvk.com,KuaiShou
@@ -6993,7 +6875,6 @@ HOST-SUFFIX,senderline.com,Sina
 HOST-SUFFIX,senderline.net,Sina
 HOST-SUFFIX,serverlesscloud.cn,Tencent
 HOST-SUFFIX,servicewechat.com,Tencent
-HOST-SUFFIX,servicewechat.com,WeChat
 HOST-SUFFIX,serviceweixin.com,Tencent
 HOST-SUFFIX,sf-airlines.com,SFExpress
 HOST-SUFFIX,sf-cityrush.com,SFExpress
@@ -7100,7 +6981,6 @@ HOST-SUFFIX,shwxzfjpyzc-tencentclb.com,Tencent
 HOST-SUFFIX,shwxzfjpyzc-tencentclb.net,Tencent
 HOST-SUFFIX,shwxzfjpyzc-tencentclb.work,Tencent
 HOST-SUFFIX,shyhhema.com,Alibaba
-HOST-SUFFIX,shyhhema.com,HeMa
 HOST-SUFFIX,shzch12333.com,TaiKang
 HOST-SUFFIX,silkroddream.com,CIBN
 HOST-SUFFIX,silktrek.com,CIBN
@@ -7172,7 +7052,6 @@ HOST-SUFFIX,sktcdn.com,UPYun
 HOST-SUFFIX,skysea.com,XieCheng
 HOST-SUFFIX,skytigris.cn,TigerFintech
 HOST-SUFFIX,slja2.com,Kingsoft
-HOST-SUFFIX,sm.cn,Alibaba
 HOST-SUFFIX,sm.cn,ShenMa
 HOST-SUFFIX,smapi.cn,ShenMa
 HOST-SUFFIX,smartapps.cn,Baidu
@@ -7189,13 +7068,11 @@ HOST-SUFFIX,smoba.net,Tencent
 HOST-SUFFIX,smsvifv.com,KuaiShou
 HOST-SUFFIX,smtcdn.com,Sina
 HOST-SUFFIX,smtcdns.com,Tencent
-HOST-SUFFIX,smtcdns.net,BiliBili
 HOST-SUFFIX,smtcdns.net,Tencent
 HOST-SUFFIX,smzdm.com,SMZDM
 HOST-SUFFIX,smzdmimg.com,SMZDM
 HOST-SUFFIX,snap-buy.com,Kingsoft
 HOST-SUFFIX,snapplay.com,HuYa
-HOST-SUFFIX,snapplay.com,Tencent
 HOST-SUFFIX,sndlj.cn,SuNing
 HOST-SUFFIX,snoba.net,Tencent
 HOST-SUFFIX,snqrc.cn,SuNing
@@ -7236,19 +7113,16 @@ HOST-SUFFIX,sohurdc.com,Sohu
 HOST-SUFFIX,sohusce.com,Sohu
 HOST-SUFFIX,sojump.com,WenJuanXing
 HOST-SUFFIX,soku.com,Alibaba
-HOST-SUFFIX,soku.com,Youku
 HOST-SUFFIX,solocdn.cn,BaiShanYunKeJi
 HOST-SUFFIX,somama.com,56
 HOST-SUFFIX,soovvi.com,ZhongWeiShiJi
 HOST-SUFFIX,soso.com,Sohu
-HOST-SUFFIX,soso.com,Tencent
 HOST-SUFFIX,soso.com.cn,Sohu
 HOST-SUFFIX,sososnap.com,Sohu
 HOST-SUFFIX,sou.cn,360
 HOST-SUFFIX,sou.com,360
 HOST-SUFFIX,soufun.com,SouFang
 HOST-SUFFIX,soufun.com.cn,SouFang
-HOST-SUFFIX,soufunimg.com,58TongCheng
 HOST-SUFFIX,soufunimg.com,SouFang
 HOST-SUFFIX,soundconch.com,Himalaya
 HOST-SUFFIX,sousea.com,LeJu
@@ -7325,7 +7199,6 @@ HOST-SUFFIX,sturmdcp.com,KuaiShou
 HOST-SUFFIX,styledata.cn,Mogujie
 HOST-SUFFIX,suanya.cn,XieCheng
 HOST-SUFFIX,suanya.com,XieCheng
-HOST-SUFFIX,submusic.cn,Baidu
 HOST-SUFFIX,submusic.cn,TaiheMusic
 HOST-SUFFIX,suike.cn,iQIYI
 HOST-SUFFIX,sundaydragon.com,Tencent
@@ -7415,7 +7288,6 @@ HOST-SUFFIX,tadsim.cn,Tencent
 HOST-SUFFIX,tadsim.com,Tencent
 HOST-SUFFIX,tadsim.net,Tencent
 HOST-SUFFIX,taeapp.com,Alibaba
-HOST-SUFFIX,taihe.com,Baidu
 HOST-SUFFIX,taihe.com,TaiheMusic
 HOST-SUFFIX,taihealthcare.com,TaiKang
 HOST-SUFFIX,taikang.com,TaiKang
@@ -7500,7 +7372,6 @@ HOST-SUFFIX,tbmcas.com,Alibaba
 HOST-SUFFIX,tbmkt.com,Alibaba
 HOST-SUFFIX,tbsandbox.com,Alibaba
 HOST-SUFFIX,tbshare123.com,Alibaba
-HOST-SUFFIX,tburl.in,Alibaba
 HOST-SUFFIX,tburl.in,Teambition
 HOST-SUFFIX,tc471cyhud.com,KuaiShou
 HOST-SUFFIX,tcbautomation.cn,Tencent
@@ -7698,12 +7569,9 @@ HOST-SUFFIX,tdnsvodovs5.com,Tencent
 HOST-SUFFIX,tdnsx1.com,Tencent
 HOST-SUFFIX,tdpress.com,12306
 HOST-SUFFIX,tdtbd.com,WiFiMaster
-HOST-SUFFIX,teambition.com,Alibaba
 HOST-SUFFIX,teambition.com,Teambition
 HOST-SUFFIX,teambition.io,Teambition
-HOST-SUFFIX,teambition.net,Alibaba
 HOST-SUFFIX,teambition.net,Teambition
-HOST-SUFFIX,teambitionapis.com,Alibaba
 HOST-SUFFIX,teambitionapis.com,Teambition
 HOST-SUFFIX,techo.chat,Tencent
 HOST-SUFFIX,techo.pub,Tencent
@@ -8111,7 +7979,6 @@ HOST-SUFFIX,tengmed.com,Tencent
 HOST-SUFFIX,tengyunqq.com,Tencent
 HOST-SUFFIX,tenovatech.com,Tencent
 HOST-SUFFIX,tenpay.com,Tencent
-HOST-SUFFIX,tenpay.com,WeChat
 HOST-SUFFIX,tenpayglobal.com.cn,Tencent
 HOST-SUFFIX,tensure.com,Tencent
 HOST-SUFFIX,tenwukong.com,Tencent
@@ -8395,7 +8262,6 @@ HOST-SUFFIX,tourismshow.cn,Tencent
 HOST-SUFFIX,tourismuser.cn,Tencent
 HOST-SUFFIX,toursbms.com,XieCheng
 HOST-SUFFIX,toutiao.com,ByteDance
-HOST-SUFFIX,toutiao.com,DouYin
 HOST-SUFFIX,toutiao11.com,ByteDance
 HOST-SUFFIX,toutiao12.com,ByteDance
 HOST-SUFFIX,toutiao13.com,ByteDance
@@ -8500,7 +8366,6 @@ HOST-SUFFIX,ttbyte.com,ByteDance
 HOST-SUFFIX,ttbyte.net,ByteDance
 HOST-SUFFIX,ttjisu.com,ByteDance
 HOST-SUFFIX,ttnea.com,WiFiMaster
-HOST-SUFFIX,ttplayer.com,Baidu
 HOST-SUFFIX,ttplayer.com,TaiheMusic
 HOST-SUFFIX,ttpod.com,Alibaba
 HOST-SUFFIX,ttqiadar.com,KuaiShou
@@ -8597,15 +8462,13 @@ HOST-SUFFIX,uatmrrvendor.com,Tencent
 HOST-SUFFIX,ubibibi.com,UC
 HOST-SUFFIX,uc-test.cn,UC
 HOST-SUFFIX,uc-test.com,UC
-HOST-SUFFIX,uc.cn,Alibaba
 HOST-SUFFIX,uc.cn,UC
 HOST-SUFFIX,uc123.com,UC
 HOST-SUFFIX,ucdesk.cn,UC
 HOST-SUFFIX,ucfly.com,UC
 HOST-SUFFIX,uctwydx.com,KuaiShou
 HOST-SUFFIX,ucweb.cn,UC
-HOST-SUFFIX,ucweb.com,Alibaba
-HOST-SUFFIX,ucweb.com,UC
+HOST-SUFFIX,ucweb.com,国内直连
 HOST-SUFFIX,ucweb.com.cn,UC
 HOST-SUFFIX,uczzd.cn,ShenMa
 HOST-SUFFIX,uczzd.com,ShenMa
@@ -8636,13 +8499,9 @@ HOST-SUFFIX,ujnfdfv.com,Alibaba
 HOST-SUFFIX,ukoo.com.cn,Youku
 HOST-SUFFIX,ukve4smo9gapv.com,KuaiShou
 HOST-SUFFIX,ulanzou.com,LanZouYun
-HOST-SUFFIX,ulikecam.cn,ByteDance
 HOST-SUFFIX,ulikecam.cn,LianMeng
-HOST-SUFFIX,ulikecam.com,ByteDance
 HOST-SUFFIX,ulikecam.com,LianMeng
-HOST-SUFFIX,ulikecam.mobi,ByteDance
 HOST-SUFFIX,ulikecam.mobi,LianMeng
-HOST-SUFFIX,ulikecam.net,ByteDance
 HOST-SUFFIX,ulikecam.net,LianMeng
 HOST-SUFFIX,ultraiso.net,Marketing
 HOST-SUFFIX,um.run,Tencent
@@ -8960,7 +8819,6 @@ HOST-SUFFIX,webimgs.cn,6JianFang
 HOST-SUFFIX,websec1.com,Tencent
 HOST-SUFFIX,websec1.net,Tencent
 HOST-SUFFIX,wechat.com,Tencent
-HOST-SUFFIX,wechat.com,WeChat
 HOST-SUFFIX,wechat.design,Tencent
 HOST-SUFFIX,wechat.me,Tencent
 HOST-SUFFIX,wechat.org,Tencent
@@ -8971,13 +8829,11 @@ HOST-SUFFIX,wechatdevelop.com,Tencent
 HOST-SUFFIX,wechatlegal.cn,Tencent
 HOST-SUFFIX,wechatlegal.com,Tencent
 HOST-SUFFIX,wechatlegal.net,Tencent
-HOST-SUFFIX,wechatlegal.net,WeChat
 HOST-SUFFIX,wechatmessenger.com,Tencent
 HOST-SUFFIX,wechatmessenger.us,Tencent
 HOST-SUFFIX,wechatos.net,WeChat
 HOST-SUFFIX,wechatpay.cn,Tencent
 HOST-SUFFIX,wechatpay.com,Tencent
-HOST-SUFFIX,wechatpay.com,WeChat
 HOST-SUFFIX,wechatpay.com.hk,Tencent
 HOST-SUFFIX,wechatpay.com.my,Tencent
 HOST-SUFFIX,wecom.work,Tencent
@@ -8991,14 +8847,11 @@ HOST-SUFFIX,wegamedeveloper.com,Tencent
 HOST-SUFFIX,wegamemail.com,Tencent
 HOST-SUFFIX,wegameplus.com,Tencent
 HOST-SUFFIX,weiaixiaoshuo.com,Tencent
-HOST-SUFFIX,weibo.cn,Sina
 HOST-SUFFIX,weibo.cn,Weibo
-HOST-SUFFIX,weibo.com,Sina
 HOST-SUFFIX,weibo.com,Weibo
 HOST-SUFFIX,weibo.com.cn,Sina
 HOST-SUFFIX,weibo.tv,Sina
 HOST-SUFFIX,weibocdn.cn,Sina
-HOST-SUFFIX,weibocdn.com,Sina
 HOST-SUFFIX,weibocdn.com,Weibo
 HOST-SUFFIX,weiboums.com,Sina
 HOST-SUFFIX,weicunmall.com,Tencent
@@ -9018,13 +8871,10 @@ HOST-SUFFIX,weishi.com,Tencent
 HOST-SUFFIX,weisurvey.com,Tencent
 HOST-SUFFIX,weisurvey.net,Tencent
 HOST-SUFFIX,weixin.com,Tencent
-HOST-SUFFIX,weixin.com,WeChat
 HOST-SUFFIX,weixin.qq.com,WeChat
 HOST-SUFFIX,weixinbridge.com,Tencent
-HOST-SUFFIX,weixinbridge.com,WeChat
 HOST-SUFFIX,weixindevelop.com,Tencent
 HOST-SUFFIX,weixinsxy.com,Tencent
-HOST-SUFFIX,weixinsxy.com,WeChat
 HOST-SUFFIX,weiyun.com,Tencent
 HOST-SUFFIX,weiyunyingxiang.com,WeiZhiYunDong
 HOST-SUFFIX,weknow.io,Tencent
@@ -9218,15 +9068,10 @@ HOST-SUFFIX,wusuobuneng.com,CaiXinChuanMei
 HOST-SUFFIX,wusuobuneng.com.cn,CaiXinChuanMei
 HOST-SUFFIX,wusuobuneng.org,CaiXinChuanMei
 HOST-SUFFIX,wuxianhaibao.com,Alibaba
-HOST-SUFFIX,wuxizazhi.cn,CMB
 HOST-SUFFIX,wuxizazhi.cn,CNKI
-HOST-SUFFIX,wuxizazhi.com,CMB
 HOST-SUFFIX,wuxizazhi.com,CNKI
-HOST-SUFFIX,wuxizazhi.com.cn,CMB
 HOST-SUFFIX,wuxizazhi.com.cn,CNKI
-HOST-SUFFIX,wuxizazhi.net,CMB
 HOST-SUFFIX,wuxizazhi.net,CNKI
-HOST-SUFFIX,wuxizazhi.net.cn,CMB
 HOST-SUFFIX,wuxizazhi.net.cn,CNKI
 HOST-SUFFIX,wuyou189.cn,ChinaTelecom
 HOST-SUFFIX,wuyou189.com,ChinaTelecom
@@ -9320,7 +9165,6 @@ HOST-SUFFIX,xgo.com.cn,58TongCheng
 HOST-SUFFIX,xgz0.cn,Tencent
 HOST-SUFFIX,xgz1.cn,Tencent
 HOST-SUFFIX,xgz2.cn,Tencent
-HOST-SUFFIX,xhaiwai.com,LeJu
 HOST-SUFFIX,xhaiwai.com,Sina
 HOST-SUFFIX,xhscdn.com,XiaoHongShu
 HOST-SUFFIX,xhscdn.net,XiaoHongShu
@@ -9328,11 +9172,8 @@ HOST-SUFFIX,xhw81pr263.com,KuaiShou
 HOST-SUFFIX,xhwhouse.cn,LeJu
 HOST-SUFFIX,xhwhouse.com,LeJu
 HOST-SUFFIX,xiakefyz.com,BianFeng
-HOST-SUFFIX,xiami.com,Alibaba
 HOST-SUFFIX,xiami.com,XiamiMusic
-HOST-SUFFIX,xiami.fm,Alibaba
 HOST-SUFFIX,xiami.fm,XiamiMusic
-HOST-SUFFIX,xiami.net,Alibaba
 HOST-SUFFIX,xiami.net,XiamiMusic
 HOST-SUFFIX,xianfae.com,Baidu
 HOST-SUFFIX,xianjiqun.com,JingDong
@@ -9360,7 +9201,6 @@ HOST-SUFFIX,xiaojukeji.com,DiDi
 HOST-SUFFIX,xiaoka.tv,Sina
 HOST-SUFFIX,xiaoluerhuo.com,LuDaShi
 HOST-SUFFIX,xiaoluhaohuo.com,LuDaShi
-HOST-SUFFIX,xiaoluyouxuan.com,360
 HOST-SUFFIX,xiaoluyouxuan.com,LuDaShi
 HOST-SUFFIX,xiaoluzhidian.com,360
 HOST-SUFFIX,xiaoma.io,ifanr
@@ -9700,7 +9540,6 @@ HOST-SUFFIX,yjsops.com,Baidu
 HOST-SUFFIX,yk72e.com,Kingsoft
 HOST-SUFFIX,ykazgima.com,KuaiShou
 HOST-SUFFIX,ykimg.com,Alibaba
-HOST-SUFFIX,ykimg.com,Youku
 HOST-SUFFIX,ykmxemho.com,KuaiShou
 HOST-SUFFIX,ykugyph.com,KuaiShou
 HOST-SUFFIX,ylike.net,ShiJiChaoXing
@@ -9726,10 +9565,8 @@ HOST-SUFFIX,youba.com,ChunYou
 HOST-SUFFIX,youcaishop.cn,Eleme
 HOST-SUFFIX,youdao.com,NetEase
 HOST-SUFFIX,youdianyisi.com,ByteDance
-HOST-SUFFIX,youhua.com,360
 HOST-SUFFIX,youhua.com,LuDaShi
 HOST-SUFFIX,youku.com,Alibaba
-HOST-SUFFIX,youku.com,Youku
 HOST-SUFFIX,youku.com.cn,Youku
 HOST-SUFFIX,youku.org,Youku
 HOST-SUFFIX,youmengchuangxiang.com,YouMengChuangXiang
@@ -9741,9 +9578,7 @@ HOST-SUFFIX,youshop01.com,KouDaiShiShang
 HOST-SUFFIX,youshop02.com,KouDaiShiShang
 HOST-SUFFIX,youshop03.com,KouDaiShiShang
 HOST-SUFFIX,youshop04.com,KouDaiShiShang
-HOST-SUFFIX,youyou.com,Baidu
 HOST-SUFFIX,youyou.com,TaiheMusic
-HOST-SUFFIX,youyou001.com,Baidu
 HOST-SUFFIX,youyou001.com,TaiheMusic
 HOST-SUFFIX,youzan.com,YouZan
 HOST-SUFFIX,youzanyun.com,YouZan
@@ -9780,7 +9615,6 @@ HOST-SUFFIX,yufuid.com.cn,Tencent
 HOST-SUFFIX,yufuid.net,Tencent
 HOST-SUFFIX,yukhj.com,Alibaba
 HOST-SUFFIX,yun-app.net,NetEase
-HOST-SUFFIX,yun-app.net,NetEaseMusic
 HOST-SUFFIX,yun-hl.3g.qq.com,WeChat
 HOST-SUFFIX,yun.cn,UC
 HOST-SUFFIX,yunassess.com,Tencent
@@ -9917,7 +9751,6 @@ HOST-SUFFIX,zhangyue.net,ZhangYue
 HOST-SUFFIX,zhangyue01.com,ZhangYue
 HOST-SUFFIX,zhangyue02.com,ZhangYue
 HOST-SUFFIX,zhangyue03.com,ZhangYue
-HOST-SUFFIX,zhanqi.tv,BianFeng
 HOST-SUFFIX,zhanqi.tv,zhanqi
 HOST-SUFFIX,zhanqu.tv,BianFeng
 HOST-SUFFIX,zhcyanshi.com,iFlytek
@@ -9956,14 +9789,10 @@ HOST-SUFFIX,zhn0.cn,Tencent
 HOST-SUFFIX,zhongcaisuo.cn,EastMoney
 HOST-SUFFIX,zhongcaisuo.com,EastMoney
 HOST-SUFFIX,zhongcaisuo.com.cn,EastMoney
-HOST-SUFFIX,zhuan-zhuan.cn,58TongCheng
 HOST-SUFFIX,zhuan-zhuan.cn,ZhuanZhuan
-HOST-SUFFIX,zhuancorp.com,58TongCheng
 HOST-SUFFIX,zhuancorp.com,ZhuanZhuan
-HOST-SUFFIX,zhuanspirit.com,58TongCheng
 HOST-SUFFIX,zhuanspirit.com,ZhuanZhuan
 HOST-SUFFIX,zhuanzfx.com,NetEase
-HOST-SUFFIX,zhuanzhuan.com,58TongCheng
 HOST-SUFFIX,zhuanzhuan.com,ZhuanZhuan
 HOST-SUFFIX,zhuoyuegame.cn,Tencent
 HOST-SUFFIX,zhuoyuegame.com,Tencent
@@ -10082,10 +9911,18 @@ HOST-SUFFIX,zymk.cn,ZhiYinManKe
 HOST-SUFFIX,zymkcdn.com,ZhiYinManKe
 HOST-SUFFIX,zzcdnx.com,BaiShanYunKeJi
 HOST-SUFFIX,zzxca.com,FeiZhu
+HOST-KEYWORD,.alipay.,国内直连
+HOST-KEYWORD,.baidu.,国内直连
+HOST-KEYWORD,.qq.,国内直连
+HOST-KEYWORD,.wechat.,国内直连
 HOST-KEYWORD,hnagroup,HaiNanHangKong
+HOST-KEYWORD,jianguoyun,国内直连
 HOST-KEYWORD,qiyi,iQIYI
-HOST-KEYWORD,weibo,Sina
 HOST-KEYWORD,weibo,Weibo
+HOST-WILDCARD,*.alipay.*,国内直连
+HOST-WILDCARD,*.baidu.*,国内直连
+HOST-WILDCARD,*.qq.*,国内直连
+HOST-WILDCARD,*.wechat.*,国内直连
 IP-CIDR,1.82.220.0/24,KugouKuwo
 IP-CIDR,101.224.0.0/13,iQIYI
 IP-CIDR,101.32.104.4/32,Tencent
@@ -10097,9 +9934,7 @@ IP-CIDR,101.32.133.209/32,Tencent
 IP-CIDR,101.32.133.53/32,Tencent
 IP-CIDR,101.71.122.0/24,KugouKuwo
 IP-CIDR,101.71.154.241/32,NetEase
-IP-CIDR,101.71.154.241/32,NetEaseMusic
 IP-CIDR,103.126.92.132/31,NetEase
-IP-CIDR,103.126.92.132/31,NetEaseMusic
 IP-CIDR,103.206.40.0/22,Alibaba
 IP-CIDR,103.215.143.0/24,KugouKuwo
 IP-CIDR,103.238.16.0/23,Tencent
@@ -10116,7 +9951,6 @@ IP-CIDR,103.7.28.0/22,Tencent
 IP-CIDR,104.109.129.153/32,iQIYI
 IP-CIDR,104.27.168.0/24,KugouKuwo
 IP-CIDR,106.11.0.0/16,Alibaba
-IP-CIDR,106.11.0.0/16,Youku
 IP-CIDR,106.38.222.0/24,KugouKuwo
 IP-CIDR,106.39.193.0/24,KugouKuwo
 IP-CIDR,106.75.74.76/32,BiliBili
@@ -10135,13 +9969,9 @@ IP-CIDR,111.205.195.124/31,XiaoMi
 IP-CIDR,111.206.25.147/32,BiliBili
 IP-CIDR,112.125.0.0/17,Alibaba
 IP-CIDR,112.13.119.17/32,NetEase
-IP-CIDR,112.13.119.17/32,NetEaseMusic
 IP-CIDR,112.13.119.18/32,NetEase
-IP-CIDR,112.13.119.18/32,NetEaseMusic
 IP-CIDR,112.13.122.1/32,NetEase
-IP-CIDR,112.13.122.1/32,NetEaseMusic
 IP-CIDR,112.13.122.4/32,NetEase
-IP-CIDR,112.13.122.4/32,NetEaseMusic
 IP-CIDR,112.51.125.0/24,KugouKuwo
 IP-CIDR,112.65.92.0/24,KugouKuwo
 IP-CIDR,112.84.104.0/24,KugouKuwo
@@ -10171,7 +10001,6 @@ IP-CIDR,116.55.228.0/24,KugouKuwo
 IP-CIDR,117.161.2.5/32,ChinaMobile
 IP-CIDR,118.123.233.0/24,KugouKuwo
 IP-CIDR,118.24.63.156/32,NetEase
-IP-CIDR,118.24.63.156/32,NetEaseMusic
 IP-CIDR,118.26.120.0/24,iQIYI
 IP-CIDR,118.26.32.0/23,iQIYI
 IP-CIDR,118.89.204.198/32,Zhihu
@@ -10226,7 +10055,6 @@ IP-CIDR,163.177.19.0/24,KugouKuwo
 IP-CIDR,163.181.0.0/16,Alibaba
 IP-CIDR,170.33.0.0/16,Alibaba
 IP-CIDR,182.92.170.253/32,NetEase
-IP-CIDR,182.92.170.253/32,NetEaseMusic
 IP-CIDR,183.131.168.0/24,KugouKuwo
 IP-CIDR,183.213.23.0/24,KugouKuwo
 IP-CIDR,183.232.72.0/24,KugouKuwo
@@ -10235,7 +10063,6 @@ IP-CIDR,183.232.79.0/24,KugouKuwo
 IP-CIDR,183.239.70.0/24,KugouKuwo
 IP-CIDR,183.57.150.0/24,KugouKuwo
 IP-CIDR,193.112.159.225/32,NetEase
-IP-CIDR,193.112.159.225/32,NetEaseMusic
 IP-CIDR,198.11.128.0/18,Alibaba
 IP-CIDR,203.107.1.0/24,BiliBili
 IP-CIDR,203.209.224.0/19,Alibaba
@@ -10279,9 +10106,7 @@ IP-CIDR,27.221.117.0/24,KugouKuwo
 IP-CIDR,36.25.241.0/24,KugouKuwo
 IP-CIDR,36.250.74.0/24,KugouKuwo
 IP-CIDR,39.105.175.128/32,NetEase
-IP-CIDR,39.105.175.128/32,NetEaseMusic
 IP-CIDR,39.105.63.80/32,NetEase
-IP-CIDR,39.105.63.80/32,NetEaseMusic
 IP-CIDR,41.222.240.0/22,Alibaba
 IP-CIDR,41.223.119.0/24,Alibaba
 IP-CIDR,42.120.0.0/16,Alibaba
@@ -10290,9 +10115,7 @@ IP-CIDR,43.242.168.0/22,Alibaba
 IP-CIDR,45.112.212.0/22,Alibaba
 IP-CIDR,45.113.40.0/22,Alibaba
 IP-CIDR,45.254.48.1/32,NetEase
-IP-CIDR,45.254.48.1/32,NetEaseMusic
 IP-CIDR,47.100.127.239/32,NetEase
-IP-CIDR,47.100.127.239/32,NetEaseMusic
 IP-CIDR,47.235.0.0/16,Alibaba
 IP-CIDR,47.236.0.0/14,Alibaba
 IP-CIDR,47.240.0.0/14,Alibaba
@@ -10322,9 +10145,7 @@ IP-CIDR,59.111.181.35/32,NetEase
 IP-CIDR,59.111.181.38/32,NetEase
 IP-CIDR,59.111.181.60/32,NetEase
 IP-CIDR,59.111.19.33/32,NetEase
-IP-CIDR,59.111.19.33/32,NetEaseMusic
 IP-CIDR,59.111.21.14/31,NetEase
-IP-CIDR,59.111.21.14/31,NetEaseMusic
 IP-CIDR,59.111.238.29/32,NetEase
 IP-CIDR,59.34.229.0/24,KugouKuwo
 IP-CIDR,59.47.73.0/24,KugouKuwo

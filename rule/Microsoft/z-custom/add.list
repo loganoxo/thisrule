@@ -1,0 +1,16 @@
+# Outlook 邮箱常用域名
+DOMAIN-SUFFIX,outlook.com,DIRECT
+DOMAIN-SUFFIX,office365.com,DIRECT
+DOMAIN-SUFFIX,live.com,DIRECT
+DOMAIN-SUFFIX,live.cn,DIRECT
+DOMAIN-SUFFIX,hotmail.com,DIRECT
+DOMAIN-SUFFIX,hotmail.cn,DIRECT
+
+# 邮件同步相关域名（Exchange）
+DOMAIN-SUFFIX,outlook.office365.com,DIRECT
+DOMAIN-SUFFIX,exchange.microsoft.com,DIRECT
+DOMAIN-SUFFIX,mail.protection.outlook.com,DIRECT
+
+# 自动发现邮件服务
+DOMAIN-SUFFIX,autodiscover.outlook.com,DIRECT
+DOMAIN-SUFFIX,autodiscover-s.outlook.com,DIRECT

@@ -1,0 +1,3 @@
+#> CDN 互联流量不能走 gcp
+DOMAIN-SUFFIX,1357810.xyz,CDN
+DOMAIN-SUFFIX,jsdelivr.net,CDN

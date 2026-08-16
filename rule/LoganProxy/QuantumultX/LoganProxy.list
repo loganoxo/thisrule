@@ -1,0 +1,51 @@
+# NAME: LoganProxy
+# CLIENT: QuantumultX
+# UPDATED: 2026-08-17 03:00:06
+# HOST: 4
+# HOST-SUFFIX: 36
+# HOST-KEYWORD: 2
+# HOST-WILDCARD: 1
+# TOTAL: 43
+HOST,ip-scan.adspower.net,全球加速
+HOST,ipv4.ping0.cc,全球加速
+HOST,ipv6.ping0.cc,全球加速
+HOST,ppg.369.cyou,机场
+HOST-SUFFIX,arin.net,全球加速
+HOST-SUFFIX,astrill.com,全球加速
+HOST-SUFFIX,astrill.org,全球加速
+HOST-SUFFIX,browserleaks.com,全球加速
+HOST-SUFFIX,browserleaks.org,全球加速
+HOST-SUFFIX,bunny.net,全球加速
+HOST-SUFFIX,coo.wiki,机场
+HOST-SUFFIX,cyberguard.best,机场
+HOST-SUFFIX,cyberguard.cfd,机场
+HOST-SUFFIX,dnsleak.asn247.net,全球加速
+HOST-SUFFIX,dnsleak.com,全球加速
+HOST-SUFFIX,dnsleaktest.com,全球加速
+HOST-SUFFIX,expressvpn.com,全球加速
+HOST-SUFFIX,feedly.com,全球加速
+HOST-SUFFIX,fengchiyx.xyz,机场
+HOST-SUFFIX,ipapi.co,全球加速
+HOST-SUFFIX,ipleak.net,全球加速
+HOST-SUFFIX,istatmenus.app,全球加速
+HOST-SUFFIX,lyf520.xyz,机场
+HOST-SUFFIX,mojie.co,机场
+HOST-SUFFIX,nordvpn.com,全球加速
+HOST-SUFFIX,paopao.dog,机场
+HOST-SUFFIX,perfect-privacy.com,全球加速
+HOST-SUFFIX,pixelscan.net,全球加速
+HOST-SUFFIX,qtt-163cdn.com,机场
+HOST-SUFFIX,rsshub.app,全球加速
+HOST-SUFFIX,stentvessel.shop,机场
+HOST-SUFFIX,subxiandan.top,机场
+HOST-SUFFIX,surfshark.com,全球加速
+HOST-SUFFIX,surfsharkdns.com,全球加速
+HOST-SUFFIX,v2ex.com,全球加速
+HOST-SUFFIX,vpnunlimited.com,全球加速
+HOST-SUFFIX,whoer.net,全球加速
+HOST-SUFFIX,whrq.net,全球加速
+HOST-SUFFIX,xsus.cam,机场
+HOST-SUFFIX,xsus.wiki,机场
+HOST-KEYWORD,candytally.,机场
+HOST-KEYWORD,xsus.,机场
+HOST-WILDCARD,*candytally.*,DIRECT

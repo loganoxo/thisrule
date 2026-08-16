@@ -1,23 +1,24 @@
 # NAME: Apple_Resolve
 # CLIENT: Surge
-# UPDATED: 2026-08-16 20:49:17
-# DOMAIN: 78
+# UPDATED: 2026-08-17 03:00:06
+# DOMAIN: 82
 # DOMAIN-SUFFIX: 1578
-# DOMAIN-KEYWORD: 7
+# DOMAIN-KEYWORD: 9
 # IP-CIDR: 10
 # IP-CIDR6: 3
 # USER-AGENT: 23
 # PROCESS-NAME: 13
-# TOTAL: 1712
+# TOTAL: 1718
 DOMAIN,appldnld-cdn.apple.com.akadns.net
 DOMAIN,appldnld-cdn.origin-apple.com.akadns.net
 DOMAIN,appldnld.apple.com.mwcname.com
 DOMAIN,apple-events.akamaized.net
 DOMAIN,appleid.apple.com
-DOMAIN,appleid.cdn-apple.com
+DOMAIN,appleid.cdn-apple.com,DIRECT
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
+DOMAIN,captive.apple.com,DIRECT
 DOMAIN,configuration.apple.com
 DOMAIN,e16991.b.akamaiedge.net
 DOMAIN,edge.apple
@@ -66,6 +67,8 @@ DOMAIN,radarsubmissions.apple.com
 DOMAIN,radarsubmissions.apple.com.akadns.net
 DOMAIN,radarsubmissions.apple.com.mwcname.com
 DOMAIN,radarsubmissions.g.aaplimg.com
+DOMAIN,seed-sequoia.siri.apple.com,DIRECT
+DOMAIN,sequoia.apple.com,DIRECT
 DOMAIN,skl.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,swdist.apple.com
@@ -78,6 +81,7 @@ DOMAIN,swscan.apple.com
 DOMAIN,swscan.apple.com.akadns.net
 DOMAIN,swscan.apple.com.mwcname.com
 DOMAIN,swscan.g.aaplimg.com
+DOMAIN,timestamp.apple.com,DIRECT
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates.cdn-apple.com
 DOMAIN,xp-cdn.apple.com.akadns.net
@@ -1666,9 +1670,11 @@ DOMAIN-SUFFIX,xn--ohq11k7pl25iyo8a.cn
 DOMAIN-SUFFIX,xn--ruq8a011kt6y.xn--hxt814e
 DOMAIN-SUFFIX,yourmonsterbeats.com
 DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN-KEYWORD,apple.,DIRECT
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,buy.itunes.apple.com
+DOMAIN-KEYWORD,cdn-apple,DIRECT
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,testflight

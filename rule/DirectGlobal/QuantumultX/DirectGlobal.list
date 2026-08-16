@@ -1,0 +1,26 @@
+# NAME: DirectGlobal
+# CLIENT: QuantumultX
+# UPDATED: 2026-08-17 03:00:06
+# HOST: 12
+# HOST-SUFFIX: 6
+# HOST-KEYWORD: 1
+# TOTAL: 19
+HOST,api.bitwarden.com,全球直连
+HOST,bitwarden.com,全球直连
+HOST,bitwarden.eu,全球直连
+HOST,bitwarden.net,全球直连
+HOST,bitwarden.sh,全球直连
+HOST,icons.bitwarden.net,全球直连
+HOST,identity.bitwarden.com,全球直连
+HOST,ip4.istatmenus.app,全球直连
+HOST,ip6.istatmenus.app,全球直连
+HOST,notifications.bitwarden.com,全球直连
+HOST,vault.bitwarden.com,全球直连
+HOST,www.bitwarden.com,全球直连
+HOST-SUFFIX,aihubmix.com,全球直连
+HOST-SUFFIX,bitwarden.com,全球直连
+HOST-SUFFIX,bitwarden.eu,全球直连
+HOST-SUFFIX,bitwarden.net,全球直连
+HOST-SUFFIX,bitwarden.sh,全球直连
+HOST-SUFFIX,ryplay8.com,全球直连
+HOST-KEYWORD,ffzy-online,全球直连

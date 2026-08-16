@@ -67,29 +67,33 @@ QX_ALLOWED_TYPES = {
 
 
 def get_rule_key(rule: str) -> tuple[str, str]:
-  # 使用括号感知的分隔逻辑, 避免将逻辑规则(如AND, OR)内的逗号误认为顶层分隔符
   parts = []
-  current = []
-  depth = 0
-  for char in rule:
-    if char == '(':
-      depth += 1
-      current.append(char)
-    elif char == ')':
-      depth -= 1
-      current.append(char)
-    elif char == ',' and depth == 0:
-      parts.append("".join(current).strip())
-      current = []
-      # 我们只需要前两项作为去重的 key, 所以提取到两项后即可停止
-      if len(parts) == 2:
-        break
-    else:
-      current.append(char)
 
-  # 补充最后剩余部分 (如果规则中没有足够的逗号)
-  if len(parts) < 2 and current:
-    parts.append("".join(current).strip())
+  # 增加快速通道: 如果规则中根本没有括号, 直接使用 Python 底层的 split 提高效率
+  if "(" not in rule:
+    parts = rule.split(",", 2)
+  else:
+    # 使用括号感知的分隔逻辑, 避免将逻辑规则(如AND, OR)内的逗号误认为顶层分隔符
+    current = []
+    depth = 0
+    for char in rule:
+      if char == '(':
+        depth += 1
+        current.append(char)
+      elif char == ')':
+        depth -= 1
+        current.append(char)
+      elif char == ',' and depth == 0:
+        parts.append("".join(current).strip())
+        current = []
+        # 我们只需要前两项作为去重的 key, 所以提取到两项后即可停止
+        if len(parts) == 2:
+          break
+      else:
+        current.append(char)
+    # 补充最后剩余部分 (如果规则中没有足够的逗号)
+    if len(parts) < 2 and current:
+      parts.append("".join(current).strip())
 
   if len(parts) >= 2:
     # 第一项不区分大小写(转小写), 第二项区分大小写(保持原样)

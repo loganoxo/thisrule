@@ -1,0 +1,8 @@
+DOMAIN,timestamp.apple.com,DIRECT
+DOMAIN,sequoia.apple.com,DIRECT
+DOMAIN,seed-sequoia.siri.apple.com,DIRECT
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,appleid.cdn-apple.com,DIRECT
+DOMAIN-KEYWORD,cdn-apple,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-KEYWORD,apple.,DIRECT

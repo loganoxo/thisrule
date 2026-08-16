@@ -1,0 +1,8 @@
+# YouTube 屏蔽quic协议
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC)),REJECT
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC)),REJECT
+# 屏蔽443端口的udp的国外流量,屏蔽quic协议的国外流量
+# AND,((NOT,((GEOIP,CN))),(DEST-PORT,443),(PROTOCOL,UDP)),REJECT
+# AND,((NOT,((GEOIP,CN))),(PROTOCOL,QUIC)),REJECT
+# AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT
+# AND,((PROTOCOL,QUIC)),REJECT

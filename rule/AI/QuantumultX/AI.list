@@ -1,17 +1,15 @@
 # NAME: AI
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-16 20:49:17
-# HOST: 53
-# HOST-SUFFIX: 288
+# UPDATED: 2026-08-17 03:00:06
+# HOST: 47
+# HOST-SUFFIX: 261
 # HOST-KEYWORD: 9
-# IP-CIDR: 4
-# IP-ASN: 3
-# TOTAL: 357
+# IP-CIDR: 2
+# IP-ASN: 2
+# TOTAL: 321
 HOST,ai.azure.com,AI
 HOST,ai.google.dev,BardAI
-HOST,ai.google.dev,Gemini
 HOST,alkalimakersuite-pa.clients6.google.com,BardAI
-HOST,alkalimakersuite-pa.clients6.google.com,Gemini
 HOST,api.cloudflare.com,AI
 HOST,api.jetbrains.ai,AI
 HOST,api.msn.com,Copilot
@@ -23,11 +21,9 @@ HOST,auth.grazie.ai,AI
 HOST,aws-language-servers.us-east-1.amazonaws.com,AI
 HOST,aws-toolkit-language-servers.amazonaws.com,AI
 HOST,browser-intake-datadoghq.com,Copilot
-HOST,browser-intake-datadoghq.com,OpenAI
 HOST,build.nvidia.com,AI
 HOST,cdn.usefathom.com,Claude
 HOST,chat.openai.com.cdn.cloudflare.net,Copilot
-HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
 HOST,clau.de,AI
 HOST,client-telemetry.us-east-1.amazonaws.com,AI
 HOST,codewhisperer.us-east-1.amazonaws.com,AI
@@ -36,6 +32,7 @@ HOST,desktop-release.codewhisperer.us-east-1.amazonaws.com,AI
 HOST,gateway.ai.cloudflare.com,AI
 HOST,gateway.bingviz.microsoft.net,Copilot
 HOST,gateway.bingviz.microsoftapp.net,Copilot
+HOST,gemini.google.com,国外AI平台
 HOST,generativelanguage.googleapis.com,BardAI
 HOST,idetoolkits-hostedfiles.amazonaws.com,AI
 HOST,idetoolkits.amazonwebservices.com,AI
@@ -43,15 +40,11 @@ HOST,in.appcenter.ms,Copilot
 HOST,integrate.api.nvidia.com,AI
 HOST,location.microsoft.com,Copilot
 HOST,makersuite.google.com,BardAI
-HOST,makersuite.google.com,Gemini
 HOST,odc.officeapps.live.com,Copilot
 HOST,openai-api.arkoselabs.com,Copilot
-HOST,openai-api.arkoselabs.com,OpenAI
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
 HOST,openaicomproductionae4b.blob.core.windows.net,Copilot
-HOST,openaicomproductionae4b.blob.core.windows.net,OpenAI
 HOST,production-openaicom-storage.azureedge.net,Copilot
-HOST,production-openaicom-storage.azureedge.net,OpenAI
 HOST,q.us-east-1.amazonaws.com,AI
 HOST,r.bing.com,Copilot
 HOST,self.events.data.microsoft.com,Copilot
@@ -60,21 +53,22 @@ HOST,services.bingapis.com,Copilot
 HOST,specs.q.us-east-1.amazonaws.com,AI
 HOST,sydney.bing.com,Copilot
 HOST,telemetry.aws-language-servers.us-east-1.amazonaws.com,AI
+HOST,webresultproxy.diabrowser.engineering,国外AI平台
+HOST-SUFFIX,agentrouter.org,国外AI平台
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,ai21.com,AI
 HOST-SUFFIX,ai21labs.com,AI
 HOST-SUFFIX,aiplatform.googleapis.com,AI
 HOST-SUFFIX,aleph-alpha.com,AI
 HOST-SUFFIX,algolia.net,Copilot
-HOST-SUFFIX,algolia.net,OpenAI
 HOST-SUFFIX,allenai.org,AI
 HOST-SUFFIX,ampcode.ai,AI
 HOST-SUFFIX,ampcode.com,AI
 HOST-SUFFIX,anthropic.com,Anthropic
-HOST-SUFFIX,anthropic.com,Claude
 HOST-SUFFIX,anyscale.com,AI
+HOST-SUFFIX,anything.com,国外AI平台
 HOST-SUFFIX,api.microsoftapp.net,Copilot
-HOST-SUFFIX,api.nvidia.com,AI
+HOST-SUFFIX,api.nvidia.com,国外AI平台
 HOST-SUFFIX,api.statsig.com,OpenAI
 HOST-SUFFIX,apify.com,AI
 HOST-SUFFIX,apis.google.com,Gemini
@@ -84,10 +78,8 @@ HOST-SUFFIX,assemblyai.com,AI
 HOST-SUFFIX,augment.dev,AI
 HOST-SUFFIX,augmentcode.com,AI
 HOST-SUFFIX,auth0.com,Copilot
-HOST-SUFFIX,auth0.com,OpenAI
 HOST-SUFFIX,azuredatabricks.net,AI
 HOST-SUFFIX,bard.google.com,BardAI
-HOST-SUFFIX,bard.google.com,Gemini
 HOST-SUFFIX,bardeen.ai,AI
 HOST-SUFFIX,baseten.co,AI
 HOST-SUFFIX,beautiful.ai,AI
@@ -104,14 +96,11 @@ HOST-SUFFIX,captions.ai,AI
 HOST-SUFFIX,cartesia.ai,AI
 HOST-SUFFIX,chargebee.com,AI
 HOST-SUFFIX,chat.com,AI
-HOST-SUFFIX,chatgpt.com,Copilot
-HOST-SUFFIX,chatgpt.com,OpenAI
+HOST-SUFFIX,chatgpt.com,国外AI平台
 HOST-SUFFIX,chatgpt.livekit.cloud,Copilot
-HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
 HOST-SUFFIX,checkout.com,AI
 HOST-SUFFIX,civitai.com,Civitai
 HOST-SUFFIX,claude.ai,Anthropic
-HOST-SUFFIX,claude.ai,Claude
 HOST-SUFFIX,claude.com,AI
 HOST-SUFFIX,claude.site,AI
 HOST-SUFFIX,claudemcpclient.com,AI
@@ -119,7 +108,6 @@ HOST-SUFFIX,claudemcpcontent.com,AI
 HOST-SUFFIX,claudeusercontent.com,AI
 HOST-SUFFIX,clawhub.ai,AI
 HOST-SUFFIX,client-api.arkoselabs.com,Copilot
-HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
 HOST-SUFFIX,cline.bot,AI
 HOST-SUFFIX,cloud.databricks.com,AI
 HOST-SUFFIX,codeium.com,AI
@@ -137,9 +125,7 @@ HOST-SUFFIX,d-id.com,AI
 HOST-SUFFIX,deepgram.com,AI
 HOST-SUFFIX,deepinfra.com,AI
 HOST-SUFFIX,deepmind.com,BardAI
-HOST-SUFFIX,deepmind.com,Gemini
 HOST-SUFFIX,deepmind.google,BardAI
-HOST-SUFFIX,deepmind.google,Gemini
 HOST-SUFFIX,descript.com,AI
 HOST-SUFFIX,devin.ai,AI
 HOST-SUFFIX,diabrowser.ai,AI
@@ -149,7 +135,6 @@ HOST-SUFFIX,dreamstudio.ai,AI
 HOST-SUFFIX,dust.tt,AI
 HOST-SUFFIX,edgeservices.bing.com,Copilot
 HOST-SUFFIX,events.statsigapi.net,Copilot
-HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,exa.ai,AI
 HOST-SUFFIX,factory.ai,AI
 HOST-SUFFIX,fal.ai,AI
@@ -157,18 +142,16 @@ HOST-SUFFIX,fastspring.com,AI
 HOST-SUFFIX,fathom.video,AI
 HOST-SUFFIX,featureassets.org,AI
 HOST-SUFFIX,featuregates.org,Copilot
-HOST-SUFFIX,featuregates.org,OpenAI
 HOST-SUFFIX,firecrawl.dev,AI
 HOST-SUFFIX,fireflies.ai,AI
 HOST-SUFFIX,fireworks.ai,AI
 HOST-SUFFIX,fliki.ai,AI
+HOST-SUFFIX,freemodel.dev,国外AI平台
 HOST-SUFFIX,gamma.app,AI
 HOST-SUFFIX,gcp.databricks.com,AI
 HOST-SUFFIX,gemini.google,AI
-HOST-SUFFIX,gemini.google.com,BardAI
-HOST-SUFFIX,gemini.google.com,Gemini
+HOST-SUFFIX,gemini.google.com,国外AI平台
 HOST-SUFFIX,generativeai.google,BardAI
-HOST-SUFFIX,generativeai.google,Gemini
 HOST-SUFFIX,genmo.ai,AI
 HOST-SUFFIX,glean.com,AI
 HOST-SUFFIX,grammarly.com,AI
@@ -190,19 +173,15 @@ HOST-SUFFIX,heygen.com,AI
 HOST-SUFFIX,hf.space,AI
 HOST-SUFFIX,higgsfield.ai,AI
 HOST-SUFFIX,host.livekit.cloud,Copilot
-HOST-SUFFIX,host.livekit.cloud,OpenAI
 HOST-SUFFIX,hume.ai,AI
 HOST-SUFFIX,hyperbolic.ai,AI
 HOST-SUFFIX,hyperbolic.xyz,AI
 HOST-SUFFIX,id.me,AI
 HOST-SUFFIX,identrust.com,Copilot
-HOST-SUFFIX,identrust.com,OpenAI
 HOST-SUFFIX,ideogram.ai,AI
 HOST-SUFFIX,inflection.ai,AI
 HOST-SUFFIX,intercom.io,Copilot
-HOST-SUFFIX,intercom.io,OpenAI
 HOST-SUFFIX,intercomcdn.com,Copilot
-HOST-SUFFIX,intercomcdn.com,OpenAI
 HOST-SUFFIX,invideo.io,AI
 HOST-SUFFIX,jasper.ai,AI
 HOST-SUFFIX,kaiber.ai,AI
@@ -215,7 +194,6 @@ HOST-SUFFIX,langchain.com,AI
 HOST-SUFFIX,langfuse.com,AI
 HOST-SUFFIX,langsmith.com,AI
 HOST-SUFFIX,launchdarkly.com,Copilot
-HOST-SUFFIX,launchdarkly.com,OpenAI
 HOST-SUFFIX,lemonsqueezy.com,AI
 HOST-SUFFIX,leonardo.ai,AI
 HOST-SUFFIX,lindy.ai,AI
@@ -244,18 +222,12 @@ HOST-SUFFIX,nebius.com,AI
 HOST-SUFFIX,nomic.ai,AI
 HOST-SUFFIX,nousresearch.com,AI
 HOST-SUFFIX,oaistatic.com,Copilot
-HOST-SUFFIX,oaistatic.com,OpenAI
 HOST-SUFFIX,oaiusercontent.com,Copilot
-HOST-SUFFIX,oaiusercontent.com,OpenAI
 HOST-SUFFIX,observeit.net,Copilot
-HOST-SUFFIX,observeit.net,OpenAI
 HOST-SUFFIX,openai.azure.com,AI
 HOST-SUFFIX,openai.com,Copilot
-HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,openaiapi-site.azureedge.net,Copilot
-HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
 HOST-SUFFIX,openaicom.imgix.net,Copilot
-HOST-SUFFIX,openaicom.imgix.net,OpenAI
 HOST-SUFFIX,openclaw.ai,AI
 HOST-SUFFIX,opencode.ai,AI
 HOST-SUFFIX,opencode.com,AI
@@ -275,7 +247,6 @@ HOST-SUFFIX,playgroundai.com,AI
 HOST-SUFFIX,plusai.com,AI
 HOST-SUFFIX,portkey.ai,AI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,BardAI
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,Gemini
 HOST-SUFFIX,qdrant.tech,AI
 HOST-SUFFIX,qodo.ai,AI
 HOST-SUFFIX,quillbot.com,AI
@@ -296,9 +267,7 @@ HOST-SUFFIX,rytr.me,AI
 HOST-SUFFIX,sambanova.ai,AI
 HOST-SUFFIX,scrapingbee.com,AI
 HOST-SUFFIX,segment.io,Copilot
-HOST-SUFFIX,segment.io,OpenAI
 HOST-SUFFIX,sentry.io,Copilot
-HOST-SUFFIX,sentry.io,OpenAI
 HOST-SUFFIX,serpapi.com,AI
 HOST-SUFFIX,serper.dev,AI
 HOST-SUFFIX,sheerid.com,AI
@@ -310,7 +279,6 @@ HOST-SUFFIX,sourcery.ai,AI
 HOST-SUFFIX,speechify.com,AI
 HOST-SUFFIX,stability.ai,AI
 HOST-SUFFIX,stripe.com,Copilot
-HOST-SUFFIX,stripe.com,OpenAI
 HOST-SUFFIX,sudowrite.com,AI
 HOST-SUFFIX,supermaven.com,AI
 HOST-SUFFIX,sweep.dev,AI
@@ -324,7 +292,6 @@ HOST-SUFFIX,topazlabs.com,AI
 HOST-SUFFIX,trychroma.com,AI
 HOST-SUFFIX,turbopuffer.com,AI
 HOST-SUFFIX,turn.livekit.cloud,Copilot
-HOST-SUFFIX,turn.livekit.cloud,OpenAI
 HOST-SUFFIX,udio.com,AI
 HOST-SUFFIX,v0.app,AI
 HOST-SUFFIX,v0.dev,AI
@@ -344,7 +311,7 @@ HOST-SUFFIX,windsurf.ai,AI
 HOST-SUFFIX,wordtune.com,AI
 HOST-SUFFIX,writer.com,AI
 HOST-SUFFIX,writesonic.com,AI
-HOST-SUFFIX,x.ai,AI
+HOST-SUFFIX,x.ai,国外AI平台
 HOST-SUFFIX,you.com,AI
 HOST-SUFFIX,zed.dev,AI
 HOST-SUFFIX,zenrows.com,AI
@@ -358,9 +325,6 @@ HOST-KEYWORD,generativelanguage,Gemini
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,openaicom-api,Copilot
 IP-CIDR,24.199.123.28/32,Copilot
-IP-CIDR,24.199.123.28/32,OpenAI
 IP-CIDR,64.23.132.171/32,Copilot
-IP-CIDR,64.23.132.171/32,OpenAI
 IP-ASN,14061,Copilot
 IP-ASN,20473,Copilot
-IP-ASN,20473,OpenAI

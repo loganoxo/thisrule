@@ -1,0 +1,22 @@
+# NAME: Emby_Resolve
+# CLIENT: Loon
+# UPDATED: 2026-08-17 03:00:06
+# DOMAIN-SUFFIX: 15
+# IP-CIDR: 1
+# TOTAL: 16
+DOMAIN-SUFFIX,as174.de,Emby
+DOMAIN-SUFFIX,bangumi.ca,Emby
+DOMAIN-SUFFIX,bili.rip,Emby
+DOMAIN-SUFFIX,candytallymovie.vip,Emby
+DOMAIN-SUFFIX,emby.moe,Emby
+DOMAIN-SUFFIX,inemby.us.ci,Emby
+DOMAIN-SUFFIX,loseremby.org,Emby
+DOMAIN-SUFFIX,m78tv.com,Emby
+DOMAIN-SUFFIX,micu.hk,Emby
+DOMAIN-SUFFIX,nijigem.by,Emby
+DOMAIN-SUFFIX,stentvessel.xyz,Emby
+DOMAIN-SUFFIX,uhdnow.com,Emby
+DOMAIN-SUFFIX,xxlb.net,Emby
+DOMAIN-SUFFIX,zabc.net,Emby
+DOMAIN-SUFFIX,zox.show,Emby
+IP-CIDR,154.12.52.149/25,Emby

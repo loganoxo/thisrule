@@ -1,12 +1,12 @@
 # NAME: AI_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-08-16 20:49:17
-# DOMAIN: 45
-# DOMAIN-SUFFIX: 258
+# UPDATED: 2026-08-17 03:00:06
+# DOMAIN: 47
+# DOMAIN-SUFFIX: 261
 # DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 316
+# TOTAL: 321
 DOMAIN,ai.azure.com,AI
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -32,6 +32,7 @@ DOMAIN,desktop-release.codewhisperer.us-east-1.amazonaws.com,AI
 DOMAIN,gateway.ai.cloudflare.com,AI
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,gemini.google.com,国外AI平台
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,idetoolkits-hostedfiles.amazonaws.com,AI
 DOMAIN,idetoolkits.amazonwebservices.com,AI
@@ -52,6 +53,8 @@ DOMAIN,services.bingapis.com
 DOMAIN,specs.q.us-east-1.amazonaws.com,AI
 DOMAIN,sydney.bing.com
 DOMAIN,telemetry.aws-language-servers.us-east-1.amazonaws.com,AI
+DOMAIN,webresultproxy.diabrowser.engineering,国外AI平台
+DOMAIN-SUFFIX,agentrouter.org,国外AI平台
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,ai21.com,AI
 DOMAIN-SUFFIX,ai21labs.com,AI
@@ -63,8 +66,9 @@ DOMAIN-SUFFIX,ampcode.ai,AI
 DOMAIN-SUFFIX,ampcode.com,AI
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
+DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,AI
+DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com
@@ -92,7 +96,7 @@ DOMAIN-SUFFIX,captions.ai,AI
 DOMAIN-SUFFIX,cartesia.ai,AI
 DOMAIN-SUFFIX,chargebee.com,AI
 DOMAIN-SUFFIX,chat.com,AI
-DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.com,国外AI平台
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,checkout.com,AI
 DOMAIN-SUFFIX,civitai.com
@@ -142,10 +146,11 @@ DOMAIN-SUFFIX,firecrawl.dev,AI
 DOMAIN-SUFFIX,fireflies.ai,AI
 DOMAIN-SUFFIX,fireworks.ai,AI
 DOMAIN-SUFFIX,fliki.ai,AI
+DOMAIN-SUFFIX,freemodel.dev,国外AI平台
 DOMAIN-SUFFIX,gamma.app,AI
 DOMAIN-SUFFIX,gcp.databricks.com,AI
 DOMAIN-SUFFIX,gemini.google,AI
-DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google.com,国外AI平台
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,genmo.ai,AI
 DOMAIN-SUFFIX,glean.com,AI

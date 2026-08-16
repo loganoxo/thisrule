@@ -1,14 +1,14 @@
 # NAME: Apple
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-16 20:49:17
-# HOST: 354
-# HOST-SUFFIX: 1604
-# HOST-KEYWORD: 7
-# HOST-WILDCARD: 15
+# UPDATED: 2026-08-17 03:00:06
+# HOST: 340
+# HOST-SUFFIX: 1578
+# HOST-KEYWORD: 9
+# HOST-WILDCARD: 16
 # IP-CIDR: 10
 # IP6-CIDR: 3
 # USER-AGENT: 23
-# TOTAL: 2016
+# TOTAL: 1979
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -34,19 +34,16 @@ HOST,app-site-association.cdn-apple.com,Apple
 HOST,appldnld-cdn.apple.com.akadns.net,SystemOTA
 HOST,appldnld-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,appldnld-lb.apple.com.akadns.net,SystemOTA
-HOST,appldnld.apple.com,Apple
 HOST,appldnld.apple.com,SystemOTA
 HOST,appldnld.apple.com.akadns.net,SystemOTA
 HOST,appldnld.apple.com.edgesuite.net,Apple
 HOST,appldnld.apple.com.mwcname.com,SystemOTA
-HOST,appldnld.g.aaplimg.com,Apple
 HOST,appldnld.g.aaplimg.com,SystemOTA
 HOST,apple-events.akamaized.net,Apple
 HOST,apple.com.akadns.net,Apple
 HOST,apple.comscoreresearch.com,Apple
 HOST,appleid.apple.com,AppleID
-HOST,appleid.cdn-apple.com,Apple
-HOST,appleid.cdn-apple.com,AppleID
+HOST,appleid.cdn-apple.com,DIRECT
 HOST,appleworldwidedeveloper.hb-api.omtrdc.net,Apple
 HOST,appleworldwidedeveloper.sc.omtrdc.net,Apple
 HOST,apps.apple.com,Apple
@@ -62,6 +59,7 @@ HOST,beta.apple.com,Apple
 HOST,beta.music.apple.com,Apple
 HOST,bookkeeper.itunes.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
+HOST,captive.apple.com,DIRECT
 HOST,cdn-cn1.apple-mapkit.com,Apple
 HOST,cdn-cn2.apple-mapkit.com,Apple
 HOST,cdn-cn3.apple-mapkit.com,Apple
@@ -95,7 +93,6 @@ HOST,clientflow.apple.com.akadns.net,Apple
 HOST,cma.itunes.apple.com,Apple
 HOST,cn-smp-paymentservices.apple.com,Apple
 HOST,communities.apple.com,Apple
-HOST,configuration.apple.com,Apple
 HOST,configuration.apple.com,SystemOTA
 HOST,configuration.apple.com.akadns.net,Apple
 HOST,courier-push-apple.com.akadns.net,Apple
@@ -224,12 +221,10 @@ HOST,mask-h2.icloud.com,Apple
 HOST,mask-t.apple-dns.net,Apple
 HOST,mask.apple-dns.net,Apple
 HOST,mask.icloud.com,Apple
-HOST,mesu-cdn.apple.com.akadns.net,Apple
 HOST,mesu-cdn.apple.com.akadns.net,SystemOTA
 HOST,mesu-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,mesu-china.apple.com.akadns.net,Apple
 HOST,mesu-lb.apple.com.akadns.net,SystemOTA
-HOST,mesu.apple.com,Apple
 HOST,mesu.apple.com,SystemOTA
 HOST,mesu.apple.com.akadns.net,SystemOTA
 HOST,mesu.apple.com.mwcname.com,SystemOTA
@@ -246,16 +241,13 @@ HOST,np-edge.itunes.apple.com,Apple
 HOST,ns.itunes.apple.com,SystemOTA
 HOST,ocsp-cdn.apple.com.akadns.net,SystemOTA
 HOST,ocsp-cdn.origin-apple.com.akadns.net,SystemOTA
-HOST,ocsp-lb.apple.com.akadns.net,Apple
 HOST,ocsp-lb.apple.com.akadns.net,SystemOTA
-HOST,ocsp.apple.com,Apple
 HOST,ocsp.apple.com,SystemOTA
 HOST,ocsp.apple.com.akadns.net,SystemOTA
 HOST,ocsp.apple.com.mwcname.com,SystemOTA
 HOST,ocsp.g.aaplimg.com,SystemOTA
 HOST,ocsp2-lb.apple.com.akadns.net,Apple
 HOST,ocsp2.apple.com,Apple
-HOST,oscdn.apple.com,Apple
 HOST,oscdn.apple.com,SystemOTA
 HOST,oscdn.origin-apple.com.akadns.net,Apple
 HOST,osrecovery.apple.com,SystemOTA
@@ -287,10 +279,10 @@ HOST,se-edge.itunes.apple.com,Apple
 HOST,se.itunes.apple.com,Apple
 HOST,se2.itunes.apple.com,Apple
 HOST,search.itunes.apple.com,Apple
-HOST,seed-sequoia.siri.apple.com,Apple
+HOST,seed-sequoia.siri.apple.com,DIRECT
 HOST,seed-swallow.siri.apple.com,Apple
 HOST,seed.siri.apple.com,Apple
-HOST,sequoia.apple.com,Apple
+HOST,sequoia.apple.com,DIRECT
 HOST,sf-api-token-service.itunes.apple.com,Apple
 HOST,sh-pod2-smp-device.apple.com,Apple
 HOST,shazam-insights.cdn-apple.com,Apple
@@ -315,19 +307,15 @@ HOST,swallow-apple-com.v.aaplimg.com,Apple
 HOST,swallow.apple.com,Apple
 HOST,swcatalog-cdn.apple.com.akadns.net,Apple
 HOST,swcatalog.apple.com,Apple
-HOST,swcdn.apple.com,Apple
 HOST,swcdn.apple.com,SystemOTA
 HOST,swcdn.g.aaplimg.com,Apple
-HOST,swdist.apple.com,Apple
 HOST,swdist.apple.com,SystemOTA
 HOST,swdist.apple.com.akadns.net,Apple
 HOST,swdownload.apple.com,SystemOTA
 HOST,swpost.apple.com,SystemOTA
-HOST,swscan-cdn.apple.com.akadns.net,Apple
 HOST,swscan-cdn.apple.com.akadns.net,SystemOTA
 HOST,swscan-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,swscan-lb.apple.com.akadns.net,SystemOTA
-HOST,swscan.apple.com,Apple
 HOST,swscan.apple.com,SystemOTA
 HOST,swscan.apple.com.akadns.net,SystemOTA
 HOST,swscan.apple.com.mwcname.com,SystemOTA
@@ -335,12 +323,11 @@ HOST,swscan.g.aaplimg.com,SystemOTA
 HOST,sylvan.apple.com,Apple
 HOST,sync.itunes.apple.com,Apple
 HOST,testflight.apple.com,Apple
+HOST,timestamp.apple.com,DIRECT
 HOST,tj-pod1-smp-device.apple.com,Apple
 HOST,tv.applemusic.com,Apple
-HOST,updates-http.cdn-apple.com,Apple
 HOST,updates-http.cdn-apple.com,SystemOTA
 HOST,updates-http.cdn-apple.com.akadns.net,Apple
-HOST,updates.cdn-apple.com,Apple
 HOST,updates.cdn-apple.com,SystemOTA
 HOST,upp.itunes.apple.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
@@ -358,7 +345,6 @@ HOST,www.apple.com.edgekey.net.globalredir.akadns.net,Apple
 HOST,xp-cdn.apple.com.akadns.net,SystemOTA
 HOST,xp-cdn.origin-apple.com.akadns.net,SystemOTA
 HOST,xp-lb.apple.com.akadns.net,SystemOTA
-HOST,xp.apple.com,Apple
 HOST,xp.apple.com,SystemOTA
 HOST,xp.apple.com.akadns.net,SystemOTA
 HOST,xp.apple.com.mwcname.com,SystemOTA
@@ -438,7 +424,6 @@ HOST-SUFFIX,appldnld.apple.com.akadns.net,SystemOTA
 HOST-SUFFIX,appldnld.apple.com.edgesuite.net,Apple
 HOST-SUFFIX,appldnld.g.aaplimg.com,SystemOTA
 HOST-SUFFIX,apple-appstore.cn,Apple
-HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,AppleDev
 HOST-SUFFIX,apple-darwin.com,Apple
 HOST-SUFFIX,apple-darwin.net,Apple
@@ -457,7 +442,6 @@ HOST-SUFFIX,apple-imac.com,Apple
 HOST-SUFFIX,apple-inc.net,Apple
 HOST-SUFFIX,apple-itunes.cn,Apple
 HOST-SUFFIX,apple-livephotoskit.com,Apple
-HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,AppleDev
 HOST-SUFFIX,apple-maps.cn,Apple
 HOST-SUFFIX,apple-online.com,Apple
@@ -488,7 +472,7 @@ HOST-SUFFIX,apple.co.mz,Apple
 HOST-SUFFIX,apple.co.nz,Apple
 HOST-SUFFIX,apple.co.th,Apple
 HOST-SUFFIX,apple.co.uk,Apple
-HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,apple.com.af,Apple
 HOST-SUFFIX,apple.com.akadns.net,AppleDev
 HOST-SUFFIX,apple.com.au,Apple
@@ -746,7 +730,6 @@ HOST-SUFFIX,applestore.wang,Apple
 HOST-SUFFIX,applestoreonline.com,Apple
 HOST-SUFFIX,applestorepro.eu,Apple
 HOST-SUFFIX,applesurveys.com,Apple
-HOST-SUFFIX,appleswift.com,Apple
 HOST-SUFFIX,appleswift.com,AppleDev
 HOST-SUFFIX,appletaiwan.com,Apple
 HOST-SUFFIX,appletips.net,Apple
@@ -1100,13 +1083,11 @@ HOST-SUFFIX,buyshoponly.com,Apple
 HOST-SUFFIX,buzzardflapper.com,Apple
 HOST-SUFFIX,bybeatsdre.com,Apple
 HOST-SUFFIX,bydrebeats.com,Apple
-HOST-SUFFIX,calendarserver.org,Apple
 HOST-SUFFIX,calendarserver.org,AppleDev
 HOST-SUFFIX,camelphat.com,Apple
 HOST-SUFFIX,camelspaceeffect.com,Apple
 HOST-SUFFIX,canada-beatsbydre.com,Apple
 HOST-SUFFIX,carbon.com,Apple
-HOST-SUFFIX,carekit.org,Apple
 HOST-SUFFIX,carekit.org,AppleDev
 HOST-SUFFIX,casque-fr.com,Apple
 HOST-SUFFIX,casquebeatsbydrdresolohd.com,Apple
@@ -1192,7 +1173,6 @@ HOST-SUFFIX,cozydrdrebeats.com,Apple
 HOST-SUFFIX,cqcorea.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
 HOST-SUFFIX,cuffiesaldi.com,Apple
-HOST-SUFFIX,cups.org,Apple
 HOST-SUFFIX,cups.org,AppleDev
 HOST-SUFFIX,custom-iphonecase.com,Apple
 HOST-SUFFIX,custombeatsbydrebuy.com,Apple
@@ -1321,7 +1301,6 @@ HOST-SUFFIX,findmybeats.com,Apple
 HOST-SUFFIX,findmyipad.com,Apple
 HOST-SUFFIX,firewire.cl,Apple
 HOST-SUFFIX,firewire.eu,Apple
-HOST-SUFFIX,foundationdb.org,Apple
 HOST-SUFFIX,foundationdb.org,AppleDev
 HOST-SUFFIX,fr-beatsbydrestore.com,Apple
 HOST-SUFFIX,francecasquebeatssolde.com,Apple
@@ -1665,7 +1644,6 @@ HOST-SUFFIX,macintosh.eu,Apple
 HOST-SUFFIX,macintoshsoftware.com,Apple
 HOST-SUFFIX,macmini.com,Apple
 HOST-SUFFIX,macos.com.au,Apple
-HOST-SUFFIX,macosforge.org,Apple
 HOST-SUFFIX,macosforge.org,AppleDev
 HOST-SUFFIX,macossierra.com,Apple
 HOST-SUFFIX,macosx.info,Apple
@@ -1673,11 +1651,8 @@ HOST-SUFFIX,macosxlion.com,Apple
 HOST-SUFFIX,macpazar.com,Apple
 HOST-SUFFIX,macreach.com,Apple
 HOST-SUFFIX,macreach.net,Apple
-HOST-SUFFIX,macruby.com,Apple
 HOST-SUFFIX,macruby.com,AppleDev
-HOST-SUFFIX,macruby.net,Apple
 HOST-SUFFIX,macruby.net,AppleDev
-HOST-SUFFIX,macruby.org,Apple
 HOST-SUFFIX,macruby.org,AppleDev
 HOST-SUFFIX,mairbeats.com,Apple
 HOST-SUFFIX,makeeu.com,Apple
@@ -1834,19 +1809,12 @@ HOST-SUFFIX,rbsgr.com,Apple
 HOST-SUFFIX,reform-apple.com,Apple
 HOST-SUFFIX,repsneakermall.com,Apple
 HOST-SUFFIX,repswing.com,Apple
-HOST-SUFFIX,researchandcare.org,Apple
 HOST-SUFFIX,researchandcare.org,AppleDev
-HOST-SUFFIX,researchkit.cn,Apple
 HOST-SUFFIX,researchkit.cn,AppleDev
-HOST-SUFFIX,researchkit.com.cn,Apple
 HOST-SUFFIX,researchkit.com.cn,AppleDev
-HOST-SUFFIX,researchkit.hk,Apple
 HOST-SUFFIX,researchkit.hk,AppleDev
-HOST-SUFFIX,researchkit.net,Apple
 HOST-SUFFIX,researchkit.net,AppleDev
-HOST-SUFFIX,researchkit.org,Apple
 HOST-SUFFIX,researchkit.org,AppleDev
-HOST-SUFFIX,researchkit.tv,Apple
 HOST-SUFFIX,researchkit.tv,AppleDev
 HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,salebeatslasteststyle4you.com,Apple
@@ -1856,7 +1824,6 @@ HOST-SUFFIX,samebags.com,Apple
 HOST-SUFFIX,sanvaras.com,Apple
 HOST-SUFFIX,scnshop.cc,Apple
 HOST-SUFFIX,services-apple.net,Apple
-HOST-SUFFIX,servicetalk.io,Apple
 HOST-SUFFIX,servicetalk.io,AppleDev
 HOST-SUFFIX,shazam.com,Apple
 HOST-SUFFIX,shoers.com,Apple
@@ -1888,11 +1855,8 @@ HOST-SUFFIX,superearsenjoy.com,Apple
 HOST-SUFFIX,supplybestjerseys.com,Apple
 HOST-SUFFIX,sustainthesound.com,Apple
 HOST-SUFFIX,sverigebeatsbydrdre.com,Apple
-HOST-SUFFIX,swift.org,Apple
 HOST-SUFFIX,swift.org,AppleDev
-HOST-SUFFIX,swiftui.cn,Apple
 HOST-SUFFIX,swiftui.cn,AppleDev
-HOST-SUFFIX,swiftui.com.cn,Apple
 HOST-SUFFIX,swiftui.com.cn,AppleDev
 HOST-SUFFIX,szcheapmonsterheadphones.com,Apple
 HOST-SUFFIX,szwinnertechnology.com,Apple
@@ -1927,12 +1891,9 @@ HOST-SUFFIX,vipbeatsbydre.com,Apple
 HOST-SUFFIX,vipheadphones.com,Apple
 HOST-SUFFIX,vipshoes2.com,Apple
 HOST-SUFFIX,wasdj.com,Apple
-HOST-SUFFIX,webkit.org,Apple
 HOST-SUFFIX,webkit.org,AppleDev
-HOST-SUFFIX,webkitgtk.org,Apple
 HOST-SUFFIX,webkitgtk.org,AppleDev
 HOST-SUFFIX,webobjects.co.uk,Apple
-HOST-SUFFIX,webobjects.com,Apple
 HOST-SUFFIX,webobjects.com,AppleDev
 HOST-SUFFIX,webobjects.de,Apple
 HOST-SUFFIX,webobjects.eu,Apple
@@ -1942,7 +1903,6 @@ HOST-SUFFIX,wholesalediscountpurses.com,Apple
 HOST-SUFFIX,wholesalefine.com,Apple
 HOST-SUFFIX,wholesaleonlinemart.com,Apple
 HOST-SUFFIX,worldcoinpay.com,Apple
-HOST-SUFFIX,wpewebkit.org,Apple
 HOST-SUFFIX,wpewebkit.org,AppleDev
 HOST-SUFFIX,wuxiapple.com,Apple
 HOST-SUFFIX,wwapple.net,Apple
@@ -1968,13 +1928,16 @@ HOST-SUFFIX,xn--ohq11k7pl25iyo8a.cn,Apple
 HOST-SUFFIX,xn--ruq8a011kt6y.xn--hxt814e,Apple
 HOST-SUFFIX,yourmonsterbeats.com,Apple
 HOST-KEYWORD,apple-support.akadns.net,Apple
+HOST-KEYWORD,apple.,DIRECT
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.edgekey.net,Apple
 HOST-KEYWORD,buy.itunes.apple.com,Apple
+HOST-KEYWORD,cdn-apple,DIRECT
 HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,smp-device,Apple
 HOST-KEYWORD,testflight,Apple
 HOST-WILDCARD,*-content.icloud.com.cn,Apple
+HOST-WILDCARD,*apple.*,DIRECT
 HOST-WILDCARD,apple.*,Apple
 HOST-WILDCARD,apple.com.*,Apple
 HOST-WILDCARD,appleworldwidedeveloper.*.net,Apple

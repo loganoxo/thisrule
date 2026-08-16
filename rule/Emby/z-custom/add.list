@@ -1,0 +1,37 @@
+# m78星云机场送的emby服务
+DOMAIN-SUFFIX,m78tv.com,Emby
+
+# hxd 的emby服务
+DOMAIN-SUFFIX,as174.de,Emby
+DOMAIN-SUFFIX,bili.rip,Emby
+
+# UHD 的emby服务
+DOMAIN-SUFFIX,uhdnow.com,Emby
+
+# Zox/Ac 的emby服务
+DOMAIN-SUFFIX,zox.show,Emby
+
+# micu 的emby服务
+DOMAIN-SUFFIX,micu.hk,Emby
+
+# 糖果云机场送的emby
+DOMAIN-SUFFIX,candytallymovie.vip,Emby
+
+# ytoo 的emby服务,仅限ytoo的节点访问
+DOMAIN-SUFFIX,stentvessel.xyz,Emby
+
+# 二刺螈-nijigem(免费)
+DOMAIN-SUFFIX,nijigem.by,Emby
+
+# Nya(免费)
+DOMAIN-SUFFIX,bangumi.ca,Emby
+
+# 1111(垃圾影音,垃圾公费)
+DOMAIN-SUFFIX,emby.moe,Emby
+DOMAIN-SUFFIX,xxlb.net,Emby
+DOMAIN-SUFFIX,loseremby.org,Emby
+DOMAIN-SUFFIX,zabc.net,Emby
+IP-CIDR,154.12.52.149/25,Emby,no-resolve
+
+# nox
+DOMAIN-SUFFIX,inemby.us.ci,Emby

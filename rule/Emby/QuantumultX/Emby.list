@@ -1,0 +1,22 @@
+# NAME: Emby
+# CLIENT: QuantumultX
+# UPDATED: 2026-08-17 03:00:06
+# HOST-SUFFIX: 15
+# IP-CIDR: 1
+# TOTAL: 16
+HOST-SUFFIX,as174.de,Emby
+HOST-SUFFIX,bangumi.ca,Emby
+HOST-SUFFIX,bili.rip,Emby
+HOST-SUFFIX,candytallymovie.vip,Emby
+HOST-SUFFIX,emby.moe,Emby
+HOST-SUFFIX,inemby.us.ci,Emby
+HOST-SUFFIX,loseremby.org,Emby
+HOST-SUFFIX,m78tv.com,Emby
+HOST-SUFFIX,micu.hk,Emby
+HOST-SUFFIX,nijigem.by,Emby
+HOST-SUFFIX,stentvessel.xyz,Emby
+HOST-SUFFIX,uhdnow.com,Emby
+HOST-SUFFIX,xxlb.net,Emby
+HOST-SUFFIX,zabc.net,Emby
+HOST-SUFFIX,zox.show,Emby
+IP-CIDR,154.12.52.149/25,Emby
