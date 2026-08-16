@@ -1,6 +1,12 @@
 # 定义规则大类及其对应的上游数据源
 TASKS = {
-  "LOGAN_EMBY": [],
+  "Lan": ["Lan"],
+  "DirectGlobal": [],
+  "Emby": [],
+  "LoganProxy": [],
+  "LoganReject": [],
+  "Microsoft": ["Microsoft"],
+  "Cloudflare": ["Cloudflare"],
   "AI": [
     "OpenAI", "Claude", "Anthropic", "Gemini", "BardAI", "Copilot", "Civitai"
   ],

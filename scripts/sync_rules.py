@@ -66,6 +66,16 @@ QX_ALLOWED_TYPES = {
 }
 
 
+def get_rule_key(rule: str) -> tuple[str, str]:
+  # 将规则按逗号最多分割成3部分, 取前两项作为去重的 key
+  parts = rule.split(",", 2)
+  if len(parts) >= 2:
+    # 第一项不区分大小写(转小写), 第二项区分大小写(保持原样)
+    return parts[0].strip().lower(), parts[1].strip()
+  # 兼容只有一项的异常情况
+  return rule.strip().lower(), ""
+
+
 def parse_lines(path: Path) -> list[str]:
   # 解析文件, 返回有效的规则行列表
   if not path.exists():
@@ -204,53 +214,58 @@ def main() -> None:
         rules_to_add = filtered_qx_add
         # rules_to_remove 保持原样, 不做任何转换和过滤
 
-      # 基础整行匹配去重集合
-      merged_rules: set[str] = set()
+      # 基础去重字典, 使用 get_rule_key 生成的 (type_lower, value_exact) 元组作为 key
+      merged_rules: dict[tuple[str, str], str] = {}
 
       # 合并上游规则
       for source in sources:
         # 上游的读取路径保持不变
         source_path = upstream_root / "rule" / client / source / f"{source}{ext}"
         if not source_path.exists():
-          print(f"  [警告] 上游缺少文件: {source_path}")
+          # print(f"  [警告] 上游缺少文件: {source_path}")
           continue
         for line in parse_lines(source_path):
-          merged_rules.add(line)
+          merged_rules[get_rule_key(line)] = line
 
       # 执行删除 (严格校验整行文本是否在移除列表中)
-      final_rules = {rule for rule in merged_rules if rule not in rules_to_remove}
+      final_rules: dict[tuple[str, str], str] = {}
+      for rule in merged_rules.values():
+        if rule not in rules_to_remove:
+          final_rules[get_rule_key(rule)] = rule
 
       # 执行添加
-      final_rules.update(rules_to_add)
+      for rule in rules_to_add:
+        final_rules[get_rule_key(rule)] = rule
 
       supports_no_resolve = client in CLIENTS_WITH_NO_RESOLVE
 
-      main_rules_set = set()
-      resolve_rules_set = set()
-      for rule in final_rules:
+      main_rules_dict: dict[tuple[str, str], str] = {}
+      resolve_rules_dict: dict[tuple[str, str], str] = {}
+
+      for rule in final_rules.values():
         rule_type = rule.partition(",")[0].strip().upper()
-        if rule_type in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
+        if rule_type in ("IP-CIDR", "IP6-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"):
           # 从右向左寻找第一个逗号进行分割, 最多分割一次
           parts = rule.rsplit(",", 1)
 
           # 判断切分出的最后一段是否为 no-resolve (去除前后空格, 忽略大小写)
           if len(parts) == 2 and parts[1].strip().lower() == "no-resolve":
             # 原规则已包含 no-resolve
-            main_rules_set.add(rule)
+            main_rules_dict[get_rule_key(rule)] = rule
             # 删除 no-resolve: 取逗号前的内容, 并去除可能多余的尾部空格
-            resolve_rules_set.add(parts[0].rstrip())
+            resolve_rules_dict[get_rule_key(parts[0].rstrip())] = parts[0].rstrip()
           else:
             # 原规则未包含 no-resolve
-            main_rules_set.add(f"{rule},no-resolve")
-            resolve_rules_set.add(rule)
+            main_rules_dict[get_rule_key(f"{rule},no-resolve")] = f"{rule},no-resolve"
+            resolve_rules_dict[get_rule_key(rule)] = rule
         else:
-          main_rules_set.add(rule)
-          resolve_rules_set.add(rule)
+          main_rules_dict[get_rule_key(rule)] = rule
+          resolve_rules_dict[get_rule_key(rule)] = rule
 
       if not supports_no_resolve:
         # 若不支持
-        main_rules_set = set(resolve_rules_set)
-        resolve_rules_set = set()
+        main_rules_dict = dict(resolve_rules_dict)
+        resolve_rules_dict = {}
 
       # domain规则
       for source in sources:
@@ -260,7 +275,7 @@ def main() -> None:
           source_path = upstream_root / "rule" / client / source / f"{source}_Domain.txt"
 
         if not source_path.exists():
-          print(f"  [警告] 上游缺少文件: {source_path}")
+          # print(f"  [警告] 上游缺少文件: {source_path}")
           continue
         for line in parse_lines(source_path):
           if line not in rules_to_remove:
@@ -279,14 +294,14 @@ def main() -> None:
                 else:
                   domain_rule = f"DOMAIN,{line}"
               if domain_rule != "":
-                main_rules_set.add(domain_rule)
+                main_rules_dict[get_rule_key(domain_rule)] = domain_rule
                 if supports_no_resolve:
-                  resolve_rules_set.add(domain_rule)
+                  resolve_rules_dict[get_rule_key(domain_rule)] = domain_rule
 
-      main_rules = sorted(main_rules_set, key=sort_key)
+      main_rules = sorted(main_rules_dict.values(), key=sort_key)
       resolve_rules = []
       if supports_no_resolve:
-        resolve_rules = sorted(resolve_rules_set, key=sort_key)
+        resolve_rules = sorted(resolve_rules_dict.values(), key=sort_key)
 
       # ====== 统一执行最后一步: 转换为列表并执行排序 ======
       write_and_print(client, ext, main_rules, target_dir, task_name, updated)
