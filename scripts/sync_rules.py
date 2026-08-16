@@ -67,8 +67,30 @@ QX_ALLOWED_TYPES = {
 
 
 def get_rule_key(rule: str) -> tuple[str, str]:
-  # 将规则按逗号最多分割成3部分, 取前两项作为去重的 key
-  parts = rule.split(",", 2)
+  # 使用括号感知的分隔逻辑, 避免将逻辑规则(如AND, OR)内的逗号误认为顶层分隔符
+  parts = []
+  current = []
+  depth = 0
+  for char in rule:
+    if char == '(':
+      depth += 1
+      current.append(char)
+    elif char == ')':
+      depth -= 1
+      current.append(char)
+    elif char == ',' and depth == 0:
+      parts.append("".join(current).strip())
+      current = []
+      # 我们只需要前两项作为去重的 key, 所以提取到两项后即可停止
+      if len(parts) == 2:
+        break
+    else:
+      current.append(char)
+
+  # 补充最后剩余部分 (如果规则中没有足够的逗号)
+  if len(parts) < 2 and current:
+    parts.append("".join(current).strip())
+
   if len(parts) >= 2:
     # 第一项不区分大小写(转小写), 第二项区分大小写(保持原样)
     return parts[0].strip().lower(), parts[1].strip()
