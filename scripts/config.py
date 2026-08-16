@@ -1,5 +1,6 @@
 # 定义规则大类及其对应的上游数据源
 TASKS = {
+  "LOGAN_EMBY": [],
   "AI": [
     "OpenAI", "Claude", "Anthropic", "Gemini", "BardAI", "Copilot", "Civitai"
   ],
