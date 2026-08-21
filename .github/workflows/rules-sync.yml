@@ -1,7 +1,7 @@
 name: rules sync
 
 on:
-  #  push:
+  # push:
   schedule:
     - cron: "0 2 */5 * *"
   workflow_dispatch:
