@@ -253,3 +253,6 @@ DOMAIN-SUFFIX,gemini.google.com,国外AI平台
 DOMAIN-SUFFIX,agentrouter.org,国外AI平台
 DOMAIN-SUFFIX,freemodel.dev,国外AI平台
 DOMAIN-SUFFIX,anything.com,国外AI平台
+DOMAIN-SUFFIX,perplexity.ai,国外AI平台
+DOMAIN-SUFFIX,pplx.ai,国外AI平台
+DOMAIN,pplx-res.cloudinary.com,国外AI平台
