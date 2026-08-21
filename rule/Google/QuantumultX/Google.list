@@ -1,13 +1,13 @@
 # NAME: Google
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-21 19:14:44
-# HOST: 28
+# UPDATED: 2026-08-21 19:15:39
+# HOST: 29
 # HOST-SUFFIX: 684
 # HOST-KEYWORD: 6
 # IP-CIDR: 30
 # IP6-CIDR: 1
 # USER-AGENT: 3
-# TOTAL: 752
+# TOTAL: 753
 HOST,alt1-mtalk.google.com,GoogleFCM
 HOST,alt2-mtalk.google.com,GoogleFCM
 HOST,alt3-mtalk.google.com,GoogleFCM
@@ -33,6 +33,7 @@ HOST,redirector.c.bigcache.googleapis.com,Google
 HOST,redirector.gvt1.com,Google
 HOST,safebrowsing-cache.google.com,Google
 HOST,safebrowsing.googleapis.com,Google
+HOST,stun.l.google.com,Google
 HOST,translate.googleapis.com,Google
 HOST,voice.telephony.goog,Google
 HOST,www.googleapis.com,Google
