@@ -1,6 +1,6 @@
 # NAME: AI
 # CLIENT: Surge
-# UPDATED: 2026-08-21 11:21:28
+# UPDATED: 2026-08-21 19:40:45
 # DOMAIN: 47
 # DOMAIN-SUFFIX: 261
 # DOMAIN-KEYWORD: 9
@@ -68,7 +68,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
 DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,AI
+DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com
@@ -311,7 +311,7 @@ DOMAIN-SUFFIX,windsurf.ai,AI
 DOMAIN-SUFFIX,wordtune.com,AI
 DOMAIN-SUFFIX,writer.com,AI
 DOMAIN-SUFFIX,writesonic.com,AI
-DOMAIN-SUFFIX,x.ai,AI
+DOMAIN-SUFFIX,x.ai,国外AI平台
 DOMAIN-SUFFIX,you.com,AI
 DOMAIN-SUFFIX,zed.dev,AI
 DOMAIN-SUFFIX,zenrows.com,AI

@@ -1,6 +1,6 @@
 # NAME: AI
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-21 11:21:28
+# UPDATED: 2026-08-21 19:40:45
 # HOST: 47
 # HOST-SUFFIX: 261
 # HOST-KEYWORD: 9
@@ -68,7 +68,7 @@ HOST-SUFFIX,anthropic.com,Anthropic
 HOST-SUFFIX,anyscale.com,AI
 HOST-SUFFIX,anything.com,国外AI平台
 HOST-SUFFIX,api.microsoftapp.net,Copilot
-HOST-SUFFIX,api.nvidia.com,国外AI平台
+HOST-SUFFIX,api.nvidia.com,AI
 HOST-SUFFIX,api.statsig.com,OpenAI
 HOST-SUFFIX,apify.com,AI
 HOST-SUFFIX,apis.google.com,Gemini
@@ -311,7 +311,7 @@ HOST-SUFFIX,windsurf.ai,AI
 HOST-SUFFIX,wordtune.com,AI
 HOST-SUFFIX,writer.com,AI
 HOST-SUFFIX,writesonic.com,AI
-HOST-SUFFIX,x.ai,国外AI平台
+HOST-SUFFIX,x.ai,AI
 HOST-SUFFIX,you.com,AI
 HOST-SUFFIX,zed.dev,AI
 HOST-SUFFIX,zenrows.com,AI

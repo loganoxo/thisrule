@@ -1,13 +1,13 @@
 # NAME: Google
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-21 11:21:28
+# UPDATED: 2026-08-21 19:40:45
 # HOST: 29
-# HOST-SUFFIX: 684
+# HOST-SUFFIX: 685
 # HOST-KEYWORD: 6
 # IP-CIDR: 30
 # IP6-CIDR: 1
 # USER-AGENT: 3
-# TOTAL: 753
+# TOTAL: 754
 HOST,alt1-mtalk.google.com,GoogleFCM
 HOST,alt2-mtalk.google.com,GoogleFCM
 HOST,alt3-mtalk.google.com,GoogleFCM
@@ -574,6 +574,7 @@ HOST-SUFFIX,keyhole.com,Google
 HOST-SUFFIX,keytransparency.com,Google
 HOST-SUFFIX,keytransparency.foo,Google
 HOST-SUFFIX,keytransparency.org,Google
+HOST-SUFFIX,l.google.com,Google
 HOST-SUFFIX,lanternal.com,Google
 HOST-SUFFIX,like.com,Google
 HOST-SUFFIX,madewithcode.com,Google
