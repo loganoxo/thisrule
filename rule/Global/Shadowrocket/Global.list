@@ -1,13 +1,13 @@
 # NAME: Global
 # CLIENT: Shadowrocket
-# UPDATED: 2026-08-16 19:01:23
+# UPDATED: 2026-08-21 02:54:36
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34943
+# DOMAIN-SUFFIX: 34945
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1025
 # USER-AGENT: 78
 # URL-REGEX: 1
-# TOTAL: 36267
+# TOTAL: 36269
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -22304,6 +22304,7 @@ DOMAIN-SUFFIX,noodlemagazine.com
 DOMAIN-SUFFIX,noodlevpn.com
 DOMAIN-SUFFIX,noosferabank.ru
 DOMAIN-SUFFIX,norbulingka.org
+DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,nordstrom.com
 DOMAIN-SUFFIX,nordstromimage.com
 DOMAIN-SUFFIX,nordstrommedia.com
@@ -26352,6 +26353,7 @@ DOMAIN-SUFFIX,rutracker.me
 DOMAIN-SUFFIX,rutracker.net
 DOMAIN-SUFFIX,rutracker.nl
 DOMAIN-SUFFIX,rutracker.org
+DOMAIN-SUFFIX,rutracker.wiki
 DOMAIN-SUFFIX,rutrecker.net
 DOMAIN-SUFFIX,rutube.ru
 DOMAIN-SUFFIX,rutube.sport
