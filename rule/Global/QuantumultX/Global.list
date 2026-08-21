@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-21 19:40:45
+# UPDATED: 2026-08-21 11:42:12
 # HOST: 815
-# HOST-SUFFIX: 34978
+# HOST-SUFFIX: 34980
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 36961
+# TOTAL: 36963
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -22988,6 +22988,7 @@ HOST-SUFFIX,noodlemagazine.com,Global
 HOST-SUFFIX,noodlevpn.com,Global
 HOST-SUFFIX,noosferabank.ru,Global
 HOST-SUFFIX,norbulingka.org,Global
+HOST-SUFFIX,nordcdn.com,Global
 HOST-SUFFIX,nordstrom.com,Global
 HOST-SUFFIX,nordstromimage.com,Global
 HOST-SUFFIX,nordstrommedia.com,Global
@@ -27039,6 +27040,7 @@ HOST-SUFFIX,rutracker.me,Global
 HOST-SUFFIX,rutracker.net,Global
 HOST-SUFFIX,rutracker.nl,Global
 HOST-SUFFIX,rutracker.org,Global
+HOST-SUFFIX,rutracker.wiki,Global
 HOST-SUFFIX,rutrecker.net,Global
 HOST-SUFFIX,rutube.ru,Global
 HOST-SUFFIX,rutube.sport,Global
