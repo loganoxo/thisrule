@@ -3,6 +3,7 @@ TASKS = {
   "Lan": ["Lan"],
   "DirectGlobal": [],
   "Emby": [],
+  "LoganDirect": [],
   "LoganProxy": [],
   "LoganReject": [],
   "Microsoft": ["Microsoft"],

@@ -1,0 +1,22 @@
+# NAME: LoganDirect_Resolve
+# CLIENT: Loon
+# UPDATED: 2026-08-21 22:22:47
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 5
+# TOTAL: 15
+DOMAIN,ad.12306.cn,国内直连
+DOMAIN,dav.jianguoyun.com,国内直连
+DOMAIN,gg.caixin.com,国内直连
+DOMAIN,mirrors.ustc.edu,国内直连
+DOMAIN,mirrors.ustc.edu.cn,国内直连
+DOMAIN,sdkapp.uve.weibo.com,国内直连
+DOMAIN-SUFFIX,dida365.com,国内直连
+DOMAIN-SUFFIX,jianguoyun.com,国内直连
+DOMAIN-SUFFIX,kuwo.cn,国内直连
+DOMAIN-SUFFIX,ucweb.com,国内直连
+DOMAIN-KEYWORD,.alipay.,国内直连
+DOMAIN-KEYWORD,.baidu.,国内直连
+DOMAIN-KEYWORD,.qq.,国内直连
+DOMAIN-KEYWORD,.wechat.,国内直连
+DOMAIN-KEYWORD,jianguoyun,国内直连
