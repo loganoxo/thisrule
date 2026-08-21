@@ -62,6 +62,12 @@ TASKS = {
     "ZDNS", "ZhangYue", "ZhiYinManKe", "Zhihu", "ZhongGuoShiHua", "ZhongWeiShiJi",
     "ZhongXingTongXun", "ZhongYuanYiShang", "ZhuanZhuan", "iFlytek", "iQIYI", "ifanr", "zhanqi"
   ],
+  "Google": [
+    "Google", "Chromecast", "GoogleFCM"
+  ],
+  "YouTube": [
+    "YouTube", "YouTubeMusic"
+  ],
   "Global": [
     "Global", "GlobalMedia"
   ]
