@@ -1,0 +1,6 @@
+# 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量(不包括国内)
+AND,((DOMAIN-SUFFIX,googlevideo.com),(DST-PORT,443),(NETWORK,UDP)),REJECT
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(DST-PORT,443),(NETWORK,UDP)),REJECT
+# 屏蔽443端口的udp的国外流量
+# AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT
+# AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT

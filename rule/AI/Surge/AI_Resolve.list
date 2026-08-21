@@ -1,6 +1,6 @@
 # NAME: AI_Resolve
 # CLIENT: Surge
-# UPDATED: 2026-08-21 02:54:36
+# UPDATED: 2026-08-21 18:30:06
 # DOMAIN: 47
 # DOMAIN-SUFFIX: 261
 # DOMAIN-KEYWORD: 9
@@ -68,7 +68,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
 DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
+DOMAIN-SUFFIX,api.nvidia.com,AI
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com

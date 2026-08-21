@@ -1,6 +1,9 @@
 # NAME: LoganReject
 # CLIENT: Clash
-# UPDATED: 2026-08-21 02:54:36
+# UPDATED: 2026-08-21 18:30:06
 # DOMAIN: 1
-# TOTAL: 1
+# AND: 2
+# TOTAL: 3
 DOMAIN,e.crashlytics.com,REJECT
+AND,((DOMAIN-SUFFIX,googlevideo.com),(DST-PORT,443),(NETWORK,UDP)),REJECT
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(DST-PORT,443),(NETWORK,UDP)),REJECT
