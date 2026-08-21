@@ -1,12 +1,12 @@
 # NAME: AI
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-21 14:24:26
-# HOST: 47
-# HOST-SUFFIX: 261
+# UPDATED: 2026-08-21 15:23:19
+# HOST: 48
+# HOST-SUFFIX: 263
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 321
+# TOTAL: 324
 HOST,ai.azure.com,AI
 HOST,ai.google.dev,BardAI
 HOST,alkalimakersuite-pa.clients6.google.com,BardAI
@@ -44,6 +44,7 @@ HOST,odc.officeapps.live.com,Copilot
 HOST,openai-api.arkoselabs.com,Copilot
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
 HOST,openaicomproductionae4b.blob.core.windows.net,Copilot
+HOST,pplx-res.cloudinary.com,国外AI平台
 HOST,production-openaicom-storage.azureedge.net,Copilot
 HOST,q.us-east-1.amazonaws.com,AI
 HOST,r.bing.com,Copilot
@@ -235,6 +236,7 @@ HOST-SUFFIX,opencode.dev,AI
 HOST-SUFFIX,opncd.ai,AI
 HOST-SUFFIX,otter.ai,AI
 HOST-SUFFIX,paddle.com,AI
+HOST-SUFFIX,perplexity.ai,国外AI平台
 HOST-SUFFIX,phind.com,AI
 HOST-SUFFIX,photoroom.com,AI
 HOST-SUFFIX,pi.ai,AI
@@ -246,6 +248,7 @@ HOST-SUFFIX,play.ht,AI
 HOST-SUFFIX,playgroundai.com,AI
 HOST-SUFFIX,plusai.com,AI
 HOST-SUFFIX,portkey.ai,AI
+HOST-SUFFIX,pplx.ai,国外AI平台
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,BardAI
 HOST-SUFFIX,qdrant.tech,AI
 HOST-SUFFIX,qodo.ai,AI
@@ -311,7 +314,7 @@ HOST-SUFFIX,windsurf.ai,AI
 HOST-SUFFIX,wordtune.com,AI
 HOST-SUFFIX,writer.com,AI
 HOST-SUFFIX,writesonic.com,AI
-HOST-SUFFIX,x.ai,国外AI平台
+HOST-SUFFIX,x.ai,AI
 HOST-SUFFIX,you.com,AI
 HOST-SUFFIX,zed.dev,AI
 HOST-SUFFIX,zenrows.com,AI

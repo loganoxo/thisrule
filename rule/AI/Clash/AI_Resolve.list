@@ -1,12 +1,12 @@
 # NAME: AI_Resolve
 # CLIENT: Clash
-# UPDATED: 2026-08-21 14:24:26
-# DOMAIN: 47
-# DOMAIN-SUFFIX: 261
+# UPDATED: 2026-08-21 15:23:19
+# DOMAIN: 48
+# DOMAIN-SUFFIX: 263
 # DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 321
+# TOTAL: 324
 DOMAIN,ai.azure.com,AI
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -44,6 +44,7 @@ DOMAIN,odc.officeapps.live.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,pplx-res.cloudinary.com,国外AI平台
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,q.us-east-1.amazonaws.com,AI
 DOMAIN,r.bing.com
@@ -68,7 +69,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
 DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
+DOMAIN-SUFFIX,api.nvidia.com,AI
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com
@@ -235,6 +236,7 @@ DOMAIN-SUFFIX,opencode.dev,AI
 DOMAIN-SUFFIX,opncd.ai,AI
 DOMAIN-SUFFIX,otter.ai,AI
 DOMAIN-SUFFIX,paddle.com,AI
+DOMAIN-SUFFIX,perplexity.ai,国外AI平台
 DOMAIN-SUFFIX,phind.com,AI
 DOMAIN-SUFFIX,photoroom.com,AI
 DOMAIN-SUFFIX,pi.ai,AI
@@ -246,6 +248,7 @@ DOMAIN-SUFFIX,play.ht,AI
 DOMAIN-SUFFIX,playgroundai.com,AI
 DOMAIN-SUFFIX,plusai.com,AI
 DOMAIN-SUFFIX,portkey.ai,AI
+DOMAIN-SUFFIX,pplx.ai,国外AI平台
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,qdrant.tech,AI
 DOMAIN-SUFFIX,qodo.ai,AI
