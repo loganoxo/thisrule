@@ -1,26 +1,26 @@
 # NAME: DirectGlobal_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-08-21 15:23:19
+# UPDATED: 2026-08-22 13:01:24
 # DOMAIN: 12
 # DOMAIN-SUFFIX: 6
 # DOMAIN-KEYWORD: 1
 # TOTAL: 19
-DOMAIN,api.bitwarden.com,全球直连
-DOMAIN,bitwarden.com,全球直连
-DOMAIN,bitwarden.eu,全球直连
-DOMAIN,bitwarden.net,全球直连
-DOMAIN,bitwarden.sh,全球直连
-DOMAIN,icons.bitwarden.net,全球直连
-DOMAIN,identity.bitwarden.com,全球直连
-DOMAIN,ip4.istatmenus.app,全球直连
-DOMAIN,ip6.istatmenus.app,全球直连
-DOMAIN,notifications.bitwarden.com,全球直连
-DOMAIN,vault.bitwarden.com,全球直连
-DOMAIN,www.bitwarden.com,全球直连
-DOMAIN-SUFFIX,aihubmix.com,全球直连
-DOMAIN-SUFFIX,bitwarden.com,全球直连
-DOMAIN-SUFFIX,bitwarden.eu,全球直连
-DOMAIN-SUFFIX,bitwarden.net,全球直连
-DOMAIN-SUFFIX,bitwarden.sh,全球直连
-DOMAIN-SUFFIX,ryplay8.com,全球直连
-DOMAIN-KEYWORD,ffzy-online,全球直连
+DOMAIN,api.bitwarden.com,国外直连
+DOMAIN,bitwarden.com,国外直连
+DOMAIN,bitwarden.eu,国外直连
+DOMAIN,bitwarden.net,国外直连
+DOMAIN,bitwarden.sh,国外直连
+DOMAIN,icons.bitwarden.net,国外直连
+DOMAIN,identity.bitwarden.com,国外直连
+DOMAIN,ip4.istatmenus.app,国外直连
+DOMAIN,ip6.istatmenus.app,国外直连
+DOMAIN,notifications.bitwarden.com,国外直连
+DOMAIN,vault.bitwarden.com,国外直连
+DOMAIN,www.bitwarden.com,国外直连
+DOMAIN-SUFFIX,aihubmix.com,国外直连
+DOMAIN-SUFFIX,bitwarden.com,国外直连
+DOMAIN-SUFFIX,bitwarden.eu,国外直连
+DOMAIN-SUFFIX,bitwarden.net,国外直连
+DOMAIN-SUFFIX,bitwarden.sh,国外直连
+DOMAIN-SUFFIX,ryplay8.com,国外直连
+DOMAIN-KEYWORD,ffzy-online,国外直连
