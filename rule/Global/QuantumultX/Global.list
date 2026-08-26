@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-22 13:01:24
+# UPDATED: 2026-08-26 02:56:32
 # HOST: 815
-# HOST-SUFFIX: 34990
+# HOST-SUFFIX: 34995
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 36973
+# TOTAL: 36978
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -3033,6 +3033,7 @@ HOST-SUFFIX,api.mixpanel.com,Global
 HOST-SUFFIX,api.moomoobull.com,Global
 HOST-SUFFIX,api.nebula-emby.com,Global
 HOST-SUFFIX,api.news,Global
+HOST-SUFFIX,api.shuaiapi.com,Global
 HOST-SUFFIX,api.tv.colnv.com,GlobalMedia
 HOST-SUFFIX,apiary.io,Global
 HOST-SUFFIX,apiauto.ru,Global
@@ -6203,6 +6204,7 @@ HOST-SUFFIX,brew.sh,Global
 HOST-SUFFIX,brewmp.com,Global
 HOST-SUFFIX,briantreepayments.net,Global
 HOST-SUFFIX,briantreepayments.tv,Global
+HOST-SUFFIX,briarproject.org,Global
 HOST-SUFFIX,bricoltech.ac.uk,Global
 HOST-SUFFIX,bridgce.ac.uk,Global
 HOST-SUFFIX,bridge-studio.co.uk,Global
@@ -15381,6 +15383,7 @@ HOST-SUFFIX,historicalpageants.ac.uk,Global
 HOST-SUFFIX,historicbooks.ac.uk,Global
 HOST-SUFFIX,history-uk.ac.uk,Global
 HOST-SUFFIX,history.ac.uk,Global
+HOST-SUFFIX,historylines.net,Global
 HOST-SUFFIX,historyofdota.com,Global
 HOST-SUFFIX,historyofdota.net,Global
 HOST-SUFFIX,historyofdota.org,Global
@@ -15720,7 +15723,6 @@ HOST-SUFFIX,hp-invent.info,Global
 HOST-SUFFIX,hp-mns.com,Global
 HOST-SUFFIX,hp-printing.com,Global
 HOST-SUFFIX,hp-webplatform.com,Global
-HOST-SUFFIX,hp-ww.com,Global
 HOST-SUFFIX,hp.company,Global
 HOST-SUFFIX,hp.io,Global
 HOST-SUFFIX,hp3d.com,Global
@@ -18559,6 +18561,7 @@ HOST-SUFFIX,kitts.ac.uk,Global
 HOST-SUFFIX,kiwi.jp,Global
 HOST-SUFFIX,kiwi.kz,Global
 HOST-SUFFIX,kiwibrowser.com,Global
+HOST-SUFFIX,kiwix.org,Global
 HOST-SUFFIX,kiyobank.co.jp,Global
 HOST-SUFFIX,kk-whys.co.jp,Global
 HOST-SUFFIX,kk.stream,GlobalMedia
@@ -20286,6 +20289,7 @@ HOST-SUFFIX,mcdonaldsapps.com,Global
 HOST-SUFFIX,mcdonaldsarabia.com,Global
 HOST-SUFFIX,mcdonaldsparties.co.nz,Global
 HOST-SUFFIX,mcdonaldsparties.com.au,Global
+HOST-SUFFIX,mceindex.com,Global
 HOST-SUFFIX,mcfog.com,Global
 HOST-SUFFIX,mcisco.com,Global
 HOST-SUFFIX,mcls.ac.uk,Global
@@ -34174,6 +34178,7 @@ HOST-SUFFIX,x365x.com,Global
 HOST-SUFFIX,x3guide.com,Global
 HOST-SUFFIX,x3vid.com,Global
 HOST-SUFFIX,x6av.com,Global
+HOST-SUFFIX,x86.fr,Global
 HOST-SUFFIX,x99av.com,Global
 HOST-SUFFIX,x9wang.com,Global
 HOST-SUFFIX,xacmbq.xyz,Global

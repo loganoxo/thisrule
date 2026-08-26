@@ -1,14 +1,14 @@
 # NAME: Global_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-08-22 13:01:24
+# UPDATED: 2026-08-26 02:56:32
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34955
+# DOMAIN-SUFFIX: 34960
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
-# TOTAL: 36279
+# TOTAL: 36284
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -2381,6 +2381,7 @@ DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,api.moomoobull.com
 DOMAIN-SUFFIX,api.nebula-emby.com
 DOMAIN-SUFFIX,api.news
+DOMAIN-SUFFIX,api.shuaiapi.com
 DOMAIN-SUFFIX,api.tv.colnv.com
 DOMAIN-SUFFIX,apiary.io
 DOMAIN-SUFFIX,apiauto.ru
@@ -5550,6 +5551,7 @@ DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,brewmp.com
 DOMAIN-SUFFIX,briantreepayments.net
 DOMAIN-SUFFIX,briantreepayments.tv
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,bricoltech.ac.uk
 DOMAIN-SUFFIX,bridgce.ac.uk
 DOMAIN-SUFFIX,bridge-studio.co.uk
@@ -14697,6 +14699,7 @@ DOMAIN-SUFFIX,historicalpageants.ac.uk
 DOMAIN-SUFFIX,historicbooks.ac.uk
 DOMAIN-SUFFIX,history-uk.ac.uk
 DOMAIN-SUFFIX,history.ac.uk
+DOMAIN-SUFFIX,historylines.net
 DOMAIN-SUFFIX,historyofdota.com
 DOMAIN-SUFFIX,historyofdota.net
 DOMAIN-SUFFIX,historyofdota.org
@@ -15036,7 +15039,6 @@ DOMAIN-SUFFIX,hp-invent.info
 DOMAIN-SUFFIX,hp-mns.com
 DOMAIN-SUFFIX,hp-printing.com
 DOMAIN-SUFFIX,hp-webplatform.com
-DOMAIN-SUFFIX,hp-ww.com
 DOMAIN-SUFFIX,hp.company
 DOMAIN-SUFFIX,hp.io
 DOMAIN-SUFFIX,hp3d.com
@@ -17876,6 +17878,7 @@ DOMAIN-SUFFIX,kitts.ac.uk
 DOMAIN-SUFFIX,kiwi.jp
 DOMAIN-SUFFIX,kiwi.kz
 DOMAIN-SUFFIX,kiwibrowser.com
+DOMAIN-SUFFIX,kiwix.org
 DOMAIN-SUFFIX,kiyobank.co.jp
 DOMAIN-SUFFIX,kk-whys.co.jp
 DOMAIN-SUFFIX,kk.stream
@@ -19604,6 +19607,7 @@ DOMAIN-SUFFIX,mcdonaldsapps.com
 DOMAIN-SUFFIX,mcdonaldsarabia.com
 DOMAIN-SUFFIX,mcdonaldsparties.co.nz
 DOMAIN-SUFFIX,mcdonaldsparties.com.au
+DOMAIN-SUFFIX,mceindex.com
 DOMAIN-SUFFIX,mcfog.com
 DOMAIN-SUFFIX,mcisco.com
 DOMAIN-SUFFIX,mcls.ac.uk
@@ -33488,6 +33492,7 @@ DOMAIN-SUFFIX,x365x.com
 DOMAIN-SUFFIX,x3guide.com
 DOMAIN-SUFFIX,x3vid.com
 DOMAIN-SUFFIX,x6av.com
+DOMAIN-SUFFIX,x86.fr
 DOMAIN-SUFFIX,x99av.com
 DOMAIN-SUFFIX,x9wang.com
 DOMAIN-SUFFIX,xacmbq.xyz
