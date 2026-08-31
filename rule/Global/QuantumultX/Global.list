@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-08-26 02:56:32
+# UPDATED: 2026-08-31 07:53:07
 # HOST: 815
-# HOST-SUFFIX: 34995
+# HOST-SUFFIX: 35003
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 36978
+# TOTAL: 36986
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -1500,6 +1500,7 @@ HOST-SUFFIX,9anime.ws,Global
 HOST-SUFFIX,9bis.com,Global
 HOST-SUFFIX,9bis.net,Global
 HOST-SUFFIX,9cache.com,Global
+HOST-SUFFIX,9cao9.com,Global
 HOST-SUFFIX,9ccms.me,Global
 HOST-SUFFIX,9cdn.net,Global
 HOST-SUFFIX,9gag.com,Global
@@ -1778,6 +1779,7 @@ HOST-SUFFIX,adguard.info,Global
 HOST-SUFFIX,adguard.io,Global
 HOST-SUFFIX,adguard.org,Global
 HOST-SUFFIX,adguardaccount.com,Global
+HOST-SUFFIX,adguardaccount.net,Global
 HOST-SUFFIX,adguardcdn.com,Global
 HOST-SUFFIX,adguardvpn.com,Global
 HOST-SUFFIX,adhelpnews.com,Global
@@ -14648,6 +14650,7 @@ HOST-SUFFIX,h-webtoon.com,Global
 HOST-SUFFIX,h0930.com,Global
 HOST-SUFFIX,h18ani1.vip,Global
 HOST-SUFFIX,h1n1china.org,Global
+HOST-SUFFIX,h264.io,Global
 HOST-SUFFIX,h2o.ai,Global
 HOST-SUFFIX,h2porn.com,Global
 HOST-SUFFIX,h528.com,Global
@@ -24001,6 +24004,7 @@ HOST-SUFFIX,oursogo.com,Global
 HOST-SUFFIX,oursteps.com.au,Global
 HOST-SUFFIX,oursweb.net,Global
 HOST-SUFFIX,ourtv.hk,Global
+HOST-SUFFIX,ouryahoo.com,Global
 HOST-SUFFIX,oustudios.ac.uk,Global
 HOST-SUFFIX,out-app-purchase.com,Global
 HOST-SUFFIX,outbound.io,Global
@@ -26519,6 +26523,7 @@ HOST-SUFFIX,reload.ac.uk,Global
 HOST-SUFFIX,relu.ac.uk,Global
 HOST-SUFFIX,rememberingslavery.ac.uk,Global
 HOST-SUFFIX,remirepo.net,Global
+HOST-SUFFIX,remna.st,Global
 HOST-SUFFIX,rems-cdt.ac.uk,Global
 HOST-SUFFIX,renaissanceskin.ac.uk,Global
 HOST-SUFFIX,rencapbank.ru,Global
@@ -30893,6 +30898,7 @@ HOST-SUFFIX,topcuckolds.com,Global
 HOST-SUFFIX,toperoticartsites.com,Global
 HOST-SUFFIX,topescort.nl,Global
 HOST-SUFFIX,topescortbabes.com,Global
+HOST-SUFFIX,topexhib.net,Global
 HOST-SUFFIX,topface.com,Global
 HOST-SUFFIX,topfantasyart.com,Global
 HOST-SUFFIX,topfreepornvideos.com,Global
@@ -34047,6 +34053,7 @@ HOST-SUFFIX,wrenchead.com,Global
 HOST-SUFFIX,wretch.cc,Global
 HOST-SUFFIX,wrexham.ac.uk,Global
 HOST-SUFFIX,wripa.ac.uk,Global
+HOST-SUFFIX,write.as,Global
 HOST-SUFFIX,writenow.ac.uk,Global
 HOST-SUFFIX,writesonic.com,Global
 HOST-SUFFIX,writing-pad.ac.uk,Global
@@ -34975,6 +34982,7 @@ HOST-SUFFIX,yahooapis.com,Global
 HOST-SUFFIX,yahoodns.net,Global
 HOST-SUFFIX,yahoofinance.com,Global
 HOST-SUFFIX,yahoohealth.com,Global
+HOST-SUFFIX,yahooinc.com,Global
 HOST-SUFFIX,yahoomusic.com,Global
 HOST-SUFFIX,yahoosandbox.com,Global
 HOST-SUFFIX,yahoosportsbook.com,Global
