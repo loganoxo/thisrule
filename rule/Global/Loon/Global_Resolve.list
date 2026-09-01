@@ -1,14 +1,14 @@
 # NAME: Global_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-08-31 07:53:07
+# UPDATED: 2026-09-01 06:58:11
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34968
+# DOMAIN-SUFFIX: 34969
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
-# TOTAL: 36292
+# TOTAL: 36293
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -12901,6 +12901,7 @@ DOMAIN-SUFFIX,getjetso.com
 DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getmalus.com
 DOMAIN-SUFFIX,getmdl.io
+DOMAIN-SUFFIX,getmonero.org
 DOMAIN-SUFFIX,getnews.jp
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,getpaint.net
