@@ -1,14 +1,14 @@
 # NAME: Global_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-09-01 06:58:11
+# UPDATED: 2026-09-06 06:38:27
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34969
+# DOMAIN-SUFFIX: 34977
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
-# TOTAL: 36293
+# TOTAL: 36301
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -4668,6 +4668,7 @@ DOMAIN-SUFFIX,blackboxgames.com
 DOMAIN-SUFFIX,blackburn.ac.uk
 DOMAIN-SUFFIX,blackcountryandmarchesiot.ac.uk
 DOMAIN-SUFFIX,blacked.com
+DOMAIN-SUFFIX,blackedraw.com
 DOMAIN-SUFFIX,blackfridaydrebeatsnew.com
 DOMAIN-SUFFIX,blackfridaydrebeatsshop.com
 DOMAIN-SUFFIX,blackhomeporn.com
@@ -12655,6 +12656,8 @@ DOMAIN-SUFFIX,gate.ac.uk
 DOMAIN-SUFFIX,gate.cc
 DOMAIN-SUFFIX,gate.com
 DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate.tv
+DOMAIN-SUFFIX,gateapi.io
 DOMAIN-SUFFIX,gatecoin.com
 DOMAIN-SUFFIX,gatedata.org
 DOMAIN-SUFFIX,gateimg.com
@@ -18540,6 +18543,7 @@ DOMAIN-SUFFIX,linst.ac.uk
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,linux.org
 DOMAIN-SUFFIX,linux.org.hk
+DOMAIN-SUFFIX,linux.sb
 DOMAIN-SUFFIX,linuxfoundation.org
 DOMAIN-SUFFIX,linuxfromscratch.org
 DOMAIN-SUFFIX,linuxmint.com
@@ -20056,6 +20060,7 @@ DOMAIN-SUFFIX,milfthreesomes.com
 DOMAIN-SUFFIX,milftube.pro
 DOMAIN-SUFFIX,milftugs.com
 DOMAIN-SUFFIX,milfvr.com
+DOMAIN-SUFFIX,milfy.com
 DOMAIN-SUFFIX,milfzr.com
 DOMAIN-SUFFIX,miliav.com
 DOMAIN-SUFFIX,milkmanbook.com
@@ -27744,6 +27749,7 @@ DOMAIN-SUFFIX,slashdot.org
 DOMAIN-SUFFIX,slashine.onl
 DOMAIN-SUFFIX,slavbank.ru
 DOMAIN-SUFFIX,slavicstar.com
+DOMAIN-SUFFIX,slayed.com
 DOMAIN-SUFFIX,slaytizle.com
 DOMAIN-SUFFIX,slc.ac.uk
 DOMAIN-SUFFIX,slc.tl
@@ -30633,6 +30639,7 @@ DOMAIN-SUFFIX,turntable.fm
 DOMAIN-SUFFIX,tusco.ru
 DOMAIN-SUFFIX,tushy.com
 DOMAIN-SUFFIX,tushycash.com
+DOMAIN-SUFFIX,tushyraw.com
 DOMAIN-SUFFIX,tuta.com
 DOMAIN-SUFFIX,tuta.io
 DOMAIN-SUFFIX,tutamail.com
@@ -32068,6 +32075,7 @@ DOMAIN-SUFFIX,vivatube.com
 DOMAIN-SUFFIX,vivaxnxx.com
 DOMAIN-SUFFIX,vivthomas.com
 DOMAIN-SUFFIX,vixen.com
+DOMAIN-SUFFIX,vixengroup.com
 DOMAIN-SUFFIX,vixvids.to
 DOMAIN-SUFFIX,viznet.ac.uk
 DOMAIN-SUFFIX,vizvaz.com

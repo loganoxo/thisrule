@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-01 06:58:11
+# UPDATED: 2026-09-06 06:38:27
 # HOST: 815
-# HOST-SUFFIX: 35004
+# HOST-SUFFIX: 35012
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 36987
+# TOTAL: 36995
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -5320,6 +5320,7 @@ HOST-SUFFIX,blackboxgames.com,Global
 HOST-SUFFIX,blackburn.ac.uk,Global
 HOST-SUFFIX,blackcountryandmarchesiot.ac.uk,Global
 HOST-SUFFIX,blacked.com,Global
+HOST-SUFFIX,blackedraw.com,Global
 HOST-SUFFIX,blackfridaydrebeatsnew.com,Global
 HOST-SUFFIX,blackfridaydrebeatsshop.com,Global
 HOST-SUFFIX,blackhomeporn.com,Global
@@ -13313,6 +13314,8 @@ HOST-SUFFIX,gate.ac.uk,Global
 HOST-SUFFIX,gate.cc,Global
 HOST-SUFFIX,gate.com,Global
 HOST-SUFFIX,gate.io,Global
+HOST-SUFFIX,gate.tv,Global
+HOST-SUFFIX,gateapi.io,Global
 HOST-SUFFIX,gatecoin.com,Global
 HOST-SUFFIX,gatedata.org,Global
 HOST-SUFFIX,gateimg.com,Global
@@ -19224,6 +19227,7 @@ HOST-SUFFIX,linst.ac.uk,Global
 HOST-SUFFIX,linux.do,Global
 HOST-SUFFIX,linux.org,Global
 HOST-SUFFIX,linux.org.hk,Global
+HOST-SUFFIX,linux.sb,Global
 HOST-SUFFIX,linuxfoundation.org,Global
 HOST-SUFFIX,linuxfromscratch.org,Global
 HOST-SUFFIX,linuxmint.com,Global
@@ -20738,6 +20742,7 @@ HOST-SUFFIX,milfthreesomes.com,Global
 HOST-SUFFIX,milftube.pro,Global
 HOST-SUFFIX,milftugs.com,Global
 HOST-SUFFIX,milfvr.com,Global
+HOST-SUFFIX,milfy.com,Global
 HOST-SUFFIX,milfzr.com,Global
 HOST-SUFFIX,miliav.com,Global
 HOST-SUFFIX,milkmanbook.com,Global
@@ -28430,6 +28435,7 @@ HOST-SUFFIX,slashdot.org,Global
 HOST-SUFFIX,slashine.onl,Global
 HOST-SUFFIX,slavbank.ru,Global
 HOST-SUFFIX,slavicstar.com,Global
+HOST-SUFFIX,slayed.com,Global
 HOST-SUFFIX,slaytizle.com,Global
 HOST-SUFFIX,slc.ac.uk,Global
 HOST-SUFFIX,slc.tl,Global
@@ -31319,6 +31325,7 @@ HOST-SUFFIX,turntable.fm,Global
 HOST-SUFFIX,tusco.ru,Global
 HOST-SUFFIX,tushy.com,Global
 HOST-SUFFIX,tushycash.com,Global
+HOST-SUFFIX,tushyraw.com,Global
 HOST-SUFFIX,tuta.com,Global
 HOST-SUFFIX,tuta.io,Global
 HOST-SUFFIX,tutamail.com,Global
@@ -32754,6 +32761,7 @@ HOST-SUFFIX,vivatube.com,Global
 HOST-SUFFIX,vivaxnxx.com,Global
 HOST-SUFFIX,vivthomas.com,Global
 HOST-SUFFIX,vixen.com,Global
+HOST-SUFFIX,vixengroup.com,Global
 HOST-SUFFIX,vixvids.to,Global
 HOST-SUFFIX,viznet.ac.uk,Global
 HOST-SUFFIX,vizvaz.com,Global
