@@ -1,9 +1,9 @@
 # NAME: Emby
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-06 06:38:27
-# HOST-SUFFIX: 15
+# UPDATED: 2026-09-09 15:19:39
+# HOST-SUFFIX: 19
 # IP-CIDR: 1
-# TOTAL: 16
+# TOTAL: 20
 HOST-SUFFIX,as174.de,Emby
 HOST-SUFFIX,bangumi.ca,Emby
 HOST-SUFFIX,bili.rip,Emby
@@ -17,6 +17,10 @@ HOST-SUFFIX,nijigem.by,Emby
 HOST-SUFFIX,stentvessel.xyz,Emby
 HOST-SUFFIX,uhdnow.com,Emby
 HOST-SUFFIX,xxlb.net,Emby
+HOST-SUFFIX,yusen.cc.cd,Emby
+HOST-SUFFIX,yusen.cyou,Emby
+HOST-SUFFIX,yusen.us.ci,Emby
+HOST-SUFFIX,yusen6.ccwu.cc,Emby
 HOST-SUFFIX,zabc.net,Emby
 HOST-SUFFIX,zox.show,Emby
 IP-CIDR,154.12.52.149/25,Emby

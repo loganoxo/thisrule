@@ -1,13 +1,13 @@
 # NAME: Global
 # CLIENT: Clash
-# UPDATED: 2026-09-06 06:38:27
+# UPDATED: 2026-09-09 15:19:39
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34977
+# DOMAIN-SUFFIX: 34983
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # PROCESS-NAME: 4
-# TOTAL: 36226
+# TOTAL: 36232
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -216,6 +216,8 @@ DOMAIN-SUFFIX,114bank.co.jp
 DOMAIN-SUFFIX,119474.xyz
 DOMAIN-SUFFIX,11jav.com
 DOMAIN-SUFFIX,123-hp.com
+DOMAIN-SUFFIX,123av.com
+DOMAIN-SUFFIX,123av.me
 DOMAIN-SUFFIX,123bin.cc
 DOMAIN-SUFFIX,123dapp.com
 DOMAIN-SUFFIX,123dappipad.com
@@ -26084,6 +26086,7 @@ DOMAIN-SUFFIX,roboform.com
 DOMAIN-SUFFIX,roborecall.com
 DOMAIN-SUFFIX,robotoffice.com
 DOMAIN-SUFFIX,robustnessiskey.com
+DOMAIN-SUFFIX,roc-taiwan.org
 DOMAIN-SUFFIX,rochdalesfc.ac.uk
 DOMAIN-SUFFIX,rocket-inc.net
 DOMAIN-SUFFIX,rocket.chat
@@ -26154,6 +26157,7 @@ DOMAIN-SUFFIX,roudaosp.cc
 DOMAIN-SUFFIX,roughebonysex.com
 DOMAIN-SUFFIX,roughman.net
 DOMAIN-SUFFIX,roundtable.ac.uk
+DOMAIN-SUFFIX,roushuwo.com
 DOMAIN-SUFFIX,routerboard.com
 DOMAIN-SUFFIX,routesintolanguages.ac.uk
 DOMAIN-SUFFIX,routledgehandbooks.com
@@ -29221,6 +29225,7 @@ DOMAIN-SUFFIX,taiwanbible.com
 DOMAIN-SUFFIX,taiwancon.com
 DOMAIN-SUFFIX,taiwandaily.net
 DOMAIN-SUFFIX,taiwandc.org
+DOMAIN-SUFFIX,taiwanembassy.org
 DOMAIN-SUFFIX,taiwanhot.net
 DOMAIN-SUFFIX,taiwanjobs.gov.tw
 DOMAIN-SUFFIX,taiwanjustice.com
@@ -33403,6 +33408,7 @@ DOMAIN-SUFFIX,wsjwine.com
 DOMAIN-SUFFIX,wspcr.ac.uk
 DOMAIN-SUFFIX,wtbn.org
 DOMAIN-SUFFIX,wtc.ac.uk
+DOMAIN-SUFFIX,wtfpass.com
 DOMAIN-SUFFIX,wtfpeople.com
 DOMAIN-SUFFIX,wtmobile.com
 DOMAIN-SUFFIX,wto.org

@@ -1,9 +1,9 @@
 # NAME: Emby
 # CLIENT: Shadowrocket
-# UPDATED: 2026-09-06 06:38:27
-# DOMAIN-SUFFIX: 15
+# UPDATED: 2026-09-09 15:19:39
+# DOMAIN-SUFFIX: 19
 # IP-CIDR: 1
-# TOTAL: 16
+# TOTAL: 20
 DOMAIN-SUFFIX,as174.de,Emby
 DOMAIN-SUFFIX,bangumi.ca,Emby
 DOMAIN-SUFFIX,bili.rip,Emby
@@ -17,6 +17,10 @@ DOMAIN-SUFFIX,nijigem.by,Emby
 DOMAIN-SUFFIX,stentvessel.xyz,Emby
 DOMAIN-SUFFIX,uhdnow.com,Emby
 DOMAIN-SUFFIX,xxlb.net,Emby
+DOMAIN-SUFFIX,yusen.cc.cd,Emby
+DOMAIN-SUFFIX,yusen.cyou,Emby
+DOMAIN-SUFFIX,yusen.us.ci,Emby
+DOMAIN-SUFFIX,yusen6.ccwu.cc,Emby
 DOMAIN-SUFFIX,zabc.net,Emby
 DOMAIN-SUFFIX,zox.show,Emby
 IP-CIDR,154.12.52.149/25,Emby,no-resolve

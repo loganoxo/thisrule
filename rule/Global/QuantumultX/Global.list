@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-06 06:38:27
-# HOST: 815
-# HOST-SUFFIX: 35012
+# UPDATED: 2026-09-09 15:19:39
+# HOST: 816
+# HOST-SUFFIX: 35018
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 36995
+# TOTAL: 37002
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -326,6 +326,7 @@ HOST,imperial.insendi.com,Global
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,ktpx.amazon.com,GlobalMedia
 HOST,lab.skk.moe,Global
+HOST,lastfm-img.freetls.fastly.net,Global
 HOST,lastfm.freetls.fastly.net,Global
 HOST,lazer.ppy.sh,Global
 HOST,lens.l.google.com,Global
@@ -867,6 +868,8 @@ HOST-SUFFIX,114bank.co.jp,Global
 HOST-SUFFIX,119474.xyz,Global
 HOST-SUFFIX,11jav.com,Global
 HOST-SUFFIX,123-hp.com,Global
+HOST-SUFFIX,123av.com,Global
+HOST-SUFFIX,123av.me,Global
 HOST-SUFFIX,123bin.cc,Global
 HOST-SUFFIX,123dapp.com,Global
 HOST-SUFFIX,123dappipad.com,Global
@@ -26771,6 +26774,7 @@ HOST-SUFFIX,roboform.com,Global
 HOST-SUFFIX,roborecall.com,Global
 HOST-SUFFIX,robotoffice.com,Global
 HOST-SUFFIX,robustnessiskey.com,Global
+HOST-SUFFIX,roc-taiwan.org,Global
 HOST-SUFFIX,rochdalesfc.ac.uk,Global
 HOST-SUFFIX,rocket-inc.net,Global
 HOST-SUFFIX,rocket.chat,Global
@@ -26841,6 +26845,7 @@ HOST-SUFFIX,roudaosp.cc,Global
 HOST-SUFFIX,roughebonysex.com,Global
 HOST-SUFFIX,roughman.net,Global
 HOST-SUFFIX,roundtable.ac.uk,Global
+HOST-SUFFIX,roushuwo.com,Global
 HOST-SUFFIX,routerboard.com,Global
 HOST-SUFFIX,routesintolanguages.ac.uk,Global
 HOST-SUFFIX,routledgehandbooks.com,Global
@@ -29909,6 +29914,7 @@ HOST-SUFFIX,taiwanbible.com,Global
 HOST-SUFFIX,taiwancon.com,Global
 HOST-SUFFIX,taiwandaily.net,Global
 HOST-SUFFIX,taiwandc.org,Global
+HOST-SUFFIX,taiwanembassy.org,Global
 HOST-SUFFIX,taiwanhot.net,Global
 HOST-SUFFIX,taiwanjobs.gov.tw,Global
 HOST-SUFFIX,taiwanjustice.com,Global
@@ -34090,6 +34096,7 @@ HOST-SUFFIX,wsjwine.com,Global
 HOST-SUFFIX,wspcr.ac.uk,Global
 HOST-SUFFIX,wtbn.org,Global
 HOST-SUFFIX,wtc.ac.uk,Global
+HOST-SUFFIX,wtfpass.com,Global
 HOST-SUFFIX,wtfpeople.com,Global
 HOST-SUFFIX,wtmobile.com,Global
 HOST-SUFFIX,wto.org,Global
