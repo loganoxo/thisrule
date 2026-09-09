@@ -1,6 +1,6 @@
 # NAME: AI_Resolve
 # CLIENT: Clash
-# UPDATED: 2026-09-09 15:19:39
+# UPDATED: 2026-09-09 15:23:12
 # DOMAIN: 48
 # DOMAIN-SUFFIX: 263
 # DOMAIN-KEYWORD: 9
@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
 DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
+DOMAIN-SUFFIX,api.nvidia.com,AI
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com
