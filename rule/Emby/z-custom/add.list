@@ -35,3 +35,9 @@ IP-CIDR,154.12.52.149/25,Emby,no-resolve
 
 # nox
 DOMAIN-SUFFIX,inemby.us.ci,Emby
+
+# tg-yuchu-予初
+DOMAIN-SUFFIX,yusen.cyou,Emby
+DOMAIN-SUFFIX,yusen.us.ci,Emby
+DOMAIN-SUFFIX,yusen6.ccwu.cc,Emby
+DOMAIN-SUFFIX,yusen.cc.cd,Emby
