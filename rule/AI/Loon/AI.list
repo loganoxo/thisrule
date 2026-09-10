@@ -1,12 +1,12 @@
 # NAME: AI
 # CLIENT: Loon
-# UPDATED: 2026-09-09 15:23:12
+# UPDATED: 2026-09-10 18:42:29
 # DOMAIN: 48
 # DOMAIN-SUFFIX: 263
-# DOMAIN-KEYWORD: 9
+# DOMAIN-KEYWORD: 10
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 324
+# TOTAL: 325
 DOMAIN,ai.azure.com,AI
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -327,6 +327,7 @@ DOMAIN-KEYWORD,generativeai,AI
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaicom-api
+DOMAIN-KEYWORD,workbuddy.ai,国外AI平台
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,14061,no-resolve
