@@ -1,15 +1,15 @@
 # NAME: Global
 # CLIENT: Surge
-# UPDATED: 2026-09-11 06:48:56
+# UPDATED: 2026-09-16 06:58:46
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34984
+# DOMAIN-SUFFIX: 34985
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # USER-AGENT: 78
 # URL-REGEX: 1
 # PROCESS-NAME: 4
-# TOTAL: 36312
+# TOTAL: 36313
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -25304,6 +25304,7 @@ DOMAIN-SUFFIX,qtweeter.com
 DOMAIN-SUFFIX,quadram.ac.uk
 DOMAIN-SUFFIX,quadraminstitute.ac.uk
 DOMAIN-SUFFIX,quadrat.ac.uk
+DOMAIN-SUFFIX,quakemachinex.com
 DOMAIN-SUFFIX,qualcomm-email.com
 DOMAIN-SUFFIX,qualcomm-inc.com
 DOMAIN-SUFFIX,qualcomm.co.id
