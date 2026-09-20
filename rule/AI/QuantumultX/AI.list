@@ -1,12 +1,12 @@
 # NAME: AI
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-16 06:58:46
+# UPDATED: 2026-09-20 16:04:00
 # HOST: 48
-# HOST-SUFFIX: 263
-# HOST-KEYWORD: 10
+# HOST-SUFFIX: 265
+# HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 325
+# TOTAL: 326
 HOST,ai.azure.com,AI
 HOST,ai.google.dev,BardAI
 HOST,alkalimakersuite-pa.clients6.google.com,BardAI
@@ -69,7 +69,7 @@ HOST-SUFFIX,anthropic.com,Anthropic
 HOST-SUFFIX,anyscale.com,AI
 HOST-SUFFIX,anything.com,国外AI平台
 HOST-SUFFIX,api.microsoftapp.net,Copilot
-HOST-SUFFIX,api.nvidia.com,国外AI平台
+HOST-SUFFIX,api.nvidia.com,AI
 HOST-SUFFIX,api.statsig.com,OpenAI
 HOST-SUFFIX,apify.com,AI
 HOST-SUFFIX,apis.google.com,Gemini
@@ -219,6 +219,7 @@ HOST-SUFFIX,ml.cloud.ibm.com,AI
 HOST-SUFFIX,modal.com,AI
 HOST-SUFFIX,models.dev,AI
 HOST-SUFFIX,murf.ai,AI
+HOST-SUFFIX,muse.ai,国外AI平台
 HOST-SUFFIX,nebius.com,AI
 HOST-SUFFIX,nomic.ai,AI
 HOST-SUFFIX,nousresearch.com,AI
@@ -312,6 +313,7 @@ HOST-SUFFIX,wellsaidlabs.com,AI
 HOST-SUFFIX,windsurf-telemetry.codeium.com,AI
 HOST-SUFFIX,windsurf.ai,AI
 HOST-SUFFIX,wordtune.com,AI
+HOST-SUFFIX,workbuddy.ai,国外AI平台
 HOST-SUFFIX,writer.com,AI
 HOST-SUFFIX,writesonic.com,AI
 HOST-SUFFIX,x.ai,AI
@@ -327,7 +329,6 @@ HOST-KEYWORD,generativeai,AI
 HOST-KEYWORD,generativelanguage,Gemini
 HOST-KEYWORD,openai,OpenAI
 HOST-KEYWORD,openaicom-api,Copilot
-HOST-KEYWORD,workbuddy.ai,国外AI平台
 IP-CIDR,24.199.123.28/32,Copilot
 IP-CIDR,64.23.132.171/32,Copilot
 IP-ASN,14061,Copilot

@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-16 06:58:46
-# HOST: 816
-# HOST-SUFFIX: 35020
+# UPDATED: 2026-09-20 16:04:00
+# HOST: 817
+# HOST-SUFFIX: 35023
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37004
+# TOTAL: 37008
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -421,6 +421,7 @@ HOST,openaicomproductionae4b.blob.core.windows.net,Global
 HOST,opgg-static.akamaized.net,Global
 HOST,osu.ppy.sh,Global
 HOST,p-events-delivery.akamaized.net,Global
+HOST,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com,Global
 HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,packages.microsoft.com,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
@@ -29475,6 +29476,9 @@ HOST-SUFFIX,stripchat.com,Global
 HOST-SUFFIX,stripe-terminal-local-reader.net,Global
 HOST-SUFFIX,stripe.ac.uk,Global
 HOST-SUFFIX,stripe.com,Global
+HOST-SUFFIX,stripe.dev,Global
+HOST-SUFFIX,stripe.events,Global
+HOST-SUFFIX,stripe.global,Global
 HOST-SUFFIX,stripe.network,Global
 HOST-SUFFIX,stripecdn.com,Global
 HOST-SUFFIX,stripparadise.com,Global

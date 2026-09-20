@@ -1,12 +1,12 @@
 # NAME: AI
 # CLIENT: Surge
-# UPDATED: 2026-09-16 06:58:46
+# UPDATED: 2026-09-20 16:04:00
 # DOMAIN: 48
-# DOMAIN-SUFFIX: 263
-# DOMAIN-KEYWORD: 10
+# DOMAIN-SUFFIX: 265
+# DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 325
+# TOTAL: 326
 DOMAIN,ai.azure.com,AI
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anyscale.com,AI
 DOMAIN-SUFFIX,anything.com,国外AI平台
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,api.nvidia.com,AI
+DOMAIN-SUFFIX,api.nvidia.com,国外AI平台
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apify.com,AI
 DOMAIN-SUFFIX,apis.google.com
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,ml.cloud.ibm.com,AI
 DOMAIN-SUFFIX,modal.com,AI
 DOMAIN-SUFFIX,models.dev,AI
 DOMAIN-SUFFIX,murf.ai,AI
+DOMAIN-SUFFIX,muse.ai,国外AI平台
 DOMAIN-SUFFIX,nebius.com,AI
 DOMAIN-SUFFIX,nomic.ai,AI
 DOMAIN-SUFFIX,nousresearch.com,AI
@@ -312,6 +313,7 @@ DOMAIN-SUFFIX,wellsaidlabs.com,AI
 DOMAIN-SUFFIX,windsurf-telemetry.codeium.com,AI
 DOMAIN-SUFFIX,windsurf.ai,AI
 DOMAIN-SUFFIX,wordtune.com,AI
+DOMAIN-SUFFIX,workbuddy.ai,国外AI平台
 DOMAIN-SUFFIX,writer.com,AI
 DOMAIN-SUFFIX,writesonic.com,AI
 DOMAIN-SUFFIX,x.ai,国外AI平台
@@ -327,7 +329,6 @@ DOMAIN-KEYWORD,generativeai,AI
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaicom-api
-DOMAIN-KEYWORD,workbuddy.ai,国外AI平台
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,14061,no-resolve
