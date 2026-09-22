@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-21 07:24:22
-# HOST: 817
-# HOST-SUFFIX: 35023
+# UPDATED: 2026-09-22 09:42:37
+# HOST: 818
+# HOST-SUFFIX: 35028
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37008
+# TOTAL: 37014
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -258,9 +258,10 @@ HOST,fandom.zendesk.com,Global
 HOST,faronics.kayako.com,Global
 HOST,favoritescc-hamivideo2.cdn.hinet.net,Global
 HOST,fbcdn-a.akamaihd.net,Global
-HOST,firebase.google.com,Global
 HOST,firebase.googleapis.com,Global
 HOST,firebaseappcheck.googleapis.com,Global
+HOST,firebaseappdistribution.googleapis.com,Global
+HOST,firebaseapptesters.googleapis.com,Global
 HOST,firebasedynamiclinks-ipv4.googleapis.com,Global
 HOST,firebasedynamiclinks-ipv6.googleapis.com,Global
 HOST,firebasedynamiclinks.googleapis.com,Global
@@ -8075,6 +8076,7 @@ HOST-SUFFIX,code.org,Global
 HOST-SUFFIX,code1984.com,Global
 HOST-SUFFIX,codeberg.org,Global
 HOST-SUFFIX,codeberg.page,Global
+HOST-SUFFIX,codebuff.com,Global
 HOST-SUFFIX,codecademy.com,Global
 HOST-SUFFIX,codeforaliving.io,Global
 HOST-SUFFIX,codeforces.com,Global
@@ -12343,12 +12345,14 @@ HOST-SUFFIX,fire-emblem-heroes.com,Global
 HOST-SUFFIX,firearmsworld.net,Global
 HOST-SUFFIX,firebase-settings.crashlytics.com,Global
 HOST-SUFFIX,firebase.com,Global
+HOST-SUFFIX,firebase.dev,Global
 HOST-SUFFIX,firebase.io,Global
 HOST-SUFFIX,firebaseapp.com,Global
 HOST-SUFFIX,firebaseio.com,GlobalMedia
 HOST-SUFFIX,firech.at,Global
 HOST-SUFFIX,fireemblemawakening.com,Global
 HOST-SUFFIX,fireflyresearch.ac.uk,Global
+HOST-SUFFIX,firefox-portal-detection.com,Global
 HOST-SUFFIX,firefox.com,Global
 HOST-SUFFIX,firefox.hu,Global
 HOST-SUFFIX,firefoxtweetmachine.com,Global
@@ -12838,6 +12842,7 @@ HOST-SUFFIX,freebigmovies.com,Global
 HOST-SUFFIX,freebrowser.org,Global
 HOST-SUFFIX,freebs.com,Global
 HOST-SUFFIX,freebsd.org,Global
+HOST-SUFFIX,freebuff.com,Global
 HOST-SUFFIX,freecamsfan.com,Global
 HOST-SUFFIX,freecamstars.com,Global
 HOST-SUFFIX,freecartoons.biz,Global
@@ -30274,6 +30279,7 @@ HOST-SUFFIX,textnow.com,Global
 HOST-SUFFIX,textnow.me,Global
 HOST-SUFFIX,texttobuy.org,Global
 HOST-SUFFIX,texture.com,Global
+HOST-SUFFIX,tfbnw.net,Global
 HOST-SUFFIX,tfc-taiwan.org.tw,Global
 HOST-SUFFIX,tferwq.com,Global
 HOST-SUFFIX,tfhub.dev,Global

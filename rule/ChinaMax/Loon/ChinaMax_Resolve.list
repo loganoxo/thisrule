@@ -1,14 +1,14 @@
 # NAME: ChinaMax_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-09-21 07:24:22
+# UPDATED: 2026-09-22 09:42:37
 # DOMAIN: 118
-# DOMAIN-SUFFIX: 9773
+# DOMAIN-SUFFIX: 9775
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 244
 # IP-CIDR6: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10205
+# TOTAL: 10207
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -2119,6 +2119,7 @@ DOMAIN-SUFFIX,cmcmtrans.com
 DOMAIN-SUFFIX,cmdcl.cn
 DOMAIN-SUFFIX,cmdcxls.com
 DOMAIN-SUFFIX,cmdev.cn
+DOMAIN-SUFFIX,cmecloud.cn
 DOMAIN-SUFFIX,cmedia360.com
 DOMAIN-SUFFIX,cmf.biz
 DOMAIN-SUFFIX,cmf.ltd
@@ -2807,6 +2808,7 @@ DOMAIN-SUFFIX,ecombdvod.com
 DOMAIN-SUFFIX,econtactsplus.com
 DOMAIN-SUFFIX,ecp-cloud.com
 DOMAIN-SUFFIX,ecp-cloud.net
+DOMAIN-SUFFIX,ecpan.cn
 DOMAIN-SUFFIX,ectencent.cn
 DOMAIN-SUFFIX,ectencent.com
 DOMAIN-SUFFIX,ectencent.com.cn

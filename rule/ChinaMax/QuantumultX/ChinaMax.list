@@ -1,15 +1,15 @@
 # NAME: ChinaMax
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-21 07:24:22
+# UPDATED: 2026-09-22 09:42:37
 # HOST: 128
-# HOST-SUFFIX: 9773
+# HOST-SUFFIX: 9775
 # HOST-KEYWORD: 8
 # HOST-WILDCARD: 4
 # IP-CIDR: 244
 # IP6-CIDR: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10219
+# TOTAL: 10221
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
@@ -2130,6 +2130,7 @@ HOST-SUFFIX,cmcmtrans.com,Kingsoft
 HOST-SUFFIX,cmdcl.cn,ChinaMobile
 HOST-SUFFIX,cmdcxls.com,ChinaMobile
 HOST-SUFFIX,cmdev.cn,Kingsoft
+HOST-SUFFIX,cmecloud.cn,ChinaMobile
 HOST-SUFFIX,cmedia360.com,360
 HOST-SUFFIX,cmf.biz,CMB
 HOST-SUFFIX,cmf.ltd,CMB
@@ -2818,6 +2819,7 @@ HOST-SUFFIX,ecombdvod.com,ByteDance
 HOST-SUFFIX,econtactsplus.com,Tencent
 HOST-SUFFIX,ecp-cloud.com,WangSuKeJi
 HOST-SUFFIX,ecp-cloud.net,WangSuKeJi
+HOST-SUFFIX,ecpan.cn,ChinaMobile
 HOST-SUFFIX,ectencent.cn,Tencent
 HOST-SUFFIX,ectencent.com,Tencent
 HOST-SUFFIX,ectencent.com.cn,Tencent
