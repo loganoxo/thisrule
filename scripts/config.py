@@ -1,7 +1,7 @@
 # 定义规则大类及其对应的上游数据源
 TASKS = {
   "Lan": ["Lan"],
-  "DirectGlobal": [],
+  "DirectGlobal": ["Oracle"],
   "Emby": [],
   "LoganDirect": [],
   "LoganProxy": [],
