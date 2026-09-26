@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-22 09:42:37
+# UPDATED: 2026-09-26 06:50:02
 # HOST: 818
-# HOST-SUFFIX: 35028
+# HOST-SUFFIX: 35029
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1015
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37014
+# TOTAL: 37015
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -7612,6 +7612,7 @@ HOST-SUFFIX,chinesegay.org,Global
 HOST-SUFFIX,chinesen.de,Global
 HOST-SUFFIX,chinesenews.net.au,Global
 HOST-SUFFIX,chinesepen.org,Global
+HOST-SUFFIX,chineseposters.net,Global
 HOST-SUFFIX,chineseradioseattle.com,Global
 HOST-SUFFIX,chinesespanking.com,Global
 HOST-SUFFIX,chinesetalks.net,Global
@@ -19159,7 +19160,6 @@ HOST-SUFFIX,like.com,Global
 HOST-SUFFIX,likee.com,Global
 HOST-SUFFIX,likeeapp.ru,Global
 HOST-SUFFIX,likeevideo.com,Global
-HOST-SUFFIX,likeevideo.ru,Global
 HOST-SUFFIX,likeseiyu.com,Global
 HOST-SUFFIX,liketruyen.net,Global
 HOST-SUFFIX,liketwice.com,Global
@@ -23063,6 +23063,7 @@ HOST-SUFFIX,northumbria.ac.uk,Global
 HOST-SUFFIX,norton.com,Global
 HOST-SUFFIX,norwichresearchpark.ac.uk,Global
 HOST-SUFFIX,nos.nl,Global
+HOST-SUFFIX,note.com,Global
 HOST-SUFFIX,notegpt.io,Global
 HOST-SUFFIX,notepad-plus-plus.org,Global
 HOST-SUFFIX,noticias-rt.com,Global

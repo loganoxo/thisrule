@@ -1,13 +1,13 @@
 # NAME: Global
 # CLIENT: Clash
-# UPDATED: 2026-09-22 09:42:37
+# UPDATED: 2026-09-26 06:50:02
 # DOMAIN: 165
-# DOMAIN-SUFFIX: 34993
+# DOMAIN-SUFFIX: 34994
 # DOMAIN-KEYWORD: 55
 # IP-CIDR: 1015
 # IP-CIDR6: 10
 # PROCESS-NAME: 4
-# TOTAL: 36242
+# TOTAL: 36243
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -6955,6 +6955,7 @@ DOMAIN-SUFFIX,chinesegay.org
 DOMAIN-SUFFIX,chinesen.de
 DOMAIN-SUFFIX,chinesenews.net.au
 DOMAIN-SUFFIX,chinesepen.org
+DOMAIN-SUFFIX,chineseposters.net
 DOMAIN-SUFFIX,chineseradioseattle.com
 DOMAIN-SUFFIX,chinesespanking.com
 DOMAIN-SUFFIX,chinesetalks.net
@@ -18471,7 +18472,6 @@ DOMAIN-SUFFIX,like.com
 DOMAIN-SUFFIX,likee.com
 DOMAIN-SUFFIX,likeeapp.ru
 DOMAIN-SUFFIX,likeevideo.com
-DOMAIN-SUFFIX,likeevideo.ru
 DOMAIN-SUFFIX,likeseiyu.com
 DOMAIN-SUFFIX,liketruyen.net
 DOMAIN-SUFFIX,liketwice.com
@@ -22376,6 +22376,7 @@ DOMAIN-SUFFIX,northumbria.ac.uk
 DOMAIN-SUFFIX,norton.com
 DOMAIN-SUFFIX,norwichresearchpark.ac.uk
 DOMAIN-SUFFIX,nos.nl
+DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,notegpt.io
 DOMAIN-SUFFIX,notepad-plus-plus.org
 DOMAIN-SUFFIX,noticias-rt.com
