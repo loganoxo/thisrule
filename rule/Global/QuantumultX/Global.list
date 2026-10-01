@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-09-26 06:50:02
+# UPDATED: 2026-10-01 07:59:53
 # HOST: 818
-# HOST-SUFFIX: 35029
+# HOST-SUFFIX: 35017
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
-# IP-CIDR: 1015
+# IP-CIDR: 1018
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37015
+# TOTAL: 37006
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -1603,7 +1603,6 @@ HOST-SUFFIX,abira.ac.uk,Global
 HOST-SUFFIX,ablmm.com,Global
 HOST-SUFFIX,ablwang.com,Global
 HOST-SUFFIX,aboluowang.com,Global
-HOST-SUFFIX,about.google,Global
 HOST-SUFFIX,about.me,Global
 HOST-SUFFIX,aboutamazon.co.uk,Global
 HOST-SUFFIX,aboutamazon.com,GlobalMedia
@@ -1768,6 +1767,7 @@ HOST-SUFFIX,addison-wesley.ch,Global
 HOST-SUFFIX,addison.ac.uk,Global
 HOST-SUFFIX,addthiscdn.com,Global
 HOST-SUFFIX,addtoany.com,Global
+HOST-SUFFIX,addtodropbox.com,Global
 HOST-SUFFIX,addyoutube.com,Global
 HOST-SUFFIX,adelaidebbs.com,Global
 HOST-SUFFIX,adelaidenow.com.au,Global
@@ -2119,7 +2119,6 @@ HOST-SUFFIX,ai-sdk.dev,Global
 HOST-SUFFIX,ai-wen.net,Global
 HOST-SUFFIX,ai.azure.com,GlobalMedia
 HOST-SUFFIX,ai.dev,Global
-HOST-SUFFIX,ai.google,Global
 HOST-SUFFIX,ai.studio,Global
 HOST-SUFFIX,ai3sd.ac.uk,Global
 HOST-SUFFIX,ai7995.site,Global
@@ -5372,7 +5371,6 @@ HOST-SUFFIX,blocktempo.com,Global
 HOST-SUFFIX,blog.com,Global
 HOST-SUFFIX,blog.de,Global
 HOST-SUFFIX,blog.descargasgay.com,Global
-HOST-SUFFIX,blog.google,Global
 HOST-SUFFIX,blog.jp,Global
 HOST-SUFFIX,blogblog.com,Global
 HOST-SUFFIX,blogcatalog.com,Global
@@ -6640,6 +6638,7 @@ HOST-SUFFIX,c-scaipe.ac.uk,Global
 HOST-SUFFIX,c-span.org,Global
 HOST-SUFFIX,c-spanvideo.org,Global
 HOST-SUFFIX,c.gle,Global
+HOST-SUFFIX,c.go-mpulse.net,Global
 HOST-SUFFIX,c.mi.com,Global
 HOST-SUFFIX,c0930.com,Global
 HOST-SUFFIX,c100tibet.org,Global
@@ -7655,7 +7654,6 @@ HOST-SUFFIX,chrlawyers.hk,Global
 HOST-SUFFIX,chrome.com,Global
 HOST-SUFFIX,chromebook.com,Global
 HOST-SUFFIX,chromecast.com,Global
-HOST-SUFFIX,chromeenterprise.google,Global
 HOST-SUFFIX,chromeexperiments.com,Global
 HOST-SUFFIX,chromeos.dev,Global
 HOST-SUFFIX,chromercise.com,Global
@@ -8186,7 +8184,6 @@ HOST-SUFFIX,colorfulstage.com,Global
 HOST-SUFFIX,colorme-repeat.jp,Global
 HOST-SUFFIX,colorprotechnology.com,Global
 HOST-SUFFIX,colpet.ac.uk,Global
-HOST-SUFFIX,com.google,Global
 HOST-SUFFIX,com.ru,Global
 HOST-SUFFIX,com.uk,Global
 HOST-SUFFIX,combinedhonours.ac.uk,Global
@@ -8512,7 +8509,6 @@ HOST-SUFFIX,crichton.ac.uk,Global
 HOST-SUFFIX,crick.ac.uk,Global
 HOST-SUFFIX,cricketcountry.com,Global
 HOST-SUFFIX,cricklade.ac.uk,Global
-HOST-SUFFIX,crisisresponse.google,Global
 HOST-SUFFIX,crisp.chat,Global
 HOST-SUFFIX,cristyli.com,Global
 HOST-SUFFIX,crit-staging.com,Global
@@ -9310,7 +9306,6 @@ HOST-SUFFIX,desc.se,Global
 HOST-SUFFIX,desertbmw.com,Global
 HOST-SUFFIX,design-ledrev.com,Global
 HOST-SUFFIX,design-ledrevolution.com,Global
-HOST-SUFFIX,design.google,Global
 HOST-SUFFIX,designeriphonescases.com,Global
 HOST-SUFFIX,designledrevolution.com,Global
 HOST-SUFFIX,designsformovement.com,Global
@@ -9831,7 +9826,6 @@ HOST-SUFFIX,dndbeyond.com,Global
 HOST-SUFFIX,dnitv.com,GlobalMedia
 HOST-SUFFIX,dns-dns.com,Global
 HOST-SUFFIX,dns-stuff.com,Global
-HOST-SUFFIX,dns.google,Global
 HOST-SUFFIX,dns.sb,Global
 HOST-SUFFIX,dns04.com,Global
 HOST-SUFFIX,dns05.com,Global
@@ -9907,7 +9901,6 @@ HOST-SUFFIX,dollnight.com,Global
 HOST-SUFFIX,dolphiners.com,Global
 HOST-SUFFIX,dolyame.ru,Global
 HOST-SUFFIX,domain.club.tw,Global
-HOST-SUFFIX,domains.google,Global
 HOST-SUFFIX,domaintoday.com.au,Global
 HOST-SUFFIX,dombosco.com.br,Global
 HOST-SUFFIX,domesticabuserisk.ac.uk,Global
@@ -10102,12 +10095,15 @@ HOST-SUFFIX,dropbox.tech,Global
 HOST-SUFFIX,dropboxapi.com,Global
 HOST-SUFFIX,dropboxbusiness.com,Global
 HOST-SUFFIX,dropboxcaptcha.com,Global
+HOST-SUFFIX,dropboxexperiment.com,Global
 HOST-SUFFIX,dropboxforum.com,Global
 HOST-SUFFIX,dropboxforums.com,Global
 HOST-SUFFIX,dropboxinsiders.com,Global
+HOST-SUFFIX,dropboxlegal.com,Global
 HOST-SUFFIX,dropboxmail.com,Global
 HOST-SUFFIX,dropboxpartners.com,Global
 HOST-SUFFIX,dropboxstatic.com,Global
+HOST-SUFFIX,dropboxteam.com,Global
 HOST-SUFFIX,dropboxusercontent.com,Global
 HOST-SUFFIX,droplr.com,Global
 HOST-SUFFIX,drpc.org,Global
@@ -11076,7 +11072,6 @@ HOST-SUFFIX,envato.com,Global
 HOST-SUFFIX,envatousercontent.com,Global
 HOST-SUFFIX,enveast.ac.uk,Global
 HOST-SUFFIX,environment-health.ac.uk,Global
-HOST-SUFFIX,environment.google,Global
 HOST-SUFFIX,envybox.company,Global
 HOST-SUFFIX,envybox.family,Global
 HOST-SUFFIX,envybox.io,Global
@@ -14051,6 +14046,7 @@ HOST-SUFFIX,goofind.com,Global
 HOST-SUFFIX,googel.com,Global
 HOST-SUFFIX,googil.com,Global
 HOST-SUFFIX,googl.com,Global
+HOST-SUFFIX,google,Global
 HOST-SUFFIX,google-access.net,Global
 HOST-SUFFIX,google-analytics-cn.com,Global
 HOST-SUFFIX,google-analytics.com,Global
@@ -14553,7 +14549,6 @@ HOST-SUFFIX,groupib.ae,Global
 HOST-SUFFIX,groupib.sg,Global
 HOST-SUFFIX,groupib.us,Global
 HOST-SUFFIX,groups.com,Global
-HOST-SUFFIX,grow.google,Global
 HOST-SUFFIX,grows.ac.uk,Global
 HOST-SUFFIX,grpeng.ac.uk,Global
 HOST-SUFFIX,grss-ieee.org,Global
@@ -19023,7 +19018,6 @@ HOST-SUFFIX,lepornochaud.com,Global
 HOST-SUFFIX,lepornofrais.com,Global
 HOST-SUFFIX,lerna.ru,Global
 HOST-SUFFIX,lerosua.org,Global
-HOST-SUFFIX,lers.google,Global
 HOST-SUFFIX,lersnet.ac.uk,Global
 HOST-SUFFIX,lesbian8.com,Global
 HOST-SUFFIX,lesbianpics.org,Global
@@ -22664,7 +22658,6 @@ HOST-SUFFIX,nianticlabs.com,Global
 HOST-SUFFIX,nib.ac.uk,Global
 HOST-SUFFIX,nibs.ac.uk,Global
 HOST-SUFFIX,nibsc.ac.uk,Global
-HOST-SUFFIX,nic.google,Global
 HOST-SUFFIX,nic.gov,Global
 HOST-SUFFIX,nic.ru,Global
 HOST-SUFFIX,nicats.ac.uk,Global
@@ -25589,7 +25582,6 @@ HOST-SUFFIX,pricelesstoronto.ca,Global
 HOST-SUFFIX,pricelesstv.com,Global
 HOST-SUFFIX,pricesearch.jp,Global
 HOST-SUFFIX,priconne-redive.jp,Global
-HOST-SUFFIX,pride.google,Global
 HOST-SUFFIX,pridetube.com,Global
 HOST-SUFFIX,priestley.ac.uk,Global
 HOST-SUFFIX,priestleycollege.ac.uk,Global
@@ -26524,7 +26516,6 @@ HOST-SUFFIX,regionalvisions.ac.uk,Global
 HOST-SUFFIX,regiongold.com,Global
 HOST-SUFFIX,registerhulu.com,GlobalMedia
 HOST-SUFFIX,registeridm.com,Global
-HOST-SUFFIX,registry.google,Global
 HOST-SUFFIX,reid-kerr.ac.uk,Global
 HOST-SUFFIX,reidkerr.ac.uk,Global
 HOST-SUFFIX,reigate.ac.uk,Global
@@ -26575,7 +26566,6 @@ HOST-SUFFIX,research-clinician.ac.uk,Global
 HOST-SUFFIX,research-councils.ac.uk,Global
 HOST-SUFFIX,research-scotland.ac.uk,Global
 HOST-SUFFIX,research-socialsciences.ac.uk,Global
-HOST-SUFFIX,research.google,Global
 HOST-SUFFIX,research4justice.ac.uk,Global
 HOST-SUFFIX,researchandcare.org,Global
 HOST-SUFFIX,researchconcordat.ac.uk,Global
@@ -27155,7 +27145,6 @@ HOST-SUFFIX,safeliner.tech,Global
 HOST-SUFFIX,safepal.com,Global
 HOST-SUFFIX,safepodnetwork.ac.uk,Global
 HOST-SUFFIX,safervpn.com,Global
-HOST-SUFFIX,safety.google,Global
 HOST-SUFFIX,saffrontech.com,Global
 HOST-SUFFIX,sagabank.co.jp,Global
 HOST-SUFFIX,sage-observability.tech,Global
@@ -29401,7 +29390,6 @@ HOST-SUFFIX,storagenewsletter.com,Global
 HOST-SUFFIX,storcuram.ac.uk,Global
 HOST-SUFFIX,store-bridgestonesports.com,Global
 HOST-SUFFIX,storesense.com,Global
-HOST-SUFFIX,stories.google,Global
 HOST-SUFFIX,storiesofchange.ac.uk,Global
 HOST-SUFFIX,storiesonline.net,Global
 HOST-SUFFIX,storify.com,Global
@@ -29679,7 +29667,6 @@ HOST-SUFFIX,sussexmedicalschool.ac.uk,Global
 HOST-SUFFIX,sussexvirtualcollege.ac.uk,Global
 HOST-SUFFIX,sussp.ac.uk,Global
 HOST-SUFFIX,sustain.ac.uk,Global
-HOST-SUFFIX,sustainability.google,Global
 HOST-SUFFIX,sustainabilityexchange.ac.uk,Global
 HOST-SUFFIX,sustainablebuildingstudio.com,Global
 HOST-SUFFIX,sustainabledesigncouncil.com,Global
@@ -32262,6 +32249,7 @@ HOST-SUFFIX,vaultify.com,Global
 HOST-SUFFIX,vaultify.info,Global
 HOST-SUFFIX,vaultify.net,Global
 HOST-SUFFIX,vaultproject.io,Global
+HOST-SUFFIX,vava8.com,Global
 HOST-SUFFIX,vbcdn.com,Global
 HOST-SUFFIX,vbcdn.net,Global
 HOST-SUFFIX,vbejeyv.shop,Global
@@ -35966,6 +35954,8 @@ IP-CIDR,125.6.149.0/24,Global
 IP-CIDR,125.6.190.0/24,Global
 IP-CIDR,129.134.0.0/17,Global
 IP-CIDR,129.226.0.0/16,Global
+IP-CIDR,13.251.24.0/24,Global
+IP-CIDR,13.251.41.0/24,Global
 IP-CIDR,13.32.0.0/15,Global
 IP-CIDR,13.35.0.0/17,Global
 IP-CIDR,139.45.192.1/32,GlobalMedia
@@ -36020,6 +36010,7 @@ IP-CIDR,167.142.14.134/32,GlobalMedia
 IP-CIDR,167.142.14.138/32,GlobalMedia
 IP-CIDR,167.142.208.146/32,GlobalMedia
 IP-CIDR,169.45.248.118/32,Global
+IP-CIDR,17.252.156.0/23,Global
 IP-CIDR,170.238.0.198/32,GlobalMedia
 IP-CIDR,170.238.0.202/32,GlobalMedia
 IP-CIDR,170.238.0.206/32,GlobalMedia
