@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-01 07:59:53
-# HOST: 818
-# HOST-SUFFIX: 35017
+# UPDATED: 2026-10-06 08:18:05
+# HOST: 820
+# HOST-SUFFIX: 35026
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1018
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37006
+# TOTAL: 37017
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -278,6 +278,8 @@ HOST,foxnewsplayer-a.akamaihd.net,Global
 HOST,gamedownloads-rockstargames-com.akamaized.net,Global
 HOST,gamer-cds.cdn.hinet.net,Global
 HOST,gamer2-cds.cdn.hinet.net,Global
+HOST,geminiweb-pa.clients.google.com,Global
+HOST,geminiweb-pa.clients6.google.com,Global
 HOST,generativelanguage.googleapis.com,GlobalMedia
 HOST,gigabyte2.azureedge.net,Global
 HOST,github-api.arkoselabs.com,Global
@@ -7856,6 +7858,7 @@ HOST-SUFFIX,classymomsex.com,Global
 HOST-SUFFIX,clau.de,Global
 HOST-SUFFIX,claude.ai,GlobalMedia
 HOST-SUFFIX,claude.com,GlobalMedia
+HOST-SUFFIX,claude.dev,Global
 HOST-SUFFIX,claudemcpclient.com,Global
 HOST-SUFFIX,claudemcpcontent.com,Global
 HOST-SUFFIX,claudeusercontent.com,GlobalMedia
@@ -13178,6 +13181,7 @@ HOST-SUFFIX,fututrustee.com,Global
 HOST-SUFFIX,fux.com,Global
 HOST-SUFFIX,fuxporn.com,Global
 HOST-SUFFIX,fuyin.net,Global
+HOST-SUFFIX,fuyin116.com,Global
 HOST-SUFFIX,fuyindiantai.org,Global
 HOST-SUFFIX,fuyu.org.tw,Global
 HOST-SUFFIX,fuzokudx.com,Global
@@ -14323,6 +14327,7 @@ HOST-SUFFIX,googleoptimize.com,Global
 HOST-SUFFIX,googlepagecreator.com,Global
 HOST-SUFFIX,googlephotos.com,Global
 HOST-SUFFIX,googleplay.com,Global
+HOST-SUFFIX,googleplaycensorship.com,Global
 HOST-SUFFIX,googleplex.com,Global
 HOST-SUFFIX,googleplus.com,Global
 HOST-SUFFIX,googlescholar.com,Global
@@ -15989,6 +15994,7 @@ HOST-SUFFIX,huaren.us,Global
 HOST-SUFFIX,huaren4us.com,Global
 HOST-SUFFIX,huarenav.com,Global
 HOST-SUFFIX,huarenporn.com,Global
+HOST-SUFFIX,huarun.win,Global
 HOST-SUFFIX,huashangnews.com,Global
 HOST-SUFFIX,huashundg.com,Global
 HOST-SUFFIX,huasing.org,Global
@@ -20489,6 +20495,7 @@ HOST-SUFFIX,messytube.com,Global
 HOST-SUFFIX,met-nude.com,Global
 HOST-SUFFIX,meta.ai,GlobalMedia
 HOST-SUFFIX,meta.com,Global
+HOST-SUFFIX,metaaivm.com,Global
 HOST-SUFFIX,metabolomics.ac.uk,Global
 HOST-SUFFIX,metabora.io,Global
 HOST-SUFFIX,metabrainz.org,Global
@@ -21683,6 +21690,7 @@ HOST-SUFFIX,musashinobank.co.jp,Global
 HOST-SUFFIX,muscache.com,Global
 HOST-SUFFIX,muscdn.com,GlobalMedia
 HOST-SUFFIX,musclegirlflix.com,Global
+HOST-SUFFIX,muse.ai,Global
 HOST-SUFFIX,museumofwriting.ac.uk,Global
 HOST-SUFFIX,museumwales.ac.uk,Global
 HOST-SUFFIX,mushroomtrack.com,Global
@@ -23820,6 +23828,7 @@ HOST-SUFFIX,openbase.com,Global
 HOST-SUFFIX,openbook.org.tw,Global
 HOST-SUFFIX,opencas.io,Global
 HOST-SUFFIX,openclaw.ai,Global
+HOST-SUFFIX,opencode.ai,Global
 HOST-SUFFIX,opencollective.com,Global
 HOST-SUFFIX,opencreate.org,Global
 HOST-SUFFIX,opencritic.com,Global
@@ -33747,6 +33756,7 @@ HOST-SUFFIX,wikibooks.org,Global
 HOST-SUFFIX,wikidata.org,Global
 HOST-SUFFIX,wikidot.com,Global
 HOST-SUFFIX,wikifeet.com,Global
+HOST-SUFFIX,wikifunctions.org,Global
 HOST-SUFFIX,wikihow.com,Global
 HOST-SUFFIX,wikileaks-forum.com,Global
 HOST-SUFFIX,wikileaks.ch,Global
@@ -33770,6 +33780,7 @@ HOST-SUFFIX,wikiquote.org,Global
 HOST-SUFFIX,wikis.tw,Global
 HOST-SUFFIX,wikisexguide.com,Global
 HOST-SUFFIX,wikisource.org,Global
+HOST-SUFFIX,wikispecies.org,Global
 HOST-SUFFIX,wikiunblocked.org,Global
 HOST-SUFFIX,wikiversity.org,Global
 HOST-SUFFIX,wikivoyage.org,Global

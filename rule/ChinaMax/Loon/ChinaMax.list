@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # CLIENT: Loon
-# UPDATED: 2026-10-01 07:59:53
+# UPDATED: 2026-10-06 08:18:05
 # DOMAIN: 118
-# DOMAIN-SUFFIX: 9775
+# DOMAIN-SUFFIX: 9776
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 244
 # IP-CIDR6: 31
 # IP-ASN: 1
 # USER-AGENT: 30
-# TOTAL: 10207
+# TOTAL: 10208
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -1657,6 +1657,7 @@ DOMAIN-SUFFIX,bytefcdnrd.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
+DOMAIN-SUFFIX,bytehwm.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,bytelb.net
 DOMAIN-SUFFIX,bytelove.cn
