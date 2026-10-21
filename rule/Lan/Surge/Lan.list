@@ -1,15 +1,17 @@
 # NAME: Lan
 # CLIENT: Surge
-# UPDATED: 2026-10-16 06:33:29
-# DOMAIN: 8
+# UPDATED: 2026-10-21 06:46:16
+# DOMAIN: 10
 # DOMAIN-SUFFIX: 116
 # IP-CIDR: 16
 # IP-CIDR6: 5
-# TOTAL: 145
+# TOTAL: 147
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
 DOMAIN,local.adguard.org
 DOMAIN,localhost,内网直连
+DOMAIN,localhost.weixin.qq.com
+DOMAIN,localhost.work.weixin.qq.com
 DOMAIN,oasisauth.h3c.com
 DOMAIN,router.asus.com
 DOMAIN,setmeup.arubanetworks.com
