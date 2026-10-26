@@ -1,6 +1,6 @@
 # NAME: AI
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-21 06:46:16
+# UPDATED: 2026-10-26 07:12:47
 # HOST: 48
 # HOST-SUFFIX: 265
 # HOST-KEYWORD: 9
@@ -316,7 +316,7 @@ HOST-SUFFIX,wordtune.com,AI
 HOST-SUFFIX,workbuddy.ai,国外AI平台
 HOST-SUFFIX,writer.com,AI
 HOST-SUFFIX,writesonic.com,AI
-HOST-SUFFIX,x.ai,AI
+HOST-SUFFIX,x.ai,国外AI平台
 HOST-SUFFIX,you.com,AI
 HOST-SUFFIX,zed.dev,AI
 HOST-SUFFIX,zenrows.com,AI
