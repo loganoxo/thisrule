@@ -1,13 +1,21 @@
 # NAME: Nodetest_Resolve
 # CLIENT: Shadowrocket
-# UPDATED: 2026-10-31 20:25:40
-# DOMAIN-SUFFIX: 4
+# UPDATED: 2026-10-31 12:31:40
+# DOMAIN-SUFFIX: 12
 # DOMAIN-KEYWORD: 1
 # USER-AGENT: 1
-# TOTAL: 6
+# TOTAL: 14
 DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ip.sb,Nodetest
+DOMAIN-SUFFIX,iplark.com,Nodetest
+DOMAIN-SUFFIX,ippure.com,Nodetest
+DOMAIN-SUFFIX,ipsuper.com,Nodetest
 DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,pingip.cn,Nodetest
 DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-SUFFIX,speedtest.co
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-KEYWORD,speedtest
 USER-AGENT,SpeedTest*
