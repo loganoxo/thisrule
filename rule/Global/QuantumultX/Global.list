@@ -1,14 +1,14 @@
 # NAME: Global
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-26 07:12:47
-# HOST: 829
-# HOST-SUFFIX: 35224
+# UPDATED: 2026-10-31 07:43:09
+# HOST: 835
+# HOST-SUFFIX: 35229
 # HOST-KEYWORD: 55
 # HOST-WILDCARD: 10
 # IP-CIDR: 1018
 # IP6-CIDR: 10
 # USER-AGENT: 78
-# TOTAL: 37224
+# TOTAL: 37235
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
@@ -75,6 +75,9 @@ HOST,apple.com.akadns.net,Global
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,appleworldwidedeveloper.hb-api.omtrdc.net,Global
 HOST,appleworldwidedeveloper.sc.omtrdc.net,Global
+HOST,appsgenaiserver-pa.clients.google.com,Global
+HOST,appsgenaiserver-pa.clients6.google.com,Global
+HOST,appsgenaiserver-pa.googleapis.com,Global
 HOST,aqi.aqicn.org,Global
 HOST,as-dash-uk-live.akamaized.net,Global
 HOST,as-hls-uk-live.akamaized.net,Global
@@ -206,6 +209,8 @@ HOST,databank.worldbank.org,Global
 HOST,database.asahi.com,Global
 HOST,datarouter.apps.netherrealm.com,Global
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
+HOST,dc.applicationinsights.azure.com,Global
+HOST,dc.services.visualstudio.com,Global
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
 HOST,dcb0z5ovq92mz.cloudfront.net,Global
 HOST,ddacn6pr5v0tl.cloudfront.net,Global
@@ -231,6 +236,7 @@ HOST,docker-pinata-support.s3.amazonaws.com,Global
 HOST,doy2mn9upadnk.cloudfront.net,Global
 HOST,dqd0jw5gvbchn.cloudfront.net,Global
 HOST,dqrpb9wgowsf5.cloudfront.net,Global
+HOST,dropbox.zendesk.com,Global
 HOST,ds-linear-abematv.akamaized.net,Global
 HOST,ds-vod-abematv.akamaized.net,Global
 HOST,ds0h3roq6wcgc.cloudfront.net,Global
@@ -349,6 +355,7 @@ HOST,linear-abematv.akamaized.net,Global
 HOST,link.theplatform.com,Global
 HOST,linkedin.sc.omtrdc.net,Global
 HOST,live-patreon-marketing.pantheonsite.io,Global
+HOST,live.applicationinsights.azure.com,Global
 HOST,lm.licenses.adobe.com,Global
 HOST,lmlicenses.wip4.adobe.com,Global
 HOST,location.microsoft.com,Global
@@ -376,7 +383,6 @@ HOST,mwf-service.akamaized.net,Global
 HOST,na1r.services.adobe.com,Global
 HOST,nationalaustraliaban.tt.omtrdc.net,Global
 HOST,nbbb1bb7.pmhcjk.com,Global
-HOST,netflix.com.edgesuite.net,Global
 HOST,news-assets.apple.com,Global
 HOST,news-client-search.apple.com,Global
 HOST,news-client.apple.com,GlobalMedia
@@ -508,6 +514,7 @@ HOST,rsshub.rssforever.com,Global
 HOST,rsshub.umzzz.com,Global
 HOST,rsshub.woodland.cafe,Global
 HOST,rsshub2.asailor.org,Global
+HOST,rt.services.visualstudio.com,Global
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
 HOST,rtm.tnt-ea.com,Global
 HOST,s3-ap-northeast-1.amazonaws.com,Global
@@ -596,7 +603,6 @@ HOST,sentry.ppy.sh,Global
 HOST,servd-anthropic-website.b-cdn.net,Global
 HOST,sni1dcb6gl.wpc.edgecastcdn.net,Global
 HOST,spectator.ppy.sh,Global
-HOST,spotify.com.edgesuite.net,Global
 HOST,spotify.map.fastly.net,Global
 HOST,spotify.map.fastlylb.net,Global
 HOST,ssl-lvlt.cdn.ea.com,Global
@@ -9001,6 +9007,7 @@ HOST-SUFFIX,darwinsourcecode.com,Global
 HOST-SUFFIX,dasaob.online,Global
 HOST-SUFFIX,dasg.ac.uk,Global
 HOST-SUFFIX,dash-1.ac.uk,Global
+HOST-SUFFIX,dash.ai,Global
 HOST-SUFFIX,dashlane.com,Global
 HOST-SUFFIX,dashly.app,Global
 HOST-SUFFIX,dashly.help,Global
@@ -9945,6 +9952,7 @@ HOST-SUFFIX,docs.com,Global
 HOST-SUFFIX,docs.new,Global
 HOST-SUFFIX,docs.rs,Global
 HOST-SUFFIX,docs.rw,Global
+HOST-SUFFIX,docsend.com,Global
 HOST-SUFFIX,doctor-videos.com,Global
 HOST-SUFFIX,doctorvoice.org,Global
 HOST-SUFFIX,documentforce.com,Global
@@ -15155,10 +15163,12 @@ HOST-SUFFIX,helf.ac.uk,Global
 HOST-SUFFIX,helixstudios.net,Global
 HOST-SUFFIX,helloandroid.com,Global
 HOST-SUFFIX,helloavgirls.com,Global
+HOST-SUFFIX,hellofax.com,Global
 HOST-SUFFIX,hellofuture.ac.uk,Global
 HOST-SUFFIX,hellokittybeats.com,Global
 HOST-SUFFIX,hellomoto.com,Global
 HOST-SUFFIX,helloqueer.com,Global
+HOST-SUFFIX,hellosign.com,Global
 HOST-SUFFIX,hellosmartbook.com,Global
 HOST-SUFFIX,helloss.pw,Global
 HOST-SUFFIX,hellotxt.com,Global
@@ -19232,6 +19242,7 @@ HOST-SUFFIX,libraryinformationtechnology.com,Global
 HOST-SUFFIX,librarylovefest.com,Global
 HOST-SUFFIX,libraryofthumbs.com,Global
 HOST-SUFFIX,libredd.it,Global
+HOST-SUFFIX,librewolf.dev,Global
 HOST-SUFFIX,librewolf.net,Global
 HOST-SUFFIX,libsolutions.app,Global
 HOST-SUFFIX,libsolutions.domains,Global
