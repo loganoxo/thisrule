@@ -1,14 +1,14 @@
 # NAME: Apple
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-31 07:43:09
+# UPDATED: 2026-10-31 20:25:40
 # HOST: 340
-# HOST-SUFFIX: 1577
+# HOST-SUFFIX: 1578
 # HOST-KEYWORD: 9
 # HOST-WILDCARD: 16
 # IP-CIDR: 10
 # IP6-CIDR: 3
 # USER-AGENT: 23
-# TOTAL: 1978
+# TOTAL: 1979
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -1365,6 +1365,7 @@ HOST-SUFFIX,icloud-content.com.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
 HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
+HOST-SUFFIX,icloud.cn,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
 HOST-SUFFIX,icloud.de,Apple

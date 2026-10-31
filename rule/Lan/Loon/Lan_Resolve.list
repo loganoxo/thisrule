@@ -1,17 +1,15 @@
 # NAME: Lan_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-10-31 07:43:09
-# DOMAIN: 10
+# UPDATED: 2026-10-31 20:25:40
+# DOMAIN: 8
 # DOMAIN-SUFFIX: 116
 # IP-CIDR: 16
 # IP-CIDR6: 5
-# TOTAL: 147
+# TOTAL: 145
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
 DOMAIN,local.adguard.org
 DOMAIN,localhost,内网直连
-DOMAIN,localhost.weixin.qq.com
-DOMAIN,localhost.work.weixin.qq.com
 DOMAIN,oasisauth.h3c.com
 DOMAIN,router.asus.com
 DOMAIN,setmeup.arubanetworks.com

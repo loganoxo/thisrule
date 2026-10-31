@@ -8,6 +8,7 @@ TASKS = {
   "LoganReject": [],
   "Microsoft": ["Microsoft"],
   "Cloudflare": ["Cloudflare"],
+  "Nodetest": ["Speedtest"],
   "AI": [
     "OpenAI", "Claude", "Anthropic", "Gemini", "BardAI", "Copilot", "Civitai"
   ],

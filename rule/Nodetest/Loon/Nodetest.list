@@ -1,0 +1,13 @@
+# NAME: Nodetest
+# CLIENT: Loon
+# UPDATED: 2026-10-31 20:25:40
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 1
+# USER-AGENT: 1
+# TOTAL: 6
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-KEYWORD,speedtest
+USER-AGENT,SpeedTest*

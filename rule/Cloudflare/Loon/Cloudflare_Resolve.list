@@ -1,6 +1,6 @@
 # NAME: Cloudflare_Resolve
 # CLIENT: Loon
-# UPDATED: 2026-10-31 07:43:09
+# UPDATED: 2026-10-31 20:25:40
 # DOMAIN-SUFFIX: 45
 # IP-CIDR: 15
 # IP-CIDR6: 7
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,cloudflare-cn.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
-DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com,CDN
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,cloudflareaccess.com

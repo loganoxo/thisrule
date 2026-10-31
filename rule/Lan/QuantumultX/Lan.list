@@ -1,17 +1,15 @@
 # NAME: Lan
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-31 07:43:09
-# HOST: 10
+# UPDATED: 2026-10-31 20:25:40
+# HOST: 8
 # HOST-SUFFIX: 116
 # IP-CIDR: 16
 # IP6-CIDR: 5
-# TOTAL: 147
+# TOTAL: 145
 HOST,asusrouter.com,Lan
 HOST,instant.arubanetworks.com,Lan
 HOST,local.adguard.org,Lan
 HOST,localhost,内网直连
-HOST,localhost.weixin.qq.com,Lan
-HOST,localhost.work.weixin.qq.com,Lan
 HOST,oasisauth.h3c.com,Lan
 HOST,router.asus.com,Lan
 HOST,setmeup.arubanetworks.com,Lan

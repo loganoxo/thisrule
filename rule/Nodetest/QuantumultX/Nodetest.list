@@ -1,0 +1,15 @@
+# NAME: Nodetest
+# CLIENT: QuantumultX
+# UPDATED: 2026-10-31 20:25:40
+# HOST: 1
+# HOST-SUFFIX: 4
+# HOST-KEYWORD: 1
+# USER-AGENT: 1
+# TOTAL: 7
+HOST,speed.dler.io,Speedtest
+HOST-SUFFIX,fast.com,Speedtest
+HOST-SUFFIX,ooklaserver.net,Speedtest
+HOST-SUFFIX,speed.cloudflare.com,Speedtest
+HOST-SUFFIX,speed.dler.io,Speedtest
+HOST-KEYWORD,speedtest,Speedtest
+USER-AGENT,SpeedTest*,Speedtest

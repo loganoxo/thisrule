@@ -1,6 +1,6 @@
 # NAME: Cloudflare
 # CLIENT: QuantumultX
-# UPDATED: 2026-10-31 07:43:09
+# UPDATED: 2026-10-31 20:25:40
 # HOST-SUFFIX: 45
 # IP-CIDR: 15
 # IP6-CIDR: 7
@@ -19,7 +19,7 @@ HOST-SUFFIX,cloudflare-cn.com,Cloudflare
 HOST-SUFFIX,cloudflare-dns.com,Cloudflare
 HOST-SUFFIX,cloudflare-ipfs.com,Cloudflare
 HOST-SUFFIX,cloudflare-quic.com,Cloudflare
-HOST-SUFFIX,cloudflare.com,Cloudflare
+HOST-SUFFIX,cloudflare.com,CDN
 HOST-SUFFIX,cloudflare.net,Cloudflare
 HOST-SUFFIX,cloudflare.tv,Cloudflare
 HOST-SUFFIX,cloudflareaccess.com,Cloudflare
